@@ -1,7 +1,9 @@
 
 install:
 	install-myprofile \
-	install-zsh
+	install-zsh \
+	install-zsh-plugins \
+	install-tmux
 
 install-myprofile:
 	rm -f ~/.myprofile
