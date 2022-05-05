@@ -27,6 +27,10 @@ install-micro:
 	rm -f ~/.config/micro/bindings.json
 	ln -s `pwd`/micro/bindings.json ~/.config/micro/bindings.json
 
+install-sublime-mac:
+	rm -f "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	ln -s `pwd`/sublime/Preferences.sublime-settings "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+
 install-ipython:
 	echo ...
 
