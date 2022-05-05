@@ -23,7 +23,20 @@ install-tmux:
 	rm -f ~/.tmux.conf
 	ln -s `pwd`/tmux.conf ~/.tmux.conf
 
+install-micro:
+	rm -f ~/.config/micro/bindings.json
+	ln -s `pwd`/micro/bindings.json ~/.config/micro/bindings.json
+
 install-ipython:
+	echo ...
+
+install-sublime:
+	echo ...
+
+install-vscode:
+	echo ...
+
+install-gitignore:
 	echo ...
 
 test:
