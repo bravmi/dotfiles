@@ -16,11 +16,6 @@ tabs 4
 
 stty -ixon # disable xoff/xon signaling for ctrl+s
 
-# =golang
-
-export GOPATH="$HOME/opt/go/"
-export PATH="$HOME/opt/go/bin/:$PATH"
-
 # =scheme
 
 alias miti='racket -i -f '
