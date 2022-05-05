@@ -6,9 +6,6 @@ alias python=python3
 alias pip=pip3
 alias ipdb=ipdb3
 
-export PYTHONPATH="$HOME/playground/:$PYTHONPATH"
-export PYTHONPATH="$HOME/playground/lib/:$PYTHONPATH"
-
 export PYTHONBREAKPOINT=ipdb.set_trace
 
 export ipython="$HOME/.ipython/profile_default/startup/"
@@ -29,19 +26,8 @@ export PATH="$HOME/opt/go/bin/:$PATH"
 alias miti='racket -i -f '
 alias mit='racket -f '
 
-# =sg
-
-export svol="$HOME/samoletgroup/svolume/"
-
 # =other
 
 export EDITOR=micro
 
-export sublime="$HOME/.config/sublime-text-3/Packages/"
-
-export src="$HOME/src/"
-
 alias sudo='sudo '
-alias copy='xclip -sel clip'
-
-export KUBECONFIG=$HOME/.kube/config
