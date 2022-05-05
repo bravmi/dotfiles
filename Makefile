@@ -19,11 +19,11 @@ install-zsh-plugins:
 	cd $${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/ && \
     git -C zsh-autosuggestions pull || git clone https://github.com/zsh-users/zsh-autosuggestions zsh-autosuggestions
 
-install-tmux:
+install-tmux-mac:
 	rm -f ~/.tmux.conf
 	ln -s `pwd`/tmux.conf ~/.tmux.conf
 
-install-micro:
+install-micro-mac:
 	rm -f ~/.config/micro/bindings.json
 	ln -s `pwd`/micro/bindings.json ~/.config/micro/bindings.json
 
@@ -54,6 +54,7 @@ install-brew:
 	brew install tldr
 	brew install tmux
 	brew install zsh-lovers
+	brew install htop
 	# casks:
 	brew install brave-browser
 	brew install docker
