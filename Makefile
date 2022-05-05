@@ -31,13 +31,11 @@ install-sublime-mac:
 	rm -f "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 	ln -s `pwd`/sublime/Preferences.sublime-settings "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 
+install-vscode-mac:
+	rm -f "$$HOME/Library/Application Support/Code/User/settings.json"
+	ln -s `pwd`/vscode/settings.json "$$HOME/Library/Application Support/Code/User/settings.json"
+
 install-ipython:
-	echo ...
-
-install-sublime:
-	echo ...
-
-install-vscode:
 	echo ...
 
 install-gitignore:
