@@ -26,6 +26,9 @@ install-tmux:
 install-ipython:
 	echo ...
 
+test:
+	echo $$ZSH_CUSTOM
+
 install-brew:
 	# formulae:
 	brew install asdf
