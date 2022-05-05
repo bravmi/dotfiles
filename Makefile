@@ -23,3 +23,23 @@ install-tmux:
 
 install-ipython:
 	echo ...
+
+install-brew:
+	# formulae:
+	brew install asdf
+	brew install micro
+	brew install pyenv
+	brew install the_silver_searcher
+	brew install tig
+	brew install tldr
+	brew install tmux
+	brew install zsh-lovers
+	# casks:
+	brew install brave-browser
+	brew install docker
+	brew install google-chrome
+	brew install iterm2
+	brew install rectangle
+	brew install slack
+	brew install tunnelblick
+	brew install visual-studio-code
