@@ -3,7 +3,7 @@ install:
 	install-myprofile \
 	install-zsh \
 	install-zsh-plugins \
-	install-tmux
+	install-git
 
 install-myprofile:
 	rm -f ~/.myprofile
@@ -43,7 +43,7 @@ install-git:
 	ln -s `pwd`/git/gitignore ~/.gitignore
 
 test:
-	echo $$ZSH_CUSTOM
+	echo $$ZSH
 
 install-brew:
 	# formulae:
@@ -56,6 +56,7 @@ install-brew:
 	brew install tmux
 	brew install zsh-lovers
 	brew install htop
+	brew install go
 	# casks:
 	brew install brave-browser
 	brew install docker
