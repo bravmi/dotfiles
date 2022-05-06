@@ -38,8 +38,9 @@ install-vscode-mac:
 install-ipython:
 	echo ...
 
-install-gitignore:
-	echo ...
+install-git:
+	rm -f ~/.gitignore
+	ln -s `pwd`/git/gitignore ~/.gitignore
 
 test:
 	echo $$ZSH_CUSTOM

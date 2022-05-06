@@ -1,0 +1,11 @@
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+[core]
+    excludesFile = ~/.gitignore
+[pull]
+    rebase = false
+[includeIf "gitdir:~/path/"]
+    path = ~/path/gitconfig
