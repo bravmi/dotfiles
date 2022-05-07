@@ -80,6 +80,7 @@ plugins=(
     celery
     docker-compose
     virtualenv
+    asdf
     # zsh-syntax-highlighting
 )
 
