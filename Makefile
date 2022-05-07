@@ -57,7 +57,7 @@ install-brew:
 	brew install zsh-lovers
 	brew install htop
 	brew install go
-	brew install direnvß
+	brew install direnv
 	# casks:
 	brew install brave-browser
 	brew install docker
