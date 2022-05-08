@@ -2,7 +2,7 @@
 install:
 	install-myprofile \
 	install-zsh \
-	install-zsh-plugins \
+	install-zsh-custom \
 	install-git
 
 install-myprofile:
@@ -12,12 +12,10 @@ install-myprofile:
 install-zsh:
 	rm -f ~/.zshrc
 	ln -s `pwd`/zsh/zshrc ~/.zshrc
-	rm -f ~/.oh-my-zsh/custom/themes
-	ln -s `pwd`/zsh/custom/themes/ ~/.oh-my-zsh/custom/themes
 
-install-zsh-plugins:
-	cd $${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/ && \
-    git -C zsh-autosuggestions pull || git clone https://github.com/zsh-users/zsh-autosuggestions zsh-autosuggestions
+install-zsh-custom:
+	rm -rf ~/.oh-my-zsh/custom
+	ln -s `pwd`/zsh/custom ~/.oh-my-zsh/custom
 
 install-tmux-mac:
 	rm -f ~/.tmux.conf
