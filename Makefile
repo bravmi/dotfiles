@@ -58,6 +58,7 @@ install-brew:
 	brew install htop
 	brew install go
 	brew install direnv
+	brew install duf
 	# casks:
 	brew install brave-browser
 	brew install docker
