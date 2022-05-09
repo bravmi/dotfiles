@@ -60,6 +60,7 @@ install-brew:
 	brew install fzf
 	brew install bat
 	brew install ctop
+	brew install kubectx
 	# casks:
 	brew install brave-browser
 	brew install docker
