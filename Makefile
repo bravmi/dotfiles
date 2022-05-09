@@ -66,6 +66,7 @@ install-brew:
 	brew install slack
 	brew install tunnelblick
 	brew install visual-studio-code
+	brew install silicon-info
 
 install-pip:
 	pip install ipython
