@@ -61,6 +61,7 @@ install-brew:
 	brew install bat
 	brew install ctop
 	brew install kubectx
+	brew install lazydocker
 	# casks:
 	brew install brave-browser
 	brew install docker
