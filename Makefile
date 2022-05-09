@@ -59,6 +59,7 @@ install-brew:
 	brew install duf
 	brew install fzf
 	brew install bat
+	brew install ctop
 	# casks:
 	brew install brave-browser
 	brew install docker
