@@ -74,3 +74,5 @@ install-brew:
 
 install-pip:
 	pip install ipython
+	pip install numpy
+	pip install pandas
