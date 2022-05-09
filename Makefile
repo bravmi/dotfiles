@@ -34,7 +34,8 @@ install-vscode-mac:
 	ln -s `pwd`/vscode/settings.json "$$HOME/Library/Application Support/Code/User/settings.json"
 
 install-ipython:
-	echo ...
+	rm -f "$$HOME/.ipython/profile_default/ipython_config.py"
+	ln -s `pwd`/ipython/ipython_config.py "$$HOME/.ipython/profile_default/ipython_config.py"
 
 install-git:
 	rm -f ~/.gitignore
