@@ -44,8 +44,25 @@ test:
 	echo $$ZSH
 
 install-brew:
-	# formulae:
+	brew install --cask brave-browser
+	brew install --cask docker
+	brew install --cask google-chrome
+	brew install --cask iterm2
+	brew install --cask rectangle
+	brew install --cask silicon-info
+	brew install --cask slack
+	brew install --cask tunnelblick
+	brew install --cask visual-studio-code
 	brew install asdf
+	brew install bat
+	brew install ctop
+	brew install direnv
+	brew install duf
+	brew install fzf
+	brew install go
+	brew install htop
+	brew install kubectx
+	brew install lazydocker
 	brew install micro
 	brew install pyenv
 	brew install the_silver_searcher
@@ -53,25 +70,6 @@ install-brew:
 	brew install tldr
 	brew install tmux
 	brew install zsh-lovers
-	brew install htop
-	brew install go
-	brew install direnv
-	brew install duf
-	brew install fzf
-	brew install bat
-	brew install ctop
-	brew install kubectx
-	brew install lazydocker
-	# casks:
-	brew install brave-browser
-	brew install docker
-	brew install google-chrome
-	brew install iterm2
-	brew install rectangle
-	brew install slack
-	brew install tunnelblick
-	brew install visual-studio-code
-	brew install silicon-info
 
 install-pip:
 	pip install ipython
