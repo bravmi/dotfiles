@@ -34,17 +34,14 @@ install-vscode-mac:
 	ln -s `pwd`/vscode/settings.json "$$HOME/Library/Application Support/Code/User/settings.json"
 
 install-ipython:
-	rm -f "$$HOME/.ipython/profile_default/ipython_config.py"
-	ln -s `pwd`/ipython/ipython_config.py "$$HOME/.ipython/profile_default/ipython_config.py"
-	rm -rf "$$HOME/.ipython/extensions"
+	rm -f ~/.ipython/profile_default/ipython_config.py
+	ln -s `pwd`/ipython/ipython_config.py ~/.ipython/profile_default/ipython_config.py
+	rm -rf ~/.ipython/extensions
 	ln -s `pwd`/ipython/extensions ~/.ipython/extensions
 
 install-git:
 	rm -f ~/.gitignore
 	ln -s `pwd`/git/gitignore ~/.gitignore
-
-test:
-	echo $$ZSH
 
 install-brew:
 	brew install --cask brave-browser
