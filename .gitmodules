@@ -7,3 +7,6 @@
 [submodule "zsh/custom/plugins/autojump"]
 	path = zsh/custom/plugins/autojump
 	url = https://github.com/wting/autojump.git
+[submodule "zsh/custom/plugins/zsh-completions"]
+	path = zsh/custom/plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions.git
