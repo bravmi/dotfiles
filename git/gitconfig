@@ -9,3 +9,5 @@
     rebase = false
 [includeIf "gitdir:~/path/"]
     path = ~/path/gitconfig
+[submodule]
+	recurse = true
