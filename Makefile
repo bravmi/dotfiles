@@ -44,15 +44,6 @@ install-git:
 	ln -s `pwd`/git/gitignore ~/.gitignore
 
 install-brew:
-	brew install --cask brave-browser
-	brew install --cask docker
-	brew install --cask google-chrome
-	brew install --cask iterm2
-	brew install --cask rectangle
-	brew install --cask silicon-info
-	brew install --cask slack
-	brew install --cask tunnelblick
-	brew install --cask visual-studio-code
 	brew install asdf
 	brew install bat
 	brew install ctop
@@ -69,10 +60,24 @@ install-brew:
 	brew install tig
 	brew install tldr
 	brew install tmux
-	brew install zsh-lovers
+	brew install zsh-lovers	
+	brew install curlie
+
+install-brew-cask:
+	brew install --cask brave-browser
+	brew install --cask docker
+	brew install --cask google-chrome
+	brew install --cask iterm2
+	brew install --cask rectangle
+	brew install --cask silicon-info
+	brew install --cask slack
+	brew install --cask tunnelblick
+	brew install --cask visual-studio-code
 
 install-pip:
 	pip install ipython
 	pip install numpy
 	pip install pandas
 	pip install pytest
+	pip install speedtest-cli
+	pip install httpie
