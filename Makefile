@@ -73,6 +73,7 @@ install-brew-cask:
 	brew install --cask slack
 	brew install --cask tunnelblick
 	brew install --cask visual-studio-code
+	brew install --cask zoom
 
 install-pip:
 	pip install ipython
