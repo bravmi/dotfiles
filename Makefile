@@ -62,6 +62,7 @@ install-brew:
 	brew install tmux
 	brew install zsh-lovers	
 	brew install curlie
+	brew install gron
 
 install-brew-cask:
 	brew install --cask brave-browser
