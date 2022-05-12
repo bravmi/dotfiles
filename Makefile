@@ -66,6 +66,8 @@ install-brew:
 	brew install zsh-lovers	
 	brew install curlie
 	brew install gron
+	brew install jq
+	brew install jless
 
 install-brew-cask:
 	brew install --cask brave-browser
