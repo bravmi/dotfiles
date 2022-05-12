@@ -26,3 +26,5 @@ alias mit='racket -f '
 export EDITOR=micro
 
 alias sudo='sudo '
+
+export DOCKER_SCAN_SUGGEST=false
