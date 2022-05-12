@@ -43,6 +43,9 @@ install-git:
 	rm -f ~/.gitignore
 	ln -s `pwd`/git/gitignore ~/.gitignore
 
+install-ssh:
+	echo ...
+
 install-brew:
 	brew install asdf
 	brew install bat
