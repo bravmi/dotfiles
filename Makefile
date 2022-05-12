@@ -44,7 +44,8 @@ install-git:
 	ln -s `pwd`/git/gitignore ~/.gitignore
 
 install-ssh:
-	echo ...
+	rm -f ~/.ssh/config
+	ln -s `pwd`/ssh_config ~/.ssh/config
 
 install-brew:
 	brew install asdf
