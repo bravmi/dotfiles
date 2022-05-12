@@ -69,6 +69,7 @@ install-brew:
 	brew install gron
 	brew install jq
 	brew install jless
+	brew install dive
 
 install-brew-cask:
 	brew install --cask brave-browser
