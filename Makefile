@@ -50,12 +50,19 @@ install-ssh:
 install-brew:
 	brew install asdf
 	brew install bat
+	brew install broot
 	brew install ctop
+	brew install curlie
 	brew install direnv
+	brew install dive
 	brew install duf
 	brew install fzf
 	brew install go
+	brew install grc
+	brew install gron
 	brew install htop
+	brew install jless
+	brew install jq
 	brew install kubectx
 	brew install lazydocker
 	brew install micro
@@ -65,12 +72,6 @@ install-brew:
 	brew install tldr
 	brew install tmux
 	brew install zsh-lovers	
-	brew install curlie
-	brew install gron
-	brew install jq
-	brew install jless
-	brew install dive
-	brew install broot
 
 install-brew-cask:
 	brew install --cask brave-browser
@@ -80,15 +81,24 @@ install-brew-cask:
 	brew install --cask rectangle
 	brew install --cask silicon-info
 	brew install --cask slack
+	brew install --cask spotify
+	brew install --cask telegram
 	brew install --cask tunnelblick
 	brew install --cask visual-studio-code
 	brew install --cask zoom
-	brew install --cask telegramß
+
+install-brew-mac:
+	brew install postgresql
 
 install-pip:
+	pip install aiohttp
+	pip install django
+	pip install flask
+	pip install httpie
 	pip install ipython
+	pip install jupyter
 	pip install numpy
 	pip install pandas
+	pip install psycopg2-binary
 	pip install pytest
 	pip install speedtest-cli
-	pip install httpie
