@@ -12,7 +12,7 @@ export ipython="$HOME/.ipython/profile_default/startup/"
 
 # =bash
 
-tabs 4
+tabs -4
 
 stty -ixon # disable xoff/xon signaling for ctrl+s
 
