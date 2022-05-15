@@ -71,7 +71,9 @@ install-brew:
 	brew install tig
 	brew install tldr
 	brew install tmux
-	brew install zsh-lovers	
+	brew install zsh-lovers
+	brew install hyperfine
+	brew install fd
 
 install-brew-cask:
 	brew install --cask brave-browser
