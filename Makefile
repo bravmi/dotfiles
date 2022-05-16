@@ -31,7 +31,9 @@ install-sublime-mac:
 
 install-vscode-mac:
 	rm -f "$$HOME/Library/Application Support/Code/User/settings.json"
-	ln -s `pwd`/vscode/settings.json "$$HOME/Library/Application Support/Code/User/settings.json"
+	ln -s `pwd`/vscode/settings-mac.json "$$HOME/Library/Application Support/Code/User/settings.json"
+	rm -f "$$HOME/Library/Application Support/Code/User/keybindings.json"
+	ln -s `pwd`/vscode/keybindings-mac.json "$$HOME/Library/Application Support/Code/User/keybindings.json"
 
 install-ipython:
 	rm -f ~/.ipython/profile_default/ipython_config.py
