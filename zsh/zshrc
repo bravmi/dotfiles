@@ -78,6 +78,7 @@ plugins=(
     celery
     colored-man-pages
     command-not-found
+    direnv
     docker-compose
     git
     virtualenv
