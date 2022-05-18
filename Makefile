@@ -93,6 +93,8 @@ install-brew-cask:
 
 install-brew-mac:
 	brew install postgresql
+	brew install telnet
+	brew install nmap
 
 install-pip:
 	pip install aiohttp
