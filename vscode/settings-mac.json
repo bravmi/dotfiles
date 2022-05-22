@@ -1,4 +1,5 @@
 {
+    "editor.fontFamily": "Monaco",
     "editor.minimap.enabled": true,
     "editor.autoIndent": "full",
     "editor.formatOnPaste": true,
@@ -133,4 +134,5 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
+    "redhat.telemetry.enabled": false,
 }
