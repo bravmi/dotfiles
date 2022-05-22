@@ -4,6 +4,7 @@
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_size": 15,
+	"font_face": "Monaco",
 	"highlight_modified_tabs": false,
 	"indent_subsequent_lines": true,
 	"index_files": true,
