@@ -27,7 +27,7 @@ install-micro-mac:
 
 install-sublime-mac:
 	rm -f "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
-	ln -s `pwd`/sublime/Preferences.sublime-settings "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	ln -s `pwd`/sublime/Preferences-mac.sublime-settings "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 
 install-vscode-mac:
 	rm -f "$$HOME/Library/Application Support/Code/User/settings.json"
@@ -76,6 +76,8 @@ install-brew:
 	brew install zsh-lovers
 	brew install hyperfine
 	brew install fd
+	brew install k9s
+	brew install helm
 
 install-brew-cask:
 	brew install --cask brave-browser
@@ -108,3 +110,6 @@ install-pip:
 	pip install psycopg2-binary
 	pip install pytest
 	pip install speedtest-cli
+	pip install ipdb
+	pip install black
+	pip install isort
