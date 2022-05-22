@@ -78,9 +78,11 @@ plugins=(
     celery
     colored-man-pages
     command-not-found
+    copypath
     direnv
     docker-compose
     git
+    macos
     virtualenv
     z
     zsh-autosuggestions
