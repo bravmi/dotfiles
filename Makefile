@@ -115,3 +115,5 @@ install-pip:
 	pip install isort
 	pip install tabulate
 	pip install poetry
+	pip install flake8
+	pip install sh
