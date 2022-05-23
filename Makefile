@@ -113,3 +113,5 @@ install-pip:
 	pip install ipdb
 	pip install black
 	pip install isort
+	pip install tabulate
+	pip install poetry
