@@ -49,6 +49,10 @@ install-ssh:
 	rm -f ~/.ssh/config
 	ln -s `pwd`/ssh_config ~/.ssh/config
 
+install-sqlite:
+	rm -f ~/.sqliterc
+	ln -s `pwd`/sqliterc ~/.sqliterc
+
 install-brew:
 	brew install asdf
 	brew install bat
