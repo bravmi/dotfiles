@@ -62,13 +62,17 @@ install-brew:
 	brew install direnv
 	brew install dive
 	brew install duf
+	brew install fd
 	brew install fzf
 	brew install go
 	brew install grc
 	brew install gron
+	brew install helm
 	brew install htop
+	brew install hyperfine
 	brew install jless
 	brew install jq
+	brew install k9s
 	brew install kubectx
 	brew install lazydocker
 	brew install micro
@@ -78,10 +82,6 @@ install-brew:
 	brew install tldr
 	brew install tmux
 	brew install zsh-lovers
-	brew install hyperfine
-	brew install fd
-	brew install k9s
-	brew install helm
 
 install-brew-cask:
 	brew install --cask brave-browser
@@ -98,9 +98,9 @@ install-brew-cask:
 	brew install --cask zoom
 
 install-brew-mac:
+	brew install nmap
 	brew install postgresql
 	brew install telnet
-	brew install nmap
 
 install-pip:
 	pip install aiohttp
