@@ -100,20 +100,23 @@ install-brew-mac:
 
 install-pip:
 	pip install aiohttp
+	pip install black
 	pip install django
+	pip install flake8
 	pip install flask
 	pip install httpie
+	pip install ipdb
 	pip install ipython
+	pip install isort
 	pip install jupyter
+	pip install mypy
 	pip install numpy
 	pip install pandas
+	pip install poetry
+	pip install pre-commit
 	pip install psycopg2-binary
 	pip install pytest
-	pip install speedtest-cli
-	pip install ipdb
-	pip install black
-	pip install isort
-	pip install tabulate
-	pip install poetry
-	pip install flake8
+	pip install pyupgrade
 	pip install sh
+	pip install speedtest-cli
+	pip install tabulate
