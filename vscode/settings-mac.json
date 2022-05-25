@@ -7,6 +7,7 @@
     "editor.renderWhitespace": "none",
     "editor.suggestSelection": "first",
     "editor.fontSize": 12.5,
+    "terminal.integrated.fontSize": 13,
     "editor.wordWrap": "on",
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
