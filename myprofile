@@ -33,3 +33,5 @@ export DOCKER_SCAN_SUGGEST=false
 
 alias xl='exa --group-directories-first --classify --git'
 alias xll='xl --long'
+
+alias help=run-help
