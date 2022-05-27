@@ -136,4 +136,5 @@
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "redhat.telemetry.enabled": false,
+    "evenBetterToml.formatter.reorderKeys": true,
 }
