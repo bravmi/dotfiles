@@ -83,6 +83,7 @@ install-brew:
 	brew install tmux
 	brew install zsh-lovers
 	brew install ncdu
+	brew install shellcheck
 
 install-brew-cask:
 	brew install --cask brave-browser
