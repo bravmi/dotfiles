@@ -84,6 +84,7 @@ install-brew:
 	brew install zsh-lovers
 	brew install ncdu
 	brew install shellcheck
+	brew install pgcli
 
 install-brew-cask:
 	brew install --cask brave-browser
