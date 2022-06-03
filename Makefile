@@ -85,6 +85,7 @@ install-brew:
 	brew install ncdu
 	brew install shellcheck
 	brew install pgcli
+	brew install litecli
 
 install-brew-cask:
 	brew install --cask brave-browser
