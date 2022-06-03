@@ -133,3 +133,4 @@ install-pip:
 	pip install sqlalchemy
 	pip install fastapi
 	pip install databases[aiosqlite]
+	pip install uvicorn[standard]
