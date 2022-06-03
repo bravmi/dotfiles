@@ -132,3 +132,4 @@ install-pip:
 	pip install pydantic
 	pip install sqlalchemy
 	pip install fastapi
+	pip install databases[aiosqlite]
