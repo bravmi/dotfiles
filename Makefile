@@ -104,6 +104,7 @@ install-brew-mac:
 	brew install nmap
 	brew install postgresql
 	brew install telnet
+	brew install wget
 
 install-pip:
 	pip install aiohttp
