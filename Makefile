@@ -129,3 +129,6 @@ install-pip:
 	pip install sh
 	pip install speedtest-cli
 	pip install tabulate
+	pip install pydantic
+	pip install sqlalchemy
+	pip install fastapi
