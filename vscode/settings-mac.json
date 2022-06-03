@@ -70,7 +70,7 @@
     "files.insertFinalNewline": true,
     "explorer.confirmDelete": false,
     "files.associations": {
-        "*.rkt": "scheme"
+        "*.rkt": "racket"
     },
     "git.confirmSync": false,
     "gitlens.menus": {
