@@ -138,3 +138,4 @@ install-pip:
 	pip install uvicorn[standard]
 	pip install pytest-asyncio
 	pip install pony
+	pip install pypyp
