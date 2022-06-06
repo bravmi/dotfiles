@@ -12,6 +12,8 @@ export PYTHONBREAKPOINT=ipdb.set_trace
 
 export ipython="$HOME/.ipython/profile_default/startup/"
 
+export PIP_DISABLE_PIP_VERSION_CHECK=1
+
 # =bash
 
 tabs -4
