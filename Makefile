@@ -137,3 +137,4 @@ install-pip:
 	pip install databases[aiosqlite]
 	pip install uvicorn[standard]
 	pip install pytest-asyncio
+	pip install pony
