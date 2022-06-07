@@ -75,23 +75,24 @@ install-brew:
 	brew install k9s
 	brew install kubectx
 	brew install lazydocker
+	brew install litecli
 	brew install micro
+	brew install ncdu
+	brew install pgcli
 	brew install pyenv
+	brew install shellcheck
 	brew install the_silver_searcher
 	brew install tig
 	brew install tldr
 	brew install tmux
 	brew install zsh-lovers
-	brew install ncdu
-	brew install shellcheck
-	brew install pgcli
-	brew install litecli
 
 install-brew-cask:
 	brew install --cask brave-browser
 	brew install --cask docker
 	brew install --cask google-chrome
 	brew install --cask iterm2
+	brew install --cask racket
 	brew install --cask rectangle
 	brew install --cask silicon-info
 	brew install --cask slack
@@ -100,19 +101,20 @@ install-brew-cask:
 	brew install --cask tunnelblick
 	brew install --cask visual-studio-code
 	brew install --cask zoom
-	brew install --cask racket
 
 install-brew-mac:
+	brew install gnu-sed
 	brew install nmap
 	brew install postgresql
 	brew install telnet
 	brew install wget
-	brew install gnu-sed
 
 install-pip:
 	pip install aiohttp
 	pip install black
+	pip install databases[aiosqlite]
 	pip install django
+	pip install fastapi
 	pip install flake8
 	pip install flask
 	pip install httpie
@@ -124,18 +126,16 @@ install-pip:
 	pip install numpy
 	pip install pandas
 	pip install poetry
+	pip install pony
 	pip install pre-commit
 	pip install psycopg2-binary
+	pip install pydantic
+	pip install pypyp
 	pip install pytest
+	pip install pytest-asyncio
 	pip install pyupgrade
 	pip install sh
 	pip install speedtest-cli
-	pip install tabulate
-	pip install pydantic
 	pip install sqlalchemy
-	pip install fastapi
-	pip install databases[aiosqlite]
+	pip install tabulate
 	pip install uvicorn[standard]
-	pip install pytest-asyncio
-	pip install pony
-	pip install pypyp
