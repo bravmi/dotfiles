@@ -140,3 +140,4 @@ install-pip:
 	pip install sqlalchemy
 	pip install tabulate
 	pip install uvicorn[standard]
+	pip install cookiecutter
