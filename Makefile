@@ -86,6 +86,7 @@ install-brew:
 	brew install tldr
 	brew install tmux
 	brew install zsh-lovers
+	brew install noti
 
 install-brew-cask:
 	brew install --cask brave-browser
