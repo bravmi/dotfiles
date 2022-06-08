@@ -129,4 +129,4 @@ unalias '...'
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 
-source /Users/mtomilov/.config/broot/launcher/bash/br
+source $HOME/.config/broot/launcher/bash/br
