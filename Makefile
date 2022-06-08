@@ -14,8 +14,8 @@ install-zsh:
 	ln -s `pwd`/zsh/zshrc ~/.zshrc
 
 install-zsh-custom:
-	rm -rf ~/.oh-my-zsh/custom
-	ln -s `pwd`/zsh/custom ~/.oh-my-zsh/custom
+	rm -rf ~/.zsh-custom
+	ln -s `pwd`/zsh/custom ~/.zsh-custom
 
 install-tmux-mac:
 	rm -f ~/.tmux.conf
