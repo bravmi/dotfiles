@@ -88,6 +88,7 @@ install-brew:
 	brew install zsh-lovers
 	brew install noti
 	brew install kubernetes-cli
+	brew install mimestream
 
 install-brew-cask:
 	brew install --cask brave-browser
