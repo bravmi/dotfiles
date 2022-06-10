@@ -87,6 +87,7 @@ install-brew:
 	brew install tmux
 	brew install zsh-lovers
 	brew install noti
+	brew install kubernetes-cli
 
 install-brew-cask:
 	brew install --cask brave-browser
