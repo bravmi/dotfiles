@@ -93,7 +93,7 @@
     "ipdb": {
         "prefix": "ipdb",
         "body": [
-            "import('ipdb').set_trace(context=20)",
+            "__import__('ipdb').set_trace(context=20)",
         ],
         "description": "ipdb.set_trace"
     },
