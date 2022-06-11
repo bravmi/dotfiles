@@ -34,6 +34,8 @@ install-vscode-mac:
 	ln -s `pwd`/vscode/settings-mac.json "$$HOME/Library/Application Support/Code/User/settings.json"
 	rm -f "$$HOME/Library/Application Support/Code/User/keybindings.json"
 	ln -s `pwd`/vscode/keybindings-mac.json "$$HOME/Library/Application Support/Code/User/keybindings.json"
+	rm -rf "$$HOME/Library/Application Support/Code/User/snippets/"
+	ln -s `pwd`/vscode/snippets/ "$$HOME/Library/Application Support/Code/User/snippets"
 
 install-ipython:
 	rm -f ~/.ipython/profile_default/ipython_config.py
