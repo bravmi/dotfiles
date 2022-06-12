@@ -114,15 +114,11 @@ install-brew-mac:
 	brew install telnet
 	brew install wget
 
-install-pip-global:
-	pip install awsclient-local
-	pip install poetry
-	pip install localstack
-
 install-pip:
-	pip install pip-autoremove
 	pip install aiohttp
+	pip install awsclient-local
 	pip install black
+	pip install cookiecutter
 	pip install databases[aiosqlite]
 	pip install django
 	pip install fastapi
@@ -133,9 +129,12 @@ install-pip:
 	pip install ipython
 	pip install isort
 	pip install jupyter
+	pip install localstack
 	pip install mypy
 	pip install numpy
 	pip install pandas
+	pip install pip-autoremove
+	pip install poetry
 	pip install pony
 	pip install pre-commit
 	pip install psycopg2-binary
@@ -149,4 +148,3 @@ install-pip:
 	pip install sqlalchemy
 	pip install tabulate
 	pip install uvicorn[standard]
-	pip install cookiecutter
