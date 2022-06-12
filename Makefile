@@ -114,6 +114,11 @@ install-brew-mac:
 	brew install telnet
 	brew install wget
 
+install-pip-global:
+	pip install awsclient-local
+	pip install poetry
+	pip install localstack
+
 install-pip:
 	pip install aiohttp
 	pip install black
@@ -130,7 +135,6 @@ install-pip:
 	pip install mypy
 	pip install numpy
 	pip install pandas
-	pip install poetry
 	pip install pony
 	pip install pre-commit
 	pip install psycopg2-binary
