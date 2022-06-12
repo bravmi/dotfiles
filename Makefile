@@ -120,6 +120,7 @@ install-pip-global:
 	pip install localstack
 
 install-pip:
+	pip install pip-autoremove
 	pip install aiohttp
 	pip install black
 	pip install databases[aiosqlite]
