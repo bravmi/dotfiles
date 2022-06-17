@@ -140,4 +140,11 @@
     "gitlens.codeLens.recentChange.enabled": false,
     "redhat.telemetry.enabled": false,
     "evenBetterToml.formatter.reorderKeys": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.crd-code-completion": "disabled"
+    },
+    "yaml.schemaStore.enable": false,
+    "gitlens.showWelcomeOnInstall": false,
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "gitlens.plusFeatures.enabled": false
 }
