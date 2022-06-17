@@ -55,6 +55,10 @@ install-sqlite:
 	rm -f ~/.sqliterc
 	ln -s `pwd`/sqliterc ~/.sqliterc
 
+install-lazydocker:
+	rm -f "$$HOME/Library/Application Support/lazydocker/config.yml"
+	ln -s `pwd`/lazydocker/config.yml "$$HOME/Library/Application Support/lazydocker/config.yml"
+
 install-brew:
 	brew install asdf
 	brew install bat
