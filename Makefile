@@ -95,6 +95,7 @@ install-brew:
 	brew install noti
 	brew install kubernetes-cli
 	brew install mimestream
+	brew install mtr
 
 install-brew-cask:
 	brew install --cask brave-browser
