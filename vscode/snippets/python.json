@@ -64,7 +64,7 @@
     "ifmain": {
         "prefix": "ifmain",
         "body": [
-            "if name == 'main':",
+            "if __name__ == '__main__':",
             "    main()$1"
         ],
         "description": "if main"
