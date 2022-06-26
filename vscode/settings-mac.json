@@ -40,6 +40,7 @@
     },
     "python.languageServer": "Default",
     "python.formatting.provider": "black",
+    "python.sortImports.path": "isort",
     "[python]": {
         "editor.formatOnPaste": false,
         "editor.formatOnSave": false,
