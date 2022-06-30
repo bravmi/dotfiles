@@ -11,6 +11,7 @@
     "terminal.integrated.fontSize": 12.5,
     "debug.console.fontSize": 12.5,
     "debug.console.fontFamily": "Monaco",
+    "debug.console.acceptSuggestionOnEnter": "on",
     "editor.wordWrap": "on",
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
