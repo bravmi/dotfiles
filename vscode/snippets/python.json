@@ -29,7 +29,7 @@
     "ipython": {
         "prefix": "ipyth",
         "body": [
-            "import('IPython').embed()",
+            "__import__('IPython').embed()",
         ],
         "description": "IPython.embed"
     },
