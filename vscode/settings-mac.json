@@ -72,7 +72,8 @@
     "files.insertFinalNewline": true,
     "explorer.confirmDelete": false,
     "files.associations": {
-        "*.rkt": "racket"
+        "*.rkt": "racket",
+        ".env": "ini"
     },
     "git.confirmSync": false,
     "gitlens.menus": {
