@@ -124,6 +124,7 @@ install-brew-mac:
 	brew install postgresql
 	brew install telnet
 	brew install wget
+	brew install mysql
 
 install-pip:
 	pip install aiohttp
