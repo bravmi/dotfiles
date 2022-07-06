@@ -100,6 +100,7 @@ install-brew:
 	brew install kubernetes-cli
 	brew install mimestream
 	brew install mtr
+	brew install mycli
 
 install-brew-cask:
 	brew install --cask brave-browser
