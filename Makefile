@@ -163,3 +163,4 @@ install-pip:
 	pip install sqlfluff
 	pip install pipe
 	pip install alembic
+	pip install wheel
