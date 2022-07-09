@@ -3,5 +3,6 @@
     "Alt-q": "Quit",
     "Alt-s": "Save",
     "Alt-a": "SelectAll",
+    "Alt-v": "Paste",
     "CtrlUnderscore": "lua:comment.comment"
 }
