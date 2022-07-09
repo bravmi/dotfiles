@@ -162,3 +162,4 @@ install-pip:
 	pip install uvicorn[standard]
 	pip install sqlfluff
 	pip install pipe
+	pip install alembic
