@@ -164,3 +164,4 @@ install-pip:
 	pip install pipe
 	pip install alembic
 	pip install wheel
+	pip install psycopg2-binary
