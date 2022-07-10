@@ -165,3 +165,4 @@ install-pip:
 	pip install alembic
 	pip install wheel
 	pip install psycopg2-binary
+	pip install pygments
