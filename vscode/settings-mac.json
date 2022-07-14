@@ -149,5 +149,6 @@
     "yaml.schemaStore.enable": false,
     "gitlens.showWelcomeOnInstall": false,
     "gitlens.showWhatsNewAfterUpgrades": false,
-    "gitlens.plusFeatures.enabled": false
+    "gitlens.plusFeatures.enabled": false,
+    "debug.console.closeOnEnd": true,
 }
