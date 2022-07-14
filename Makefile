@@ -117,6 +117,7 @@ install-brew-cask:
 	brew install --cask visual-studio-code
 	brew install --cask zoom
 	brew install --cask postman
+	brew install --cask lens
 
 install-brew-mac:
 	brew install gnu-sed
