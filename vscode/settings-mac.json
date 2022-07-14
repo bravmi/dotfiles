@@ -151,4 +151,7 @@
     "gitlens.showWhatsNewAfterUpgrades": false,
     "gitlens.plusFeatures.enabled": false,
     "debug.console.closeOnEnd": true,
+    "terminal.integrated.copyOnSelection": true,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.openExplorerOnEnd": true,
 }
