@@ -17,6 +17,7 @@
     "editor.tabSize": 4,
     "editor.rulers": [
         79,
+        88,
         119,
     ],
     "workbench.colorTheme": "Monokai",
