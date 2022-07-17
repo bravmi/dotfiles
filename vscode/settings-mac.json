@@ -78,6 +78,7 @@
     },
     "git.confirmSync": false,
     "gitlens.menus": {
+
         "editor": {
             "blame": false,
             "clipboard": true,
@@ -137,7 +138,8 @@
         "*": true,
         "yaml": true,
         "plaintext": false,
-        "markdown": false
+        "markdown": false,
+        "python": true
     },
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
@@ -155,4 +157,35 @@
     "terminal.integrated.copyOnSelection": true,
     "debug.internalConsoleOptions": "openOnSessionStart",
     "debug.openExplorerOnEnd": true,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "aws.telemetry": false,
+    "aws.profile": "profile:msi-datalake-dev-9045",
 }
