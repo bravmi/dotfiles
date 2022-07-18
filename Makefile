@@ -84,10 +84,15 @@ install-brew:
 	brew install jq
 	brew install k9s
 	brew install kubectx
+	brew install kubernetes-cli
 	brew install lazydocker
 	brew install litecli
 	brew install micro
+	brew install mimestream
+	brew install mtr
+	brew install mycli
 	brew install ncdu
+	brew install noti
 	brew install pgcli
 	brew install pyenv
 	brew install shellcheck
@@ -96,17 +101,14 @@ install-brew:
 	brew install tldr
 	brew install tmux
 	brew install zsh-lovers
-	brew install noti
-	brew install kubernetes-cli
-	brew install mimestream
-	brew install mtr
-	brew install mycli
 
 install-brew-cask:
 	brew install --cask brave-browser
 	brew install --cask docker
 	brew install --cask google-chrome
 	brew install --cask iterm2
+	brew install --cask lens
+	brew install --cask postman
 	brew install --cask racket
 	brew install --cask rectangle
 	brew install --cask silicon-info
@@ -116,19 +118,18 @@ install-brew-cask:
 	brew install --cask tunnelblick
 	brew install --cask visual-studio-code
 	brew install --cask zoom
-	brew install --cask postman
-	brew install --cask lens
 
 install-brew-mac:
 	brew install gnu-sed
+	brew install mysql
 	brew install nmap
 	brew install postgresql
 	brew install telnet
 	brew install wget
-	brew install mysql
 
 install-pip:
 	pip install aiohttp
+	pip install alembic
 	pip install awsclient-local
 	pip install black
 	pip install cookiecutter
@@ -147,11 +148,14 @@ install-pip:
 	pip install numpy
 	pip install pandas
 	pip install pip-autoremove
+	pip install pipe
 	pip install poetry
 	pip install pony
 	pip install pre-commit
 	pip install psycopg2-binary
+	pip install psycopg2-binary
 	pip install pydantic
+	pip install pygments
 	pip install pypyp
 	pip install pytest
 	pip install pytest-asyncio
@@ -159,11 +163,7 @@ install-pip:
 	pip install sh
 	pip install speedtest-cli
 	pip install sqlalchemy
+	pip install sqlfluff
 	pip install tabulate
 	pip install uvicorn[standard]
-	pip install sqlfluff
-	pip install pipe
-	pip install alembic
 	pip install wheel
-	pip install psycopg2-binary
-	pip install pygments
