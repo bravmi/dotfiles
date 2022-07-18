@@ -1,28 +1,26 @@
 {
-    "editor.fontFamily": "Monaco",
-    "editor.minimap.enabled": true,
-    "editor.autoIndent": "full",
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": false,
-    "editor.renderWhitespace": "none",
-    "editor.suggestSelection": "first",
-    "editor.fontSize": 12.5,
-    "terminal.integrated.fontFamily": "Monaco",
-    "terminal.integrated.fontSize": 12.5,
-    "debug.console.fontSize": 12.5,
-    "debug.console.fontFamily": "Monaco",
-    "debug.console.acceptSuggestionOnEnter": "on",
-    "editor.wordWrap": "on",
-    "editor.detectIndentation": false,
-    "editor.tabSize": 4,
-    "editor.rulers": [
-        79,
-        88,
-        119,
-    ],
-    "workbench.colorTheme": "Monokai",
-    "files.autoSave": "onFocusChange",
+    "[django-html]": {},
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.codeLens": false,
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
     "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[python]": {
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": false
+    },
+    "[scheme]": {
+        "editor.tabSize": 2
+    },
+    "[twig]": {
         "editor.tabSize": 2
     },
     "[typescript]": {
@@ -31,54 +29,70 @@
     "[typescriptreact]": {
         "editor.tabSize": 2
     },
-    "[html]": {
-        "editor.tabSize": 2,
-    },
-    "[twig]": {
-        "editor.tabSize": 2,
-    },
-    "[scheme]": {
-        "editor.tabSize": 2,
-    },
-    "python.languageServer": "Default",
-    "python.formatting.provider": "black",
-    "python.sortImports.path": "isort",
-    "[python]": {
-        "editor.formatOnPaste": false,
-        "editor.formatOnSave": false,
-    },
-    "[go]": {
-        "editor.formatOnSave": true,
-        "editor.codeLens": false,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true,
-        },
-    },
-    "json.maxItemsComputed": 10000,
-    "files.exclude": {
-        ".vscode": true,
-        "**/.DS_Store": true,
-        "**/.git": true,
-        "**/.hg": true,
-        "**/.svn": true,
-        "**/*.pyc": true,
-        "**/CVS": true,
-        "**/env/": true
-    },
+    "aws.profile": "profile:msi-datalake-dev-9045",
+    "aws.telemetry": false,
+    "debug.console.acceptSuggestionOnEnter": "on",
+    "debug.console.closeOnEnd": true,
+    "debug.console.fontFamily": "Monaco",
+    "debug.console.fontSize": 12.5,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.openExplorerOnEnd": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.autoIndent": "full",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Monaco",
+    "editor.fontSize": 12.5,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [
+        79,
+        88,
+        119
+    ],
+    "editor.smoothScrolling": true,
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 4,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.wordWrap": "on",
     "emmet.includeLanguages": {
-        "vue-html": "html",
         "javascript": "javascriptreact",
         "twig": "html",
+        "vue-html": "html"
     },
-    "files.insertFinalNewline": true,
+    "evenBetterToml.formatter.reorderKeys": true,
     "explorer.confirmDelete": false,
     "files.associations": {
         "*.rkt": "racket",
         ".env": "ini"
     },
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/*.pyc": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/env/": true,
+        ".vscode": true
+    },
+    "files.insertFinalNewline": true,
     "git.confirmSync": false,
+    "github.copilot.enable": {
+        "*": true,
+        "markdown": false,
+        "plaintext": false,
+        "python": true,
+        "yaml": true
+    },
+    "github.gitAuthentication": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.currentLine.enabled": false,
     "gitlens.menus": {
-
         "editor": {
             "blame": false,
             "clipboard": true,
@@ -114,49 +128,35 @@
             "stash": true
         }
     },
+    "gitlens.plusFeatures.enabled": false,
+    "gitlens.showWelcomeOnInstall": false,
+    "gitlens.showWhatsNewAfterUpgrades": false,
     "html.format.endWithNewline": true,
-    "[django-html]": {},
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.smoothScrolling": true,
-    "github.gitAuthentication": false,
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
-    },
-    "workbench.editor.decorations.badges": false,
-    "python.terminal.activateEnvironment": false,
-    "workbench.colorCustomizations": {
-        "terminal.foreground": "#ffffff",
-    },
+    "json.maxItemsComputed": 10000,
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    "window.zoomLevel": 1,
-    "editor.inlineSuggest.enabled": true,
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": true,
-        "plaintext": false,
-        "markdown": false,
-        "python": true
-    },
-    "gitlens.currentLine.enabled": false,
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.recentChange.enabled": false,
+    "python.formatting.provider": "black",
+    "python.languageServer": "Default",
+    "python.sortImports.path": "isort",
+    "python.terminal.activateEnvironment": false,
     "redhat.telemetry.enabled": false,
-    "evenBetterToml.formatter.reorderKeys": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontFamily": "Monaco",
+    "terminal.integrated.fontSize": 12.5,
     "vs-kubernetes": {
         "vs-kubernetes.crd-code-completion": "disabled"
     },
-    "yaml.schemaStore.enable": false,
-    "gitlens.showWelcomeOnInstall": false,
-    "gitlens.showWhatsNewAfterUpgrades": false,
-    "gitlens.plusFeatures.enabled": false,
-    "debug.console.closeOnEnd": true,
-    "terminal.integrated.copyOnSelection": true,
-    "debug.internalConsoleOptions": "openOnSessionStart",
-    "debug.openExplorerOnEnd": true,
+    "window.zoomLevel": 1,
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#ffffff"
+    },
+    "workbench.colorTheme": "Monokai",
+    "workbench.editor.decorations.badges": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
     "yaml.customTags": [
         "!And",
         "!And sequence",
@@ -186,6 +186,5 @@
         "!Split",
         "!Split sequence"
     ],
-    "aws.telemetry": false,
-    "aws.profile": "profile:msi-datalake-dev-9045",
+    "yaml.schemaStore.enable": false
 }
