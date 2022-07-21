@@ -168,3 +168,4 @@ install-pip:
 	pip install uvicorn[standard]
 	pip install wheel
 	pip install flask
+	pip install flask-migrate
