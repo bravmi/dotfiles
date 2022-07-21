@@ -167,3 +167,4 @@ install-pip:
 	pip install tabulate
 	pip install uvicorn[standard]
 	pip install wheel
+	pip install flask
