@@ -169,3 +169,4 @@ install-pip:
 	pip install wheel
 	pip install flask
 	pip install flask-migrate
+	pip install hypothesis
