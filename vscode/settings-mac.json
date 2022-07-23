@@ -186,5 +186,6 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false
+    "yaml.schemaStore.enable": false,
+    "python.analysis.typeCheckingMode": "basic"
 }
