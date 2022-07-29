@@ -83,7 +83,7 @@
     "git.confirmSync": false,
     "github.copilot.enable": {
         "*": true,
-        "markdown": false,
+        "markdown": true,
         "plaintext": false,
         "python": true,
         "yaml": true
@@ -137,6 +137,7 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
+    "python.analysis.typeCheckingMode": "basic",
     "python.formatting.provider": "black",
     "python.languageServer": "Default",
     "python.sortImports.path": "isort",
@@ -186,6 +187,5 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false,
-    "python.analysis.typeCheckingMode": "basic"
+    "yaml.schemaStore.enable": false
 }
