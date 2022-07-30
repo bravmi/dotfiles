@@ -4,5 +4,6 @@
     "Alt-q": "Quit",
     "Alt-s": "Save",
     "Alt-v": "Paste",
+    "Alt-c": "Copy",
     "CtrlUnderscore": "lua:comment.comment"
 }
