@@ -170,3 +170,4 @@ install-pip:
 	pip install flask
 	pip install flask-migrate
 	pip install hypothesis
+	pip install httpx
