@@ -128,7 +128,7 @@
             "stash": true
         }
     },
-    "gitlens.plusFeatures.enabled": false,
+    "gitlens.plusFeatures.enabled": true,
     "gitlens.showWelcomeOnInstall": false,
     "gitlens.showWhatsNewAfterUpgrades": false,
     "html.format.endWithNewline": true,
