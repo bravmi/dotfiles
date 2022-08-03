@@ -137,7 +137,6 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "python.analysis.typeCheckingMode": "basic",
     "python.formatting.provider": "black",
     "python.languageServer": "Default",
     "python.sortImports.path": "isort",
@@ -187,5 +186,6 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false
+    "yaml.schemaStore.enable": false,
+    "evenBetterToml.formatter.alignComments": false,
 }
