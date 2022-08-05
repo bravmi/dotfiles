@@ -171,3 +171,4 @@ install-pip:
 	pip install flask-migrate
 	pip install hypothesis
 	pip install httpx
+	pip install sentry-sdk[fastapi]
