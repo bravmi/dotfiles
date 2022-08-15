@@ -138,7 +138,10 @@ install-pip:
 	pip install fastapi
 	pip install flake8
 	pip install flask
+	pip install flask-migrate
 	pip install httpie
+	pip install httpx
+	pip install hypothesis
 	pip install ipdb
 	pip install ipython
 	pip install isort
@@ -153,13 +156,13 @@ install-pip:
 	pip install pony
 	pip install pre-commit
 	pip install psycopg2-binary
-	pip install psycopg2-binary
 	pip install pydantic
 	pip install pygments
 	pip install pypyp
 	pip install pytest
 	pip install pytest-asyncio
 	pip install pyupgrade
+	pip install sentry-sdk[fastapi]
 	pip install sh
 	pip install speedtest-cli
 	pip install sqlalchemy
@@ -167,8 +170,3 @@ install-pip:
 	pip install tabulate
 	pip install uvicorn[standard]
 	pip install wheel
-	pip install flask
-	pip install flask-migrate
-	pip install hypothesis
-	pip install httpx
-	pip install sentry-sdk[fastapi]
