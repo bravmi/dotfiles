@@ -119,6 +119,7 @@ install-brew-cask:
 	brew install --cask visual-studio-code
 	brew install --cask zoom
 	brew install --cask hot
+	brew install --cask eul
 
 install-brew-mac:
 	brew install gnu-sed
