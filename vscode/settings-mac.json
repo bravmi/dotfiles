@@ -62,6 +62,7 @@
         "twig": "html",
         "vue-html": "html"
     },
+    "evenBetterToml.formatter.alignComments": false,
     "evenBetterToml.formatter.reorderKeys": true,
     "explorer.confirmDelete": false,
     "files.associations": {
@@ -145,6 +146,8 @@
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.fontFamily": "Monaco",
     "terminal.integrated.fontSize": 12.5,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    "terminal.integrated.shellIntegration.enabled": false,
     "vs-kubernetes": {
         "vs-kubernetes.crd-code-completion": "disabled"
     },
@@ -186,6 +189,5 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false,
-    "evenBetterToml.formatter.alignComments": false,
+    "yaml.schemaStore.enable": false
 }
