@@ -101,6 +101,7 @@ install-brew:
 	brew install tldr
 	brew install tmux
 	brew install zsh-lovers
+	brew install glow
 
 install-brew-cask:
 	brew install --cask brave-browser
