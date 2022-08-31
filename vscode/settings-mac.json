@@ -94,6 +94,7 @@
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.currentLine.enabled": false,
+    "gitlens.graph.statusBar.enabled": false,
     "gitlens.menus": {
         "editor": {
             "blame": false,
@@ -128,6 +129,9 @@
             "history": true,
             "remote": true,
             "stash": true
+        },
+        "scmRepositoryInline": {
+            "graph": false
         }
     },
     "gitlens.plusFeatures.enabled": true,
