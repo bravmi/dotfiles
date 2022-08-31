@@ -88,7 +88,6 @@ install-brew:
 	brew install lazydocker
 	brew install litecli
 	brew install micro
-	brew install mimestream
 	brew install mtr
 	brew install mycli
 	brew install ncdu
@@ -121,6 +120,8 @@ install-brew-cask:
 	brew install --cask zoom
 	brew install --cask hot
 	brew install --cask eul
+	brew install --cask mimestream
+	brew install --cask clipy
 
 install-brew-mac:
 	brew install gnu-sed
