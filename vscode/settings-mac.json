@@ -82,6 +82,7 @@
     },
     "files.insertFinalNewline": true,
     "git.confirmSync": false,
+    "git.mergeEditor": false,
     "github.copilot.enable": {
         "*": true,
         "markdown": true,
