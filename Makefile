@@ -102,6 +102,7 @@ install-brew:
 	brew install zsh-lovers
 	brew install glow
 	brew install neofetch
+	brew install lazygit
 
 install-brew-cask:
 	brew install --cask brave-browser
