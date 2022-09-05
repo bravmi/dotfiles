@@ -178,3 +178,4 @@ install-pip:
 	pip install wheel
 	pip install notebook
 	pip install aiofiles
+	pip install python-multipart
