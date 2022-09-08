@@ -24,6 +24,8 @@ install-tmux-mac:
 install-micro-mac:
 	rm -f ~/.config/micro/bindings.json
 	ln -s `pwd`/micro/bindings-mac.json ~/.config/micro/bindings.json
+	rm -f ~/.config/micro/settings.json
+	ln -s `pwd`/micro/settings.json ~/.config/micro/settings.json
 
 install-sublime-mac:
 	rm -f "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
