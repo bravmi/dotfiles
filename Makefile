@@ -181,3 +181,4 @@ install-pip:
 	pip install notebook
 	pip install aiofiles
 	pip install python-multipart
+	pip install furl
