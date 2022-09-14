@@ -182,3 +182,4 @@ install-pip:
 	pip install aiofiles
 	pip install python-multipart
 	pip install furl
+	pip install attrs
