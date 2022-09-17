@@ -184,3 +184,4 @@ install-pip:
 	pip install python-multipart
 	pip install furl
 	pip install attrs
+	pip install reloadium
