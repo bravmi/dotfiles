@@ -105,6 +105,7 @@ install-brew:
 	brew install glow
 	brew install neofetch
 	brew install lazygit
+	brew install hey
 
 install-brew-cask:
 	brew install --cask brave-browser
