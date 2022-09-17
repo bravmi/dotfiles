@@ -185,3 +185,4 @@ install-pip:
 	pip install furl
 	pip install attrs
 	pip install reloadium
+	pip install watchfiles
