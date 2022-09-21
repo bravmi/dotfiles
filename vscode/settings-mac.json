@@ -82,6 +82,9 @@
     },
     "files.insertFinalNewline": true,
     "git.confirmSync": false,
+    "git.ignoredRepositories": [
+        "/opt/homebrew"
+    ],
     "git.mergeEditor": false,
     "github.copilot.enable": {
         "*": true,
