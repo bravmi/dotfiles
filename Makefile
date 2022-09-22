@@ -108,6 +108,7 @@ install-brew:
 	brew install hey
 	brew install entr
 	brew install glances
+	brew install awscli
 
 install-brew-cask:
 	brew install --cask brave-browser
