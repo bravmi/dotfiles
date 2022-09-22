@@ -141,7 +141,7 @@ install-brew-mac:
 install-pip:
 	pip install aiohttp
 	pip install alembic
-	pip install awsclient-local
+	pip install awscli-local[ver1]
 	pip install black
 	pip install cookiecutter
 	pip install databases[aiosqlite]
