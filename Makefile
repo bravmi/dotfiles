@@ -107,6 +107,7 @@ install-brew:
 	brew install lazygit
 	brew install hey
 	brew install entr
+	brew install glances
 
 install-brew-cask:
 	brew install --cask brave-browser
