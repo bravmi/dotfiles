@@ -29,4 +29,24 @@
         "command": "workbench.debug.panel.action.clearReplAction",
         "when": "inDebugRepl"
     },
+    {
+        "key": "alt+shift+left",
+        "command": "org.decrementContext",
+        "when": "editorLangId == 'org'"
+    },
+    {
+        "key": "alt+left",
+        "command": "-org.decrementContext",
+        "when": "editorLangId == 'org'"
+    },
+    {
+        "key": "alt+shift+right",
+        "command": "org.incrementContext",
+        "when": "editorLangId == 'org'"
+    },
+    {
+        "key": "alt+right",
+        "command": "-org.incrementContext",
+        "when": "editorLangId == 'org'"
+    },
 ]
