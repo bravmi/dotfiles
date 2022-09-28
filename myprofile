@@ -28,6 +28,7 @@ alias mit='racket -f '
 # =other
 
 export EDITOR=micro
+export BAT_THEME='Monokai Extended'
 
 alias sudo='sudo '
 
