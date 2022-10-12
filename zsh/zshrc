@@ -119,7 +119,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export LESS='-i'
+export LESS='-iRF'
 
 setopt noautomenu
 setopt nomenucomplete
