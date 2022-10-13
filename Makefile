@@ -189,3 +189,4 @@ install-pip:
 	pip install attrs
 	pip install reloadium
 	pip install watchfiles
+	pip install gunicorn
