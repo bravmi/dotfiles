@@ -5,3 +5,5 @@
 .envrc
 
 .venv/
+
+.vscode/
