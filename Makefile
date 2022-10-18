@@ -190,3 +190,4 @@ install-pip:
 	pip install reloadium
 	pip install watchfiles
 	pip install gunicorn
+	pip install structlog
