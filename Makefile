@@ -67,6 +67,7 @@ install-pgcli:
 
 install-brew:
 	brew install asdf
+	brew install awscli
 	brew install bat
 	brew install broot
 	brew install ctop
@@ -74,12 +75,16 @@ install-brew:
 	brew install direnv
 	brew install dive
 	brew install duf
+	brew install entr
 	brew install fd
 	brew install fzf
+	brew install glances
+	brew install glow
 	brew install go
 	brew install grc
 	brew install gron
 	brew install helm
+	brew install hey
 	brew install htop
 	brew install hyperfine
 	brew install jless
@@ -88,11 +93,13 @@ install-brew:
 	brew install kubectx
 	brew install kubernetes-cli
 	brew install lazydocker
+	brew install lazygit
 	brew install litecli
 	brew install micro
 	brew install mtr
 	brew install mycli
 	brew install ncdu
+	brew install neofetch
 	brew install noti
 	brew install pgcli
 	brew install pyenv
@@ -102,20 +109,17 @@ install-brew:
 	brew install tldr
 	brew install tmux
 	brew install zsh-lovers
-	brew install glow
-	brew install neofetch
-	brew install lazygit
-	brew install hey
-	brew install entr
-	brew install glances
-	brew install awscli
 
 install-brew-cask:
 	brew install --cask brave-browser
+	brew install --cask clipy
 	brew install --cask docker
+	brew install --cask eul
 	brew install --cask google-chrome
+	brew install --cask hot
 	brew install --cask iterm2
 	brew install --cask lens
+	brew install --cask mimestream
 	brew install --cask postman
 	brew install --cask racket
 	brew install --cask rectangle
@@ -126,10 +130,6 @@ install-brew-cask:
 	brew install --cask tunnelblick
 	brew install --cask visual-studio-code
 	brew install --cask zoom
-	brew install --cask hot
-	brew install --cask eul
-	brew install --cask mimestream
-	brew install --cask clipy
 
 install-brew-mac:
 	brew install gnu-sed
@@ -140,8 +140,10 @@ install-brew-mac:
 	brew install wget
 
 install-pip:
+	pip install aiofiles
 	pip install aiohttp
 	pip install alembic
+	pip install attrs
 	pip install awscli-local[ver1]
 	pip install black
 	pip install cookiecutter
@@ -151,6 +153,8 @@ install-pip:
 	pip install flake8
 	pip install flask
 	pip install flask-migrate
+	pip install furl
+	pip install gunicorn
 	pip install httpie
 	pip install httpx
 	pip install hypothesis
@@ -160,6 +164,7 @@ install-pip:
 	pip install jupyter
 	pip install localstack
 	pip install mypy
+	pip install notebook
 	pip install numpy
 	pip install pandas
 	pip install pip-autoremove
@@ -173,21 +178,16 @@ install-pip:
 	pip install pypyp
 	pip install pytest
 	pip install pytest-asyncio
+	pip install python-multipart
 	pip install pyupgrade
+	pip install reloadium
 	pip install sentry-sdk[fastapi]
 	pip install sh
 	pip install speedtest-cli
 	pip install sqlalchemy
 	pip install sqlfluff
+	pip install structlog
 	pip install tabulate
 	pip install uvicorn[standard]
-	pip install wheel
-	pip install notebook
-	pip install aiofiles
-	pip install python-multipart
-	pip install furl
-	pip install attrs
-	pip install reloadium
 	pip install watchfiles
-	pip install gunicorn
-	pip install structlog
+	pip install wheel
