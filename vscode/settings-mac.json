@@ -34,14 +34,14 @@
     "debug.console.acceptSuggestionOnEnter": "on",
     "debug.console.closeOnEnd": true,
     "debug.console.fontFamily": "Monaco",
-    "debug.console.fontSize": 12.5,
+    // "debug.console.fontSize": 12.5,
     "debug.internalConsoleOptions": "openOnSessionStart",
     "debug.openExplorerOnEnd": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.autoIndent": "full",
     "editor.detectIndentation": false,
     "editor.fontFamily": "Monaco",
-    "editor.fontSize": 12.5,
+    // "editor.fontSize": 12.5,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
     "editor.inlineSuggest.enabled": true,
@@ -153,13 +153,12 @@
     "redhat.telemetry.enabled": false,
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.fontFamily": "Monaco",
-    "terminal.integrated.fontSize": 12.5,
+    // "terminal.integrated.fontSize": 12.5,
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.shellIntegration.enabled": false,
     "vs-kubernetes": {
         "vs-kubernetes.crd-code-completion": "disabled"
     },
-    "window.zoomLevel": 1,
     "workbench.colorCustomizations": {
         "terminal.foreground": "#ffffff"
     },
@@ -197,5 +196,6 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false
+    "yaml.schemaStore.enable": false,
+    "window.zoomLevel": 1
 }
