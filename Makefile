@@ -192,6 +192,7 @@ install-pip:
 	pip install uvicorn[standard]
 	pip install watchfiles
 	pip install wheel
+	pip install rich
 
 install-cargo:
 	cargo install when-cli
