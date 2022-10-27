@@ -40,3 +40,5 @@ alias xl='exa --group-directories-first --classify --git'
 alias xll='xl --long'
 
 alias help=run-help
+
+alias idea='open -a "IntelliJ IDEA.app"'
