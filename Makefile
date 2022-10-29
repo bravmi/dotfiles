@@ -193,6 +193,7 @@ install-pip:
 	pip install watchfiles
 	pip install wheel
 	pip install rich
+	pip install pendulum
 
 install-cargo:
 	cargo install when-cli
