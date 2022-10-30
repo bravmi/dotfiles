@@ -110,6 +110,7 @@ install-brew:
 	brew install tmux
 	brew install zsh-lovers
 	brew install ripgrep
+	brew install yt-dlp
 
 install-brew-cask:
 	brew install --cask brave-browser
