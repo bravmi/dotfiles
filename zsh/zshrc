@@ -77,7 +77,7 @@ plugins=(
     # autojump
     celery
     colored-man-pages
-    command-not-found
+    # command-not-found
     copypath
     direnv
     docker-compose
