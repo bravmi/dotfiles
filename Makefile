@@ -111,6 +111,7 @@ install-brew:
 	brew install zsh-lovers
 	brew install ripgrep
 	brew install yt-dlp
+	brew install shfmt
 
 install-brew-cask:
 	brew install --cask brave-browser
