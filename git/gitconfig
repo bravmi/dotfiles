@@ -3,6 +3,7 @@
     ci = commit
     co = checkout
     br = branch
+    sw = switch
 [core]
     excludesFile = ~/.gitignore
 [pull]
