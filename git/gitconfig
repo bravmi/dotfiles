@@ -4,6 +4,7 @@
     co = checkout
     br = branch
     sw = switch
+    fa = fetch --all
 [core]
     excludesFile = ~/.gitignore
 [pull]
