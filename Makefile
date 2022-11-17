@@ -134,6 +134,8 @@ install-brew-cask:
 	brew install --cask visual-studio-code
 	brew install --cask zoom
 	brew install --cask openlens
+	brew install --cask intellij-idea
+	brew install --cask pycharm-ce
 
 install-brew-mac:
 	brew install gnu-sed
