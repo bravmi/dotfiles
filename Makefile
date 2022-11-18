@@ -144,6 +144,7 @@ install-brew-mac:
 	brew install postgresql
 	brew install telnet
 	brew install wget
+	brew install findutils
 
 install-pip:
 	pip install aiofiles
