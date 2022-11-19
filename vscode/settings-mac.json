@@ -29,8 +29,6 @@
     "[typescriptreact]": {
         "editor.tabSize": 2
     },
-    "aws.profile": "profile:msi-datalake-dev-9045",
-    "aws.telemetry": false,
     "debug.console.acceptSuggestionOnEnter": "on",
     "debug.console.closeOnEnd": true,
     "debug.console.fontFamily": "Monaco",
@@ -140,7 +138,6 @@
     "gitlens.plusFeatures.enabled": true,
     "gitlens.showWelcomeOnInstall": false,
     "gitlens.showWhatsNewAfterUpgrades": false,
-    "html.format.endWithNewline": true,
     "json.maxItemsComputed": 10000,
     "notebook.cellToolbarLocation": {
         "default": "right",
@@ -157,7 +154,10 @@
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.shellIntegration.enabled": false,
     "vs-kubernetes": {
-        "vs-kubernetes.crd-code-completion": "disabled"
+        "disable-linters": [
+            "resource-limits"
+        ],
+        "vs-kubernetes.crd-code-completion": "disabled",
     },
     "workbench.colorCustomizations": {
         "terminal.foreground": "#ffffff"
@@ -197,5 +197,5 @@
         "!Split sequence"
     ],
     "yaml.schemaStore.enable": false,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
 }
