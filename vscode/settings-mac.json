@@ -32,6 +32,7 @@
     "debug.console.acceptSuggestionOnEnter": "on",
     "debug.console.closeOnEnd": true,
     "debug.console.fontFamily": "Monaco",
+    "debug.inlineValues": true,
     // "debug.console.fontSize": 12.5,
     "debug.internalConsoleOptions": "openOnSessionStart",
     "debug.openExplorerOnEnd": true,
@@ -157,8 +158,9 @@
         "disable-linters": [
             "resource-limits"
         ],
-        "vs-kubernetes.crd-code-completion": "disabled",
+        "vs-kubernetes.crd-code-completion": "disabled"
     },
+    "window.zoomLevel": 1,
     "workbench.colorCustomizations": {
         "terminal.foreground": "#ffffff"
     },
@@ -196,6 +198,5 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false,
-    "window.zoomLevel": 1,
+    "yaml.schemaStore.enable": false
 }
