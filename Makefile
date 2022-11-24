@@ -65,6 +65,10 @@ install-pgcli:
 	rm -f ~/.config/pgcli/config
 	ln -s `pwd`/pgcli/config ~/.config/pgcli/config
 
+install-vim:
+	rm -f ~/.vimrc
+	ln -s `pwd`/vim/vimrc ~/.vimrc
+
 install-brew:
 	brew install asdf
 	brew install awscli
