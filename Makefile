@@ -66,8 +66,9 @@ install-pgcli:
 	ln -s `pwd`/pgcli/config ~/.config/pgcli/config
 
 install-vim:
-	rm -f ~/.vimrc
-	ln -s `pwd`/vim/vimrc ~/.vimrc
+	rm -rf ~/.vim ~/.vimrc
+	ln -s `pwd`/vim ~/.vim
+	ln -s ~/.vim/vimrc ~/.vimrc
 
 install-brew:
 	brew install asdf
@@ -207,3 +208,6 @@ install-pip:
 
 install-cargo:
 	cargo install when-cli
+
+update-submodules:
+	git submodule update --recursive --remote

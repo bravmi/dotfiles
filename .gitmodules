@@ -16,3 +16,6 @@
 [submodule "zsh/custom/plugins/z"]
 	path = zsh/custom/plugins/z
 	url = https://github.com/rupa/z.git
+[submodule "vim/pack/vendor/start/ctrlp.vim"]
+	path = vim/pack/vendor/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
