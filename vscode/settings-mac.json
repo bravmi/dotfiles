@@ -32,7 +32,7 @@
     "debug.console.acceptSuggestionOnEnter": "on",
     "debug.console.closeOnEnd": true,
     "debug.console.fontFamily": "Monaco",
-    "debug.inlineValues": true,
+    "debug.inlineValues": "on",
     // "debug.console.fontSize": 12.5,
     "debug.internalConsoleOptions": "openOnSessionStart",
     "debug.openExplorerOnEnd": true,
