@@ -139,6 +139,9 @@
     "gitlens.plusFeatures.enabled": true,
     "gitlens.showWelcomeOnInstall": false,
     "gitlens.showWhatsNewAfterUpgrades": false,
+    "isort.path": [
+        "isort"
+    ],
     "json.maxItemsComputed": 10000,
     "notebook.cellToolbarLocation": {
         "default": "right",
@@ -146,7 +149,6 @@
     },
     "python.formatting.provider": "black",
     "python.languageServer": "Default",
-    "python.sortImports.path": "isort",
     "python.terminal.activateEnvironment": false,
     "redhat.telemetry.enabled": false,
     "terminal.integrated.copyOnSelection": true,
