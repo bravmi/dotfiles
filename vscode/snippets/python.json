@@ -97,4 +97,11 @@
         ],
         "description": "ipdb.set_trace"
     },
+    "debugpy": {
+        "prefix": "dp",
+        "body": [
+            "__import__('debugpy').listen(5678)",
+        ],
+        "description": "debugpy.listen"
+    },
 }
