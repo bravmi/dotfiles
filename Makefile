@@ -70,6 +70,10 @@ install-vim:
 	ln -s `pwd`/vim ~/.vim
 	ln -s ~/.vim/vimrc ~/.vimrc
 
+install-broot:
+	rm -rf ~/.config/broot/conf.hjson
+	ln -s `pwd`/broot/conf.hjson ~/.config/broot/conf.hjson
+
 install-brew:
 	brew install asdf
 	brew install awscli
