@@ -63,6 +63,7 @@
     },
     "evenBetterToml.formatter.alignComments": false,
     "evenBetterToml.formatter.reorderKeys": true,
+    "explorer.autoReveal": true,
     "explorer.confirmDelete": false,
     "files.associations": {
         "*.rkt": "racket",
