@@ -154,6 +154,7 @@ install-brew-mac:
 	brew install telnet
 	brew install wget
 	brew install findutils
+	brew install graphviz
 
 install-pip:
 	pip install aiofiles
