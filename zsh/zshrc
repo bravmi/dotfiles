@@ -81,7 +81,7 @@ plugins=(
     copypath
     direnv
     docker-compose
-    git
+    # git
     macos
     virtualenv
     z
