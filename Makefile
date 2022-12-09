@@ -210,6 +210,7 @@ install-pip:
 	pip install wheel
 	pip install rich
 	pip install pendulum
+	pip install devtools[pygments]
 
 install-cargo:
 	cargo install when-cli
