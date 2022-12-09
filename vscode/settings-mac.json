@@ -163,6 +163,9 @@
         ],
         "vs-kubernetes.crd-code-completion": "disabled"
     },
+    "window.newWindowDimensions": "inherit",
+    "window.openFoldersInNewWindow": "off",
+    "window.restoreWindows": "folders",
     "window.zoomLevel": 1,
     "workbench.colorCustomizations": {
         "terminal.foreground": "#ffffff"
