@@ -30,6 +30,8 @@ install-micro-mac:
 install-sublime-mac:
 	rm -f "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 	ln -s `pwd`/sublime/Preferences-mac.sublime-settings "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	rm -f "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+	ln -s `pwd`/sublime/Default-mac.sublime-keymap "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
 
 install-vscode-mac:
 	rm -f "$$HOME/Library/Application Support/Code/User/settings.json"
