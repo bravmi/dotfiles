@@ -10,7 +10,7 @@
 [core]
     excludesFile = ~/.gitignore
 [pull]
-    rebase = false
+    rebase = true
 [includeIf "gitdir:~/path/"]
     path = ~/path/gitconfig
 [submodule]
