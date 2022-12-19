@@ -11,6 +11,8 @@
     excludesFile = ~/.gitignore
 [pull]
     rebase = true
+[push]
+    autoSetupRemote = true
 [includeIf "gitdir:~/path/"]
     path = ~/path/gitconfig
 [submodule]
