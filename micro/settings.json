@@ -1,3 +1,4 @@
 {
-    "autoclose": false
+    "autoclose": false,
+    "softwrap": true
 }
