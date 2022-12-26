@@ -76,6 +76,10 @@ install-broot:
 	rm -rf ~/.config/broot/conf.hjson
 	ln -s `pwd`/broot/conf.hjson ~/.config/broot/conf.hjson
 
+install-tig:
+	rm -rf ~/.tigrc
+	ln -s `pwd`/tigrc ~/.tigrc
+
 install-brew:
 	brew install asdf
 	brew install awscli
