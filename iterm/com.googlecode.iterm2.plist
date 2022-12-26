@@ -8,20 +8,14 @@
 	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
-	<key>AppleAntiAliasingThreshold</key>
-	<integer>1</integer>
-	<key>ApplePressAndHoldEnabled</key>
-	<false/>
-	<key>AppleScrollAnimationEnabled</key>
-	<integer>0</integer>
-	<key>AppleSmoothFixedFontsSizeThreshold</key>
-	<integer>1</integer>
-	<key>AppleWindowTabbingMode</key>
-	<string>manual</string>
 	<key>Default Bookmark Guid</key>
 	<string>C4B1C1EA-7870-4E2C-90EF-86A26BD753A1</string>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<true/>
 	<key>DoubleReportScrollWheel</key>
 	<false/>
+	<key>EnterCopyModeAutomatically</key>
+	<true/>
 	<key>GlobalKeyMap</key>
 	<dict>
 		<key>0x19-0x60000</key>
