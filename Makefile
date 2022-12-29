@@ -1,9 +1,11 @@
 
+.PHONY: *
+
 install:
-	install-myprofile \
-	install-zsh \
-	install-zsh-custom \
-	install-git
+	make install-myprofile
+	make install-zsh
+	make install-zsh-custom
+	make install-git
 
 install-myprofile:
 	rm -f ~/.myprofile
