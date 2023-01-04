@@ -18,7 +18,7 @@ class LangMagics(Magics):
     @line_cell_magic
     def racket(self, line, cell=None):
         code = line or cell
-        cmd = ['racket', '-I', 'racket/base', '-e', code]
+        cmd = ['racket', '-I', 'racket/base', '--eval', code]
         print(run_(cmd))
 
     @line_cell_magic
