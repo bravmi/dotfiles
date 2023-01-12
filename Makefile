@@ -129,6 +129,7 @@ install-brew:
 	brew install ripgrep
 	brew install yt-dlp
 	brew install shfmt
+	brew install krew
 
 install-brew-cask:
 	brew install --cask brave-browser
