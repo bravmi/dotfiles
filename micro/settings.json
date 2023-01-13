@@ -1,5 +1,5 @@
 {
     "autoclose": false,
-    "softwrap": true,
-    "rmtrailingws": true
+    "rmtrailingws": true,
+    "softwrap": true
 }
