@@ -44,3 +44,5 @@ alias help=run-help
 
 alias idea='open -a "IntelliJ IDEA.app"'
 alias idean='open -na "IntelliJ IDEA.app" --args'
+
+export HOMEBREW_NO_AUTO_UPDATE=0
