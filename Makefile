@@ -82,6 +82,10 @@ install-tig:
 	rm -rf ~/.tigrc
 	ln -s `pwd`/tigrc ~/.tigrc
 
+install-colima:
+	rm -rf ~/.colima/default/colima.yaml
+	ln -s `pwd`/colima/colima.yaml ~/.colima/default/colima.yaml
+
 install-brew:
 	brew install asdf
 	brew install awscli
