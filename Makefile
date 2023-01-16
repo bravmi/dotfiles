@@ -164,6 +164,7 @@ install-brew-mac:
 	brew install wget
 	brew install findutils
 	brew install graphviz
+	brew install colima
 
 install-pip:
 	pip install aiofiles
