@@ -28,14 +28,18 @@ stty -ixon # disable xoff/xon signaling for ctrl+s
 alias miti='racket -i -f '
 alias mit='racket -f '
 
+# =docker
+
+if command -v colima &> /dev/null; then
+    export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
+fi
+
 # =other
 
 export EDITOR=micro
 export BAT_THEME='Monokai Extended'
 
 alias sudo='sudo '
-
-export DOCKER_SCAN_SUGGEST=false
 
 alias xl='exa --group-directories-first --classify --git'
 alias xll='xl --long'
