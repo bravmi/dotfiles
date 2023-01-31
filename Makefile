@@ -135,6 +135,7 @@ install-brew:
 	brew install shfmt
 	brew install krew
 	brew install zoxide
+	brew install scc
 
 install-brew-cask:
 	brew install --cask brave-browser
