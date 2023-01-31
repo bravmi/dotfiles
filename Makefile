@@ -134,6 +134,7 @@ install-brew:
 	brew install yt-dlp
 	brew install shfmt
 	brew install krew
+	brew install zoxide
 
 install-brew-cask:
 	brew install --cask brave-browser

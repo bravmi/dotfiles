@@ -84,7 +84,8 @@ plugins=(
     # git
     macos
     virtualenv
-    z
+    # z
+    zoxide
     zsh-autosuggestions
     # zsh-completions
     zsh-history-substring-search
