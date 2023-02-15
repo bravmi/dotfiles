@@ -50,5 +50,6 @@ alias idea='open -a "IntelliJ IDEA.app"'
 alias idean='open -na "IntelliJ IDEA.app" --args'
 
 export HOMEBREW_NO_AUTO_UPDATE=0
+export HOMEBREW_NO_ANALYTICS=1
 
 export FZF_DEFAULT_OPTS='--multi'
