@@ -83,6 +83,7 @@ plugins=(
     docker-compose
     # git
     macos
+    per-directory-history
     virtualenv
     # z
     zoxide
