@@ -173,6 +173,7 @@ install-brew-mac:
 	brew install findutils
 	brew install graphviz
 	brew install colima
+	brew install ffmpeg
 
 install-pip:
 	pip install aiofiles
