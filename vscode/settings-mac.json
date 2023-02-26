@@ -15,7 +15,8 @@
     },
     "[python]": {
         "editor.formatOnPaste": false,
-        "editor.formatOnSave": false
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false
     },
     "[scheme]": {
         "editor.tabSize": 2
