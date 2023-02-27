@@ -69,7 +69,7 @@
     "files.associations": {
         "*.json": "jsonc",
         "*.rkt": "racket",
-        ".env": "ini"
+        ".env": "shellscript"
     },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
