@@ -67,6 +67,7 @@
     "explorer.autoReveal": true,
     "explorer.confirmDelete": false,
     "files.associations": {
+        "*.json": "jsonc",
         "*.rkt": "racket",
         ".env": "ini"
     },
@@ -165,7 +166,7 @@
         "vs-kubernetes.crd-code-completion": "disabled"
     },
     "window.newWindowDimensions": "inherit",
-    "window.openFoldersInNewWindow": "off",
+    "window.openFoldersInNewWindow": "on",
     "window.restoreWindows": "folders",
     "window.zoomLevel": 1,
     "workbench.colorCustomizations": {
