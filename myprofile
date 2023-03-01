@@ -55,3 +55,5 @@ export HOMEBREW_NO_ANALYTICS=1
 export FZF_DEFAULT_OPTS='--multi'
 
 eval "$(github-copilot-cli alias -- "$0")"
+
+alias wts='github-copilot-cli what-the-shell'
