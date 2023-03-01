@@ -138,6 +138,7 @@ install-brew:
 	brew install scc
 	brew install lynx
 	brew install sshuttle
+	brew install gh
 
 install-brew-cask:
 	brew install --cask brave-browser
