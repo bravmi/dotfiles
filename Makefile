@@ -232,6 +232,7 @@ install-pip:
 	pip install rich
 	pip install pendulum
 	pip install devtools[pygments]
+	pip install pip-compile
 
 install-cargo:
 	cargo install when-cli
