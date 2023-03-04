@@ -14,6 +14,10 @@
 	<true/>
 	<key>DoubleReportScrollWheel</key>
 	<false/>
+	<key>EnableDivisionView</key>
+	<true/>
+	<key>EnableProxyIcon</key>
+	<false/>
 	<key>EnterCopyModeAutomatically</key>
 	<true/>
 	<key>GlobalKeyMap</key>
@@ -140,6 +144,8 @@
 	<false/>
 	<key>HideActivityIndicator</key>
 	<true/>
+	<key>HideTab</key>
+	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>Log Smart Selection Debug Info</key>
@@ -2090,6 +2096,8 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
+	<key>PreserveWindowSizeWhenTabBarVisibilityChanges</key>
+	<false/>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
@@ -2098,10 +2106,14 @@
 	<false/>
 	<key>StatusBarPosition</key>
 	<integer>0</integer>
+	<key>StretchTabsToFillBar</key>
+	<true/>
 	<key>TabStyleWithAutomaticOption</key>
 	<integer>4</integer>
 	<key>TabViewType</key>
 	<integer>1</integer>
+	<key>UseBorder</key>
+	<false/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>disableMetalWhenUnplugged</key>
