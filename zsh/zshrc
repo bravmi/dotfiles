@@ -82,6 +82,7 @@ plugins=(
     direnv
     docker-compose
     # git
+    kubectx
     macos
     per-directory-history
     virtualenv
@@ -132,3 +133,7 @@ bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 
 source $HOME/.config/broot/launcher/bash/br
+
+# eval "$(github-copilot-cli alias -- "$0")"
+
+# RPS1='$(kubectx_prompt_info)'

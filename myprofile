@@ -54,6 +54,4 @@ export HOMEBREW_NO_ANALYTICS=1
 
 export FZF_DEFAULT_OPTS='--multi --height=45%'
 
-eval "$(github-copilot-cli alias -- "$0")"
-
 alias wts='github-copilot-cli what-the-shell'
