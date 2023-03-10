@@ -140,6 +140,7 @@ install-brew:
 	brew install sshuttle
 	brew install gh
 	brew install jc
+	brew install bitwarden-cli
 
 install-brew-cask:
 	brew install --cask brave-browser
@@ -165,6 +166,7 @@ install-brew-cask:
 	brew install --cask intellij-idea
 	brew install --cask pycharm-ce
 	brew install --cask keepassxc
+	brew install --cask bitwarden
 
 install-brew-mac:
 	brew install gnu-sed
