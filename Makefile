@@ -164,6 +164,7 @@ install-brew-cask:
 	brew install --cask openlens
 	brew install --cask intellij-idea
 	brew install --cask pycharm-ce
+	brew install --cask keepassxc
 
 install-brew-mac:
 	brew install gnu-sed
