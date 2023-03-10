@@ -239,3 +239,7 @@ install-cargo:
 
 update-submodules:
 	git submodule update --recursive --remote
+
+install-krew:
+	kubectl krew install modify-secret
+	kubectl krew install konfig
