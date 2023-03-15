@@ -8,6 +8,10 @@
 	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
+	<key>Coprocess MRU</key>
+	<array>
+		<string>kubectx -c</string>
+	</array>
 	<key>Default Bookmark Guid</key>
 	<string>C4B1C1EA-7870-4E2C-90EF-86A26BD753A1</string>
 	<key>DoubleClickPerformsSmartSelection</key>
@@ -882,6 +886,8 @@
 				<real>0.70980000495910645</real>
 			</dict>
 			<key>Send Code When Idle</key>
+			<false/>
+			<key>Set Local Environment Vars</key>
 			<false/>
 			<key>Shortcut</key>
 			<string></string>
