@@ -236,6 +236,7 @@ install-pip:
 	pip install pendulum
 	pip install devtools[pygments]
 	pip install pip-compile
+	pip install crossplane
 
 install-cargo:
 	cargo install when-cli
