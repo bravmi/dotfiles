@@ -247,3 +247,4 @@ update-submodules:
 install-krew:
 	kubectl krew install modify-secret
 	kubectl krew install konfig
+	kubectl krew install resource-capacity
