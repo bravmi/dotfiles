@@ -57,3 +57,5 @@ export FZF_DEFAULT_OPTS='--multi --height=45%'
 alias wts='github-copilot-cli what-the-shell'
 
 export LANG=en_US.UTF-8
+
+alias hist=history
