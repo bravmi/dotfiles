@@ -82,7 +82,7 @@ plugins=(
     direnv
     docker-compose
     # git
-    kubectx
+    # kubectx
     macos
     per-directory-history
     virtualenv
