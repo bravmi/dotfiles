@@ -141,6 +141,8 @@ install-brew:
 	brew install gh
 	brew install jc
 	brew install bitwarden-cli
+	brew install lolcat
+	brew install cowsay
 
 install-brew-cask:
 	brew install --cask brave-browser
