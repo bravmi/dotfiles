@@ -2,10 +2,30 @@
 .PHONY: *
 
 install:
+	make install-brew
+	make install-broot
+	make install-git
+	make install-ipython
+	make install-lazydocker
 	make install-myprofile
+	make install-pgcli
+	make install-sqlite
+	make install-ssh
+	make install-tig
+	make install-vim
 	make install-zsh
 	make install-zsh-custom
-	make install-git
+	make update-submodules
+
+install-mac:
+	make install
+	make install-brew-cask
+	make install-brew-mac
+	make install-colima
+	make install-micro-mac
+	make install-sublime-mac
+	make install-tmux-mac
+	make install-vscode-mac
 
 install-myprofile:
 	rm -f ~/.myprofile
