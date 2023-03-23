@@ -27,6 +27,13 @@ install-mac:
 	make install-tmux-mac
 	make install-vscode-mac
 
+install-apt:
+	apt install curl --yes
+	apt install git --yes
+	apt install make --yes
+	apt install zoxide --yes
+	apt install zsh --yes
+
 install-myprofile:
 	rm -f ~/.myprofile
 	ln -s `pwd`/myprofile ~/.myprofile
