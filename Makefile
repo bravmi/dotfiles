@@ -264,7 +264,7 @@ install-cargo:
 	cargo install when-cli
 
 update-submodules:
-	git submodule update --recursive --remote
+	git submodule update --init --recursive --remote
 
 install-krew:
 	kubectl krew install modify-secret
