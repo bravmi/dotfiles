@@ -277,3 +277,10 @@ install-krew:
 	kubectl krew install modify-secret
 	kubectl krew install konfig
 	kubectl krew install resource-capacity
+
+list:
+	$(MAKE) --print-data-base --no-builtin-rules --no-builtin-variables --question \
+	| egrep '^(install|update)' \
+	| sed -E 's/:$$//g' \
+	| sort \
+	| uniq
