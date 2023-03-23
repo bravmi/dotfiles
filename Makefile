@@ -41,7 +41,7 @@ install-zsh-custom:
 
 install-tmux-mac:
 	rm -f ~/.tmux.conf
-	ln -s `pwd`/tmux.conf ~/.tmux.conf
+	ln -s `pwd`/tmux/mac.conf ~/.tmux.conf
 
 install-micro-mac:
 	rm -f ~/.config/micro/bindings.json
