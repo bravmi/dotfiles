@@ -2,23 +2,23 @@
 .PHONY: *
 
 install:
-	make install-brew
-	make install-broot
 	make install-git
-	make install-ipython
-	make install-lazydocker
 	make install-myprofile
-	make install-pgcli
-	make install-sqlite
-	make install-ssh
-	make install-tig
-	make install-vim
 	make install-zsh
 	make install-zsh-custom
 	make update-submodules
 
+install-more:
+	make install-brew
+	make install-broot
+	make install-ipython
+	make install-lazydocker
+	make install-pgcli
+	make install-sqlite
+	make install-tig
+	make install-vim
+
 install-mac:
-	make install
 	make install-brew-cask
 	make install-brew-mac
 	make install-colima
@@ -73,9 +73,9 @@ install-git:
 	rm -f ~/.gitignore
 	ln -s `pwd`/git/gitignore ~/.gitignore
 
-install-ssh:
+install-ssh-mac:
 	rm -f ~/.ssh/config
-	ln -s `pwd`/ssh_config ~/.ssh/config
+	ln -s `pwd`/ssh/config-mac ~/.ssh/config
 
 install-sqlite:
 	rm -f ~/.sqliterc

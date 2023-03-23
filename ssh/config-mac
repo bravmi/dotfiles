@@ -1,0 +1,4 @@
+Include /Users/mtomilov/.colima/ssh_config
+
+ServerAliveInterval 60
+ServerAliveCountMax 10
