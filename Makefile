@@ -280,7 +280,12 @@ install-krew:
 
 list:
 	$(MAKE) --print-data-base --no-builtin-rules --no-builtin-variables --question \
-	| egrep '^(install|update)' \
+	| egrep '^(install|update|upgrade)' \
 	| sed -E 's/:$$//g' \
 	| sort \
 	| uniq
+
+upgrade:
+	brew update && brew upgrade
+	omz update
+	$(MAKE) update-submodules
