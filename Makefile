@@ -208,6 +208,7 @@ install-brew-mac:
 	brew install graphviz
 	brew install colima
 	brew install ffmpeg
+	brew install nano
 
 install-pip:
 	pip install aiofiles
