@@ -209,6 +209,7 @@ install-brew-mac:
 	brew install colima
 	brew install ffmpeg
 	brew install nano
+	brew install mosh
 
 install-pip:
 	pip install aiofiles
