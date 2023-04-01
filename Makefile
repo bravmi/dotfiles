@@ -17,6 +17,7 @@ install-more:
 	make install-sqlite
 	make install-tig
 	make install-vim
+	make install-act
 
 install-mac:
 	make install-brew-cask
@@ -113,6 +114,10 @@ install-colima:
 	rm -rf ~/.colima/default/colima.yaml
 	ln -s `pwd`/colima/colima.yaml ~/.colima/default/colima.yaml
 
+install-act:
+	rm -rf ~/.actrc
+	ln -s `pwd`/actrc ~/.actrc
+
 install-brew:
 	brew install asdf
 	brew install awscli
@@ -170,6 +175,7 @@ install-brew:
 	brew install bitwarden-cli
 	brew install lolcat
 	brew install cowsay
+	brew install act
 
 install-brew-cask:
 	brew install --cask brave-browser
