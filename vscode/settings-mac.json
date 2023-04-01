@@ -166,7 +166,7 @@
         "vs-kubernetes.crd-code-completion": "disabled"
     },
     "window.newWindowDimensions": "inherit",
-    "window.openFoldersInNewWindow": "on",
+    "window.openFoldersInNewWindow":"off",
     "window.restoreWindows": "folders",
     "window.zoomLevel": 1,
     "workbench.colorCustomizations": {
