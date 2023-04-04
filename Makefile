@@ -274,6 +274,8 @@ install-pip:
 	pip install devtools[pygments]
 	pip install pip-compile
 	pip install crossplane
+	pip install matplotlib
+	pip install scipy
 
 install-cargo:
 	cargo install when-cli
