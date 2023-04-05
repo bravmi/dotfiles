@@ -68,5 +68,9 @@
         "key": "cmd+.",
         "command": "-editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+k e",
+        "command": "workbench.files.action.showActiveFileInExplorer"
     }
 ]
