@@ -216,6 +216,7 @@ install-brew-mac:
 	brew install ffmpeg
 	brew install nano
 	brew install mosh
+	brew install bluesnooze
 
 install-pip:
 	pip install aiofiles
