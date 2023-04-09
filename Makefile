@@ -217,6 +217,7 @@ install-brew-mac:
 	brew install nano
 	brew install mosh
 	brew install bluesnooze
+	brew install blueutil
 
 install-pip:
 	pip install aiofiles
