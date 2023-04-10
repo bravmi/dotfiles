@@ -176,6 +176,7 @@ install-brew:
 	brew install lolcat
 	brew install cowsay
 	brew install act
+	brew install dependency-check
 
 install-brew-cask:
 	brew install --cask brave-browser
