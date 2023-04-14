@@ -36,7 +36,7 @@
     "debug.inlineValues": "on",
     // "debug.console.fontSize": 12.5,
     "debug.internalConsoleOptions": "openOnSessionStart",
-    "debug.openExplorerOnEnd": true,
+    "debug.openExplorerOnEnd": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.autoIndent": "full",
     "editor.detectIndentation": false,
