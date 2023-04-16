@@ -177,6 +177,7 @@ install-brew:
 	brew install cowsay
 	brew install act
 	brew install dependency-check
+	brew install doctl
 
 install-brew-cask:
 	brew install --cask brave-browser
