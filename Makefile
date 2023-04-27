@@ -204,6 +204,7 @@ install-brew-cask:
 	brew install --cask pycharm-ce
 	brew install --cask keepassxc
 	brew install --cask bitwarden
+	brew install --cask google-cloud-sdk
 
 install-brew-mac:
 	brew install gnu-sed
