@@ -281,6 +281,7 @@ install-pip:
 	pip install crossplane
 	pip install matplotlib
 	pip install scipy
+	pip install bandit
 
 install-cargo:
 	cargo install when-cli
