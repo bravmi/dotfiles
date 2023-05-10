@@ -222,6 +222,7 @@ install-brew-mac:
 	brew install bluesnooze
 	brew install blueutil
 
+# TODO: make it pipx
 install-pip:
 	pip install aiofiles
 	pip install aiohttp
