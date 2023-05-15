@@ -584,3 +584,5 @@ c.Completer.backslash_combining_completions = True
 ## If True, any %store-d variables will be automatically restored when IPython
 #  starts.
 #c.StoreMagics.autorestore = False
+
+c.TerminalInteractiveShell.shortcuts = [{"command": "IPython:auto_suggest.resume_hinting", "new_keys": []}]
