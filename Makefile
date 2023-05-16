@@ -283,6 +283,7 @@ install-pip:
 	pip install matplotlib
 	pip install scipy
 	pip install bandit
+	pip install pymysql
 
 install-cargo:
 	cargo install when-cli
