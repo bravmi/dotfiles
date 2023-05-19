@@ -63,3 +63,5 @@ alias hist=history
 alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
 
 alias dc=cd
+
+alias rg='rg --smart-case'
