@@ -284,6 +284,7 @@ install-pip:
 	pip install scipy
 	pip install bandit
 	pip install pymysql
+	pip install aiodns
 
 install-cargo:
 	cargo install when-cli
