@@ -285,6 +285,7 @@ install-pip:
 	pip install bandit
 	pip install pymysql
 	pip install aiodns
+	pip install asyncpg
 
 install-cargo:
 	cargo install when-cli
