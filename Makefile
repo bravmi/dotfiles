@@ -286,6 +286,7 @@ install-pip:
 	pip install pymysql
 	pip install aiodns
 	pip install asyncpg
+	pip install greenlet
 
 install-cargo:
 	cargo install when-cli
