@@ -287,6 +287,7 @@ install-pip:
 	pip install aiodns
 	pip install asyncpg
 	pip install greenlet
+	pip install gevent
 
 install-cargo:
 	cargo install when-cli
