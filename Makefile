@@ -289,6 +289,7 @@ install-pip:
 	pip install asyncpg
 	pip install greenlet
 	pip install gevent
+	pip install s3fs
 
 install-cargo:
 	cargo install when-cli
