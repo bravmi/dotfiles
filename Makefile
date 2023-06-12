@@ -295,6 +295,10 @@ install-pip:
 install-cargo:
 	cargo install when-cli
 
+install-go:
+	go install github.com/deviceinsight/kafkactl@latest
+	go install github.com/wader/fq@latest
+
 update-submodules:
 	git submodule update --init --recursive --remote
 
