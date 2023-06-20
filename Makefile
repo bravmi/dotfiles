@@ -291,6 +291,7 @@ install-pip:
 	pip install greenlet
 	pip install gevent
 	pip install s3fs
+	pip install psycopg
 
 install-cargo:
 	cargo install when-cli
