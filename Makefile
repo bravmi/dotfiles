@@ -292,6 +292,7 @@ install-pip:
 	pip install gevent
 	pip install s3fs
 	pip install psycopg
+	pip install psycopg2
 
 install-cargo:
 	cargo install when-cli
