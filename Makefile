@@ -211,7 +211,7 @@ install-brew-mac:
 	brew install gnu-sed
 	brew install mysql
 	brew install nmap
-	brew install postgresql
+	brew install postgresql@14
 	brew install telnet
 	brew install wget
 	brew install findutils
