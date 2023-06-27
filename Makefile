@@ -223,6 +223,7 @@ install-brew-mac:
 	brew install bluesnooze
 	brew install blueutil
 	brew install kcat
+	brew install mas
 
 # TODO: make it pipx
 install-pip:
