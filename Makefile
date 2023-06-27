@@ -206,6 +206,7 @@ install-brew-cask:
 	brew install --cask keepassxc
 	brew install --cask bitwarden
 	brew install --cask google-cloud-sdk
+	brew install --cask tailscale
 
 install-brew-mac:
 	brew install gnu-sed
