@@ -231,6 +231,7 @@ install-brew-mac:
 	brew install blueutil
 	brew install kcat
 	brew install renameutils
+	brew install exa
 
 # TODO: make it pipx
 install-pip:
