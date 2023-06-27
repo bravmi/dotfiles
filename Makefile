@@ -52,6 +52,7 @@ install-tmux-mac:
 	ln -s `pwd`/tmux/mac.conf ~/.tmux.conf
 
 install-micro-mac:
+	mkdir -p ~/.config/micro/
 	rm -f ~/.config/micro/bindings.json
 	ln -s `pwd`/micro/bindings-mac.json ~/.config/micro/bindings.json
 	rm -f ~/.config/micro/settings.json
@@ -64,14 +65,16 @@ install-sublime-mac:
 	ln -s `pwd`/sublime/Default-mac.sublime-keymap "$$HOME/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
 
 install-vscode-mac:
+	mkdir -p "$$HOME/Library/Application Support/Code/User/"
 	rm -f "$$HOME/Library/Application Support/Code/User/settings.json"
 	ln -s `pwd`/vscode/settings-mac.json "$$HOME/Library/Application Support/Code/User/settings.json"
 	rm -f "$$HOME/Library/Application Support/Code/User/keybindings.json"
 	ln -s `pwd`/vscode/keybindings-mac.json "$$HOME/Library/Application Support/Code/User/keybindings.json"
-	rm -rf "$$HOME/Library/Application Support/Code/User/snippets/"
+	rm -rf "$$HOME/Library/Application Support/Code/User/snippets"
 	ln -s `pwd`/vscode/snippets/ "$$HOME/Library/Application Support/Code/User/snippets"
 
 install-ipython:
+	mkdir -p ~/.ipython/profile_default/
 	rm -f ~/.ipython/profile_default/ipython_config.py
 	ln -s `pwd`/ipython/ipython_config.py ~/.ipython/profile_default/ipython_config.py
 	rm -rf ~/.ipython/extensions
@@ -90,10 +93,12 @@ install-sqlite:
 	ln -s `pwd`/sqliterc ~/.sqliterc
 
 install-lazydocker:
+	mkdir -p "$$HOME/Library/Application Support/lazydocker/"
 	rm -f "$$HOME/Library/Application Support/lazydocker/config.yml"
 	ln -s `pwd`/lazydocker/config.yml "$$HOME/Library/Application Support/lazydocker/config.yml"
 
 install-pgcli:
+	mkdir -p ~/.config/pgcli/
 	rm -f ~/.config/pgcli/config
 	ln -s `pwd`/pgcli/config ~/.config/pgcli/config
 
@@ -111,6 +116,7 @@ install-tig:
 	ln -s `pwd`/tigrc ~/.tigrc
 
 install-colima:
+	mkdir -p ~/.colima/default/
 	rm -rf ~/.colima/default/colima.yaml
 	ln -s `pwd`/colima/colima.yaml ~/.colima/default/colima.yaml
 
