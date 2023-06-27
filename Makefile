@@ -232,6 +232,7 @@ install-brew-mac:
 	brew install kcat
 	brew install renameutils
 	brew install exa
+	brew install docker
 
 # TODO: make it pipx
 install-pip:

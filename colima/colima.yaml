@@ -32,7 +32,8 @@ kubernetes:
   
   # Additional args to pass to k3s https://docs.k3s.io/cli/server
   # Default: traefik is disabled
-  k3sArgs: [--disable=traefik]
+  k3sArgs:
+    - --disable=traefik
 
 # Auto-activate on the Host for client access.
 # Setting to true does the following on startup
