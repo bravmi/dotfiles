@@ -124,6 +124,10 @@ install-act:
 	rm -rf ~/.actrc
 	ln -s `pwd`/actrc ~/.actrc
 
+install-asdf:
+	asdf plugin add python
+	asdf plugin add nodejs 
+
 install-brew:
 	brew install asdf
 	brew install awscli
