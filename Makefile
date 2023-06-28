@@ -308,6 +308,7 @@ install-pip:
 	pip install s3fs
 	pip install psycopg
 	pip install psycopg2
+	pip install guppy3
 
 install-cargo:
 	cargo install when-cli
