@@ -218,6 +218,7 @@ install-brew-cask:
 	brew install --cask google-cloud-sdk
 	brew install --cask tailscale
 	brew install --cask transmission
+	brew install --cask geekbench
 
 install-brew-mac:
 	brew install gnu-sed
