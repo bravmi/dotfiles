@@ -310,6 +310,7 @@ install-pip:
 	pip install psycopg2
 	pip install guppy3
 	pip install memory-profiler
+	pip install memray
 
 install-cargo:
 	cargo install when-cli
