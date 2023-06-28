@@ -65,3 +65,5 @@ alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
 alias dc=cd
 
 alias rg='rg --smart-case'
+
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
