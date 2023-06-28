@@ -309,6 +309,7 @@ install-pip:
 	pip install psycopg
 	pip install psycopg2
 	pip install guppy3
+	pip install memory-profiler
 
 install-cargo:
 	cargo install when-cli
