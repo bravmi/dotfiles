@@ -316,6 +316,9 @@ install-go:
 	go install github.com/deviceinsight/kafkactl@latest
 	go install github.com/wader/fq@latest
 
+install-npm:
+	npm i @githubnext/github-copilot-cli -g
+
 update-submodules:
 	git submodule update --init --recursive --remote
 
