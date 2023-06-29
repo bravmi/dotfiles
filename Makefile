@@ -323,7 +323,7 @@ install-go:
 	go install github.com/wader/fq@latest
 
 install-npm:
-	npm i @githubnext/github-copilot-cli -g
+	npm install @githubnext/github-copilot-cli --global
 
 update-submodules:
 	git submodule update --init --recursive --remote
