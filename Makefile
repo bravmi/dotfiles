@@ -239,6 +239,7 @@ install-brew-mac:
 	brew install renameutils
 	brew install exa
 	brew install docker
+	brew install tree
 
 # TODO: make it pipx
 install-pip:
