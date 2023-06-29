@@ -313,6 +313,7 @@ install-pip:
 	pip install memray
 	pip install memory-profiler
 	pip install psutil
+	pip install pyperformance
 
 install-cargo:
 	cargo install when-cli
