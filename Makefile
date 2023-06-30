@@ -219,6 +219,7 @@ install-brew-cask:
 	brew install --cask tailscale
 	brew install --cask transmission
 	brew install --cask geekbench
+	brew install --cask kindle
 
 install-brew-mac:
 	brew install gnu-sed
