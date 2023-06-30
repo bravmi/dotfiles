@@ -207,7 +207,6 @@ install-brew-cask:
 	brew install --cask slack
 	brew install --cask spotify
 	brew install --cask telegram
-	brew install --cask tunnelblick
 	brew install --cask visual-studio-code
 	brew install --cask zoom
 	brew install --cask openlens
