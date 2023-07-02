@@ -219,6 +219,7 @@ install-brew-cask:
 	brew install --cask transmission
 	brew install --cask geekbench
 	brew install --cask kindle
+	brew install --cask google-drive
 
 install-brew-mac:
 	brew install gnu-sed
