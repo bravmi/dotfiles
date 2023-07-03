@@ -221,6 +221,7 @@ install-brew-cask:
 	brew install --cask geekbench
 	brew install --cask kindle
 	brew install --cask google-drive
+	brew install --cask android-file-transfer
 
 install-brew-mac:
 	brew install gnu-sed
