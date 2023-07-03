@@ -189,6 +189,7 @@ install-brew:
 	brew install dependency-check
 	brew install doctl
 	brew install httpstat
+	brew install gping
 
 install-brew-cask:
 	brew install --cask brave-browser
