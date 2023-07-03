@@ -316,6 +316,7 @@ install-pip:
 	pip install memory-profiler
 	pip install psutil
 	pip install pyperformance
+	pip install yappi
 
 install-cargo:
 	cargo install when-cli
