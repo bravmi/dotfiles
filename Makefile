@@ -223,6 +223,7 @@ install-brew-cask:
 	brew install --cask google-drive
 	brew install --cask android-file-transfer
 	brew install --cask mattermost
+	brew install --cask docker
 
 install-brew-mac:
 	brew install gnu-sed
