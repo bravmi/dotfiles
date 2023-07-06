@@ -224,6 +224,7 @@ install-brew-cask:
 	brew install --cask android-file-transfer
 	brew install --cask mattermost
 	brew install --cask tunnelblick
+	brew install --cask docker
 
 install-brew-mac:
 	brew install gnu-sed
@@ -243,7 +244,6 @@ install-brew-mac:
 	brew install kcat
 	brew install renameutils
 	brew install exa
-	brew install docker
 	brew install tree
 	brew install rust
 
