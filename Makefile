@@ -245,6 +245,7 @@ install-brew-mac:
 	brew install exa
 	brew install docker
 	brew install tree
+	brew install rust
 
 # TODO: make it pipx
 install-pip:
