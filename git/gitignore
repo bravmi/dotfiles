@@ -9,3 +9,5 @@
 .vscode/
 
 .idea/
+
+.tool-versions
