@@ -34,6 +34,8 @@ if command -v colima &> /dev/null; then
     export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
 fi
 
+export DOCKER_CLI_HINTS=false
+
 # =other
 
 export EDITOR=micro
