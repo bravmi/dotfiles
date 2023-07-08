@@ -321,6 +321,7 @@ install-pip:
 	pip install psutil
 	pip install pyperformance
 	pip install yappi
+	pip install aiocron
 
 install-cargo:
 	cargo install when-cli
