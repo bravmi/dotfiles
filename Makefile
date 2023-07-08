@@ -191,6 +191,7 @@ install-brew:
 	brew install httpstat
 	brew install gping
 	brew install starship
+	brew install cmatrix
 
 install-brew-cask:
 	brew install --cask brave-browser
