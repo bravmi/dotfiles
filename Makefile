@@ -252,6 +252,7 @@ install-brew-mac:
 	brew install exa
 	brew install tree
 	brew install rust
+	brew install redis
 
 # TODO: make it pipx
 install-pip:
