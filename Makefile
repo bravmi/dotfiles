@@ -124,6 +124,10 @@ install-act:
 	rm -rf ~/.actrc
 	ln -s `pwd`/actrc ~/.actrc
 
+install-starship:
+	rm -rf ~/.config/starship.toml
+	ln -s `pwd`/starship.toml ~/.config/starship.toml
+
 install-asdf:
 	asdf plugin add python
 	asdf plugin add nodejs 
