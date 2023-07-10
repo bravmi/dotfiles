@@ -253,6 +253,7 @@ install-brew-mac:
 	brew install tree
 	brew install rust
 	brew install redis
+	brew install git-lfs
 
 # TODO: make it pipx
 install-pip:
