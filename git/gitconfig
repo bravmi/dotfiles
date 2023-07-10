@@ -15,5 +15,3 @@
     autoSetupRemote = true
 [includeIf "gitdir:~/path/"]
     path = ~/path/gitconfig
-[submodule]
-	recurse = true
