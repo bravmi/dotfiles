@@ -13,7 +13,7 @@ memory: 5
 
 # Architecture of the virtual machine (x86_64, aarch64, host).
 # Default: host
-arch: x86_64
+arch: host
 
 # Container runtime to be used (docker, containerd).
 # Default: docker
@@ -110,7 +110,7 @@ docker:
 # vz is macOS virtualization framework and requires macOS 13
 #
 # Default: qemu
-vmType: qemu
+vmType: vz
 
 # Utilise rosetta for amd64 emulation (requires m1 mac and vmType `vz`)
 # Default: false
@@ -126,7 +126,7 @@ rosetta: false
 # of concurrent reads or writes).
 #
 # Default: virtiofs (for vz), sshfs (for qemu)
-mountType: sshfs
+mountType: virtiofs
 
 # Propagate inotify file events to the VM.
 # NOTE: this is experimental.
