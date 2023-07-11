@@ -254,6 +254,7 @@ install-brew-mac:
 	brew install rust
 	brew install redis
 	brew install git-lfs
+	brew install grpcurl
 
 # TODO: make it pipx
 install-pip:
