@@ -331,6 +331,7 @@ install-pip:
 	pip install pyperformance
 	pip install yappi
 	pip install aiocron
+	pip install prometheus-client
 
 install-cargo:
 	cargo install when-cli
