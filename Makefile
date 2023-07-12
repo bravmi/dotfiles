@@ -332,6 +332,7 @@ install-pip:
 	pip install yappi
 	pip install aiocron
 	pip install prometheus-client
+	pip install orjson
 
 install-cargo:
 	cargo install when-cli
