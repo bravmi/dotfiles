@@ -118,7 +118,7 @@ install-tig:
 install-colima:
 	mkdir -p ~/.colima/default/
 	rm -rf ~/.colima/default/colima.yaml
-	ln -s `pwd`/colima/colima.yaml ~/.colima/default/colima.yaml
+	ln -s `pwd`/colima/default/colima.yaml ~/.colima/default/colima.yaml
 
 install-act:
 	rm -rf ~/.actrc
