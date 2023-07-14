@@ -255,6 +255,7 @@ install-brew-mac:
 	brew install redis
 	brew install git-lfs
 	brew install grpcurl
+	brew install iproute2mac
 
 # TODO: make it pipx
 install-pip:
