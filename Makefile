@@ -343,6 +343,7 @@ install-go:
 
 install-npm:
 	npm install @githubnext/github-copilot-cli --global
+	npm install gitlab-search --global
 
 update-submodules:
 	git submodule update --init --recursive --remote
