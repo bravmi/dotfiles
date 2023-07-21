@@ -335,6 +335,7 @@ install-pip:
 	pip install aiocron
 	pip install prometheus-client
 	pip install orjson
+	pip install python-jose
 
 install-cargo:
 	cargo install when-cli
