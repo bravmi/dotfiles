@@ -5,6 +5,7 @@
     br = branch
     sw = switch
     fa = fetch --all
+    re = restore
     push-fwl = push --force-with-lease
     push-fii = push --force-with-lease --force-if-includes
 [core]
