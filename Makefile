@@ -336,6 +336,7 @@ install-pip:
 	pip install prometheus-client
 	pip install orjson
 	pip install python-jose
+	pip install boto3
 
 install-cargo:
 	cargo install when-cli
