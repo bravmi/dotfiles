@@ -197,6 +197,7 @@ install-brew:
 	brew install starship
 	brew install cmatrix
 	brew install golangci-lint
+	brew install nsq
 
 install-brew-cask:
 	brew install --cask brave-browser
