@@ -120,6 +120,11 @@ install-colima:
 	rm -rf ~/.colima/default/colima.yaml
 	ln -s `pwd`/colima/default/colima.yaml ~/.colima/default/colima.yaml
 
+install-colima-qemu:
+	mkdir -p ~/.colima/qemu/
+	rm -rf ~/.colima/qemu/colima.yaml
+	ln -s `pwd`/colima/qemu/colima.yaml ~/.colima/qemu/colima.yaml
+
 install-act:
 	rm -rf ~/.actrc
 	ln -s `pwd`/actrc ~/.actrc
