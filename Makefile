@@ -238,6 +238,7 @@ install-brew-cask:
 	brew install --cask mattermost
 	brew install --cask tunnelblick
 	brew install --cask docker
+	brew install --cask dash
 
 install-brew-mac:
 	brew install gnu-sed
