@@ -352,6 +352,7 @@ install-go:
 	go install github.com/deviceinsight/kafkactl@latest
 	go install github.com/wader/fq@latest
 	go install github.com/projectdiscovery/httpx/cmd/httpx@latest
+	go install github.com/boyter/cs@latest
 
 install-npm:
 	npm install @githubnext/github-copilot-cli --global
