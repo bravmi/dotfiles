@@ -264,6 +264,7 @@ install-brew-mac:
 	brew install git-lfs
 	brew install grpcurl
 	brew install iproute2mac
+	brew install openblas
 
 # TODO: make it pipx
 install-pip:
