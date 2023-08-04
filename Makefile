@@ -203,6 +203,7 @@ install-brew:
 	brew install cmatrix
 	brew install golangci-lint
 	brew install nsq
+	brew install logcli
 
 install-brew-cask:
 	brew install --cask brave-browser
