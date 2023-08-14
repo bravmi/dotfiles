@@ -240,6 +240,8 @@ install-brew-cask:
 	brew install --cask tunnelblick
 	brew install --cask docker
 	brew install --cask dash
+	brew install --cask kitty
+	brew install --cask alacritty
 
 install-brew-mac:
 	brew install gnu-sed
