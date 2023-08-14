@@ -266,6 +266,7 @@ install-brew-mac:
 	brew install grpcurl
 	brew install iproute2mac
 	brew install openblas
+	brew install fish
 
 # TODO: make it pipx
 install-pip:
