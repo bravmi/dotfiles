@@ -133,6 +133,10 @@ install-starship:
 	rm -rf ~/.config/starship.toml
 	ln -s `pwd`/starship.toml ~/.config/starship.toml
 
+install-kitty:
+	rm -rf ~/.config/kitty/kitty.conf
+	ln -s `pwd`/kitty/kitty.conf ~/.config/kitty/kitty.conf
+
 install-asdf:
 	asdf plugin add python
 	asdf plugin add nodejs 
