@@ -411,17 +411,6 @@
 			</array>
 			<key>Keyboard Map</key>
 			<dict>
-				<key>0x20-0x20000-0x31</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Label</key>
-					<string></string>
-					<key>Text</key>
-					<string>[5~</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
 				<key>0x2a-0x200000</key>
 				<dict>
 					<key>Action</key>
