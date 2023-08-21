@@ -145,3 +145,5 @@ setopt hist_save_no_dups
 
 export HISTSIZE=50000
 export SAVEHIST=$HISTSIZE
+
+test -e /Users/mtomilov/.iterm2_shell_integration.zsh && source /Users/mtomilov/.iterm2_shell_integration.zsh || true
