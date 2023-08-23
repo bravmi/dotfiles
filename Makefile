@@ -273,6 +273,7 @@ install-brew-mac:
 	brew install iproute2mac
 	brew install openblas
 	brew install fish
+	brew install azure-cli
 
 # TODO: make it pipx
 install-pip:
