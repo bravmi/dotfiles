@@ -354,6 +354,8 @@ install-pip:
 	pip install orjson
 	pip install python-jose
 	pip install boto3
+	pip install confluent-kafka
+	pip install aiokafka
 
 install-cargo:
 	cargo install when-cli
