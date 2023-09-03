@@ -44,28 +44,6 @@
 			<key>Version</key>
 			<integer>1</integer>
 		</dict>
-		<key>0x66-0x100000-0x3</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Label</key>
-			<string></string>
-			<key>Text</key>
-			<string>0x06</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<key>0x6e-0x100000-0x2d</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Label</key>
-			<string></string>
-			<key>Text</key>
-			<string>0x0e</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
 		<key>0x71-0x100000-0xc</key>
 		<dict>
 			<key>Action</key>
