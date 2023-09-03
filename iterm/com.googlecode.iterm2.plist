@@ -3084,6 +3084,8 @@
 	<false/>
 	<key>Print In Black And White</key>
 	<true/>
+	<key>RightCommand</key>
+	<integer>1</integer>
 	<key>ShowFullScreenTabBar</key>
 	<true/>
 	<key>SoundForEsc</key>
