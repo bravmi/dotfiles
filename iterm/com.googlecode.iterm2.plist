@@ -152,6 +152,8 @@
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>LeftCommand</key>
+	<integer>7</integer>
 	<key>Log Smart Selection Debug Info</key>
 	<integer>0</integer>
 	<key>New Bookmarks</key>
@@ -3085,7 +3087,7 @@
 	<key>Print In Black And White</key>
 	<true/>
 	<key>RightCommand</key>
-	<integer>1</integer>
+	<integer>8</integer>
 	<key>ShowFullScreenTabBar</key>
 	<true/>
 	<key>SoundForEsc</key>
@@ -3099,6 +3101,8 @@
 	<key>TabViewType</key>
 	<integer>1</integer>
 	<key>UseBorder</key>
+	<false/>
+	<key>UseVirtualKeyCodesForDetectingDigits</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
