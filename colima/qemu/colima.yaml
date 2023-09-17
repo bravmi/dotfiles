@@ -111,7 +111,7 @@ vmType: qemu
 
 # Utilise rosetta for amd64 emulation (requires m1 mac and vmType `vz`)
 # Default: false
-rosetta: false
+rosetta: true
 
 # Volume mount driver for the virtual machine (virtiofs, 9p, sshfs).
 #
