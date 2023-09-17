@@ -33,7 +33,7 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
-		<key>0x2e-0x100000-0x2f</key>
+		<key>0x63-0x100000-0x8</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
@@ -41,6 +41,17 @@
 			<string></string>
 			<key>Text</key>
 			<string>0x03</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<key>0x64-0x100000-0x2</key>
+		<dict>
+			<key>Action</key>
+			<integer>11</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string>0x04</string>
 			<key>Version</key>
 			<integer>1</integer>
 		</dict>
@@ -3111,7 +3122,7 @@
 	<key>RightCommand</key>
 	<integer>8</integer>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>StatusBarPosition</key>
