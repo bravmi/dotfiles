@@ -142,155 +142,166 @@ install-asdf:
 	asdf plugin add nodejs 
 
 install-brew:
+	brew install act
 	brew install asdf
 	brew install awscli
 	brew install bat
+	brew install bitwarden-cli
 	brew install broot
+	brew install cmatrix
+	brew install cowsay
 	brew install ctop
 	brew install curlie
+	brew install dependency-check
 	brew install direnv
 	brew install dive
+	brew install doctl
 	brew install duf
 	brew install entr
 	brew install fd
 	brew install fzf
+	brew install gh
 	brew install glances
 	brew install glow
 	brew install go
+	brew install golangci-lint
+	brew install gping
 	brew install grc
 	brew install gron
 	brew install helm
 	brew install hey
 	brew install htop
+	brew install httpstat
 	brew install hyperfine
+	brew install jc
 	brew install jless
 	brew install jq
 	brew install k9s
+	brew install krew
 	brew install kubectx
 	brew install kubernetes-cli
 	brew install lazydocker
 	brew install lazygit
 	brew install litecli
+	brew install logcli
+	brew install lolcat
+	brew install lynx
 	brew install micro
 	brew install mtr
 	brew install mycli
 	brew install ncdu
 	brew install neofetch
 	brew install noti
+	brew install nsq
 	brew install pgcli
 	brew install pyenv
+	brew install ripgrep
+	brew install scc
 	brew install shellcheck
+	brew install shfmt
+	brew install sshuttle
+	brew install starship
 	brew install the_silver_searcher
 	brew install tig
 	brew install tldr
 	brew install tmux
-	brew install zsh-lovers
-	brew install ripgrep
 	brew install yt-dlp
-	brew install shfmt
-	brew install krew
 	brew install zoxide
-	brew install scc
-	brew install lynx
-	brew install sshuttle
-	brew install gh
-	brew install jc
-	brew install bitwarden-cli
-	brew install lolcat
-	brew install cowsay
-	brew install act
-	brew install dependency-check
-	brew install doctl
-	brew install httpstat
-	brew install gping
-	brew install starship
-	brew install cmatrix
-	brew install golangci-lint
-	brew install nsq
-	brew install logcli
+	brew install zsh-lovers
 
 install-brew-cask:
+	brew install --cask alacritty
+	brew install --cask android-file-transfer
+	brew install --cask bitwarden
 	brew install --cask brave-browser
 	brew install --cask clipy
+	brew install --cask dash
+	brew install --cask docker
 	brew install --cask docker
 	brew install --cask eul
+	brew install --cask geekbench
 	brew install --cask google-chrome
+	brew install --cask google-cloud-sdk
+	brew install --cask google-drive
 	brew install --cask hot
+	brew install --cask intellij-idea
 	brew install --cask iterm2
+	brew install --cask keepassxc
+	brew install --cask kindle
+	brew install --cask kitty
 	brew install --cask lens
+	brew install --cask mattermost
 	brew install --cask mimestream
+	brew install --cask openlens
 	brew install --cask postman
+	brew install --cask pycharm-ce
 	brew install --cask racket
 	brew install --cask rectangle
 	brew install --cask silicon-info
 	brew install --cask slack
 	brew install --cask spotify
+	brew install --cask tailscale
 	brew install --cask telegram
+	brew install --cask transmission
+	brew install --cask tunnelblick
 	brew install --cask visual-studio-code
 	brew install --cask zoom
-	brew install --cask openlens
-	brew install --cask intellij-idea
-	brew install --cask pycharm-ce
-	brew install --cask keepassxc
-	brew install --cask bitwarden
-	brew install --cask google-cloud-sdk
-	brew install --cask tailscale
-	brew install --cask transmission
-	brew install --cask geekbench
-	brew install --cask kindle
-	brew install --cask google-drive
-	brew install --cask android-file-transfer
-	brew install --cask mattermost
-	brew install --cask tunnelblick
-	brew install --cask docker
-	brew install --cask dash
-	brew install --cask kitty
-	brew install --cask alacritty
 
 install-brew-mac:
-	brew install gnu-sed
-	brew install mysql
-	brew install nmap
-	brew install postgresql@14
-	brew install telnet
-	brew install wget
-	brew install findutils
-	brew install graphviz
-	brew install colima
-	brew install ffmpeg
-	brew install nano
-	brew install mosh
+	brew install azure-cli
 	brew install bluesnooze
 	brew install blueutil
-	brew install kcat
-	brew install renameutils
+	brew install colima
 	brew install exa
-	brew install tree
-	brew install rust
-	brew install redis
+	brew install ffmpeg
+	brew install findutils
+	brew install fish
 	brew install git-lfs
+	brew install gnu-sed
+	brew install graphviz
 	brew install grpcurl
 	brew install iproute2mac
+	brew install kcat
+	brew install mosh
+	brew install mysql
+	brew install nano
+	brew install nmap
 	brew install openblas
-	brew install fish
-	brew install azure-cli
+	brew install postgresql@14
+	brew install redis
+	brew install renameutils
+	brew install rust
+	brew install telnet
+	brew install tree
+	brew install wget
 
 # TODO: make it pipx
 install-pip:
+	pip install aiocron
+	pip install aiodns
 	pip install aiofiles
 	pip install aiohttp
+	pip install aiokafka
 	pip install alembic
+	pip install asyncpg
 	pip install attrs
 	pip install awscli-local[ver1]
+	pip install bandit
 	pip install black
+	pip install boto3
+	pip install confluent-kafka
 	pip install cookiecutter
+	pip install crossplane
 	pip install databases[aiosqlite]
+	pip install devtools[pygments]
 	pip install django
 	pip install fastapi
 	pip install flake8
 	pip install flask
 	pip install flask-migrate
 	pip install furl
+	pip install gevent
+	pip install greenlet
 	pip install gunicorn
 	pip install httpie
 	pip install httpx
@@ -300,24 +311,40 @@ install-pip:
 	pip install isort
 	pip install jupyter
 	pip install localstack
+	pip install matplotlib
+	pip install memory-profiler
+	pip install memray
 	pip install mypy
 	pip install notebook
 	pip install numpy
+	pip install orjson
 	pip install pandas
+	pip install pendulum
 	pip install pip-autoremove
+	pip install pip-compile
 	pip install pipe
 	pip install poetry
 	pip install pony
 	pip install pre-commit
+	pip install prometheus-client
+	pip install psutil
+	pip install psycopg
+	pip install psycopg2
 	pip install psycopg2-binary
 	pip install pydantic
 	pip install pygments
+	pip install pymysql
+	pip install pyperformance
 	pip install pypyp
 	pip install pytest
 	pip install pytest-asyncio
+	pip install python-jose
 	pip install python-multipart
 	pip install pyupgrade
 	pip install reloadium
+	pip install rich
+	pip install s3fs
+	pip install scipy
 	pip install sentry-sdk[fastapi]
 	pip install sh
 	pip install speedtest-cli
@@ -328,44 +355,17 @@ install-pip:
 	pip install uvicorn[standard]
 	pip install watchfiles
 	pip install wheel
-	pip install rich
-	pip install pendulum
-	pip install devtools[pygments]
-	pip install pip-compile
-	pip install crossplane
-	pip install matplotlib
-	pip install scipy
-	pip install bandit
-	pip install pymysql
-	pip install aiodns
-	pip install asyncpg
-	pip install greenlet
-	pip install gevent
-	pip install s3fs
-	pip install psycopg
-	pip install psycopg2
-	pip install memray
-	pip install memory-profiler
-	pip install psutil
-	pip install pyperformance
 	pip install yappi
-	pip install aiocron
-	pip install prometheus-client
-	pip install orjson
-	pip install python-jose
-	pip install boto3
-	pip install confluent-kafka
-	pip install aiokafka
 
 install-cargo:
 	cargo install when-cli
 
 install-go:
-	go install github.com/deviceinsight/kafkactl@latest
-	go install github.com/wader/fq@latest
-	go install github.com/projectdiscovery/httpx/cmd/httpx@latest
-	go install github.com/boyter/cs@latest
 	go install github.com/antonmedv/walk@latest
+	go install github.com/boyter/cs@latest
+	go install github.com/deviceinsight/kafkactl@latest
+	go install github.com/projectdiscovery/httpx/cmd/httpx@latest
+	go install github.com/wader/fq@latest
 
 install-npm:
 	npm install @githubnext/github-copilot-cli --global
