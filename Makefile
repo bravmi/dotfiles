@@ -9,6 +9,7 @@ install:
 	make update-submodules
 
 install-more:
+	make install-act
 	make install-brew
 	make install-broot
 	make install-ipython
@@ -17,7 +18,6 @@ install-more:
 	make install-sqlite
 	make install-tig
 	make install-vim
-	make install-act
 
 install-mac:
 	make install-brew-cask
@@ -386,7 +386,7 @@ list:
 	| sort \
 	| uniq
 
-update:
+upgrade:
 	brew update && brew upgrade
 	omz update
 	$(MAKE) update-submodules
