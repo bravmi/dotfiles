@@ -386,7 +386,7 @@ list:
 	| sort \
 	| uniq
 
-upgrade:
+update:
 	brew update && brew upgrade
 	omz update
 	$(MAKE) update-submodules
