@@ -274,6 +274,7 @@ install-brew-mac:
 	brew install telnet
 	brew install tree
 	brew install wget
+	brew install android-platform-tools
 
 # TODO: make it pipx
 install-pip:
