@@ -1,8 +1,12 @@
+# Function to show virtualenv information
+virtualenv_info() {
+  echo -n $(virtualenv_prompt_info) ""
+}
+
 PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
-PROMPT+='%{$fg_bold[green]%}$(echo -n $(virtualenv_prompt_info) "")%{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
+PROMPT+='%{$fg_bold[green]%}$(virtualenv_info)%{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
-# TODO: remove arrow duplication
 ZSH_THEME_GIT_PROMPT_SUFFIX="
 %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗"
