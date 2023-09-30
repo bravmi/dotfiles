@@ -275,6 +275,7 @@ install-brew-mac:
 	brew install tree
 	brew install wget
 	brew install android-platform-tools
+	brew install socat
 
 # TODO: make it pipx
 install-pip:
