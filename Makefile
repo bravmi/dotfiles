@@ -358,6 +358,7 @@ install-pip:
 	pip install watchfiles
 	pip install wheel
 	pip install yappi
+	pip install py-spy
 
 install-cargo:
 	cargo install when-cli
