@@ -80,6 +80,7 @@ plugins=(
     # command-not-found
     copypath
     direnv
+    docker
     docker-compose
     # git
     # kubectx

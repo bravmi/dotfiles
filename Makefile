@@ -217,7 +217,6 @@ install-brew-cask:
 	brew install --cask clipy
 	brew install --cask dash
 	brew install --cask docker
-	brew install --cask docker
 	brew install --cask eul
 	brew install --cask geekbench
 	brew install --cask google-chrome
