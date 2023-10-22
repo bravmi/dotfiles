@@ -362,6 +362,7 @@ install-pip:
 	pip install py-spy
 	pip install aiomonitor
 	pip install aioconsole
+	pip install aiodocker
 
 install-cargo:
 	cargo install when-cli
