@@ -361,6 +361,7 @@ install-pip:
 	pip install yappi
 	pip install py-spy
 	pip install aiomonitor
+	pip install aioconsole
 
 install-cargo:
 	cargo install when-cli
