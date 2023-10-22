@@ -360,6 +360,7 @@ install-pip:
 	pip install wheel
 	pip install yappi
 	pip install py-spy
+	pip install aiomonitor
 
 install-cargo:
 	cargo install when-cli
