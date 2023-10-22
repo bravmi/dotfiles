@@ -206,5 +206,6 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false
+    "yaml.schemaStore.enable": false,
+    "vscode-pets.theme": "forest"
 }
