@@ -363,6 +363,7 @@ install-pip:
 	pip install aiomonitor
 	pip install aioconsole
 	pip install aiodocker
+	pip install pillow
 
 install-cargo:
 	cargo install when-cli
