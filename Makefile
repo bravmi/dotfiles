@@ -269,7 +269,7 @@ install-brew-mac:
 	brew install postgresql@14
 	brew install redis
 	brew install renameutils
-	brew install rust
+	brew install rustup-init
 	brew install telnet
 	brew install tree
 	brew install wget
