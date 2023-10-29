@@ -365,6 +365,7 @@ install-pip:
 	pip install aiodocker
 	pip install pillow
 	pip install opencv-python
+	pip install pyyaml
 
 install-cargo:
 	cargo install when-cli
