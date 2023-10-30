@@ -207,5 +207,6 @@
         "!Split sequence"
     ],
     "yaml.schemaStore.enable": false,
-    "vscode-pets.theme": "forest"
+    "vscode-pets.theme": "forest",
+    "git.openRepositoryInParentFolders": "never"
 }
