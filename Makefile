@@ -277,6 +277,7 @@ install-brew-mac:
 	brew install socat
 	brew install pstree
 	brew install jo
+	brew install btm
 
 # TODO: make it pipx
 install-pip:
