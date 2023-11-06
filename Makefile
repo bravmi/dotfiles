@@ -245,6 +245,7 @@ install-brew-cask:
 	brew install --cask tunnelblick
 	brew install --cask visual-studio-code
 	brew install --cask zoom
+	brew install --cask raycast
 
 install-brew-mac:
 	brew install azure-cli
