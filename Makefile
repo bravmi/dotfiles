@@ -279,6 +279,7 @@ install-brew-mac:
 	brew install pstree
 	brew install jo
 	brew install btm
+	brew install grep
 
 # TODO: make it pipx
 install-pip:
