@@ -369,6 +369,7 @@ install-pip:
 	pip install pillow
 	pip install opencv-python
 	pip install pyyaml
+	pip install dictdiffer
 
 install-cargo:
 	cargo install when-cli
