@@ -371,6 +371,7 @@ install-pip:
 	pip install opencv-python
 	pip install pyyaml
 	pip install dictdiffer
+	pip install pyopenssl
 
 install-cargo:
 	cargo install when-cli
