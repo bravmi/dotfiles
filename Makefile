@@ -247,6 +247,7 @@ install-brew-cask:
 	brew install --cask zoom
 	brew install --cask raycast
 	brew install --cask firefox
+	brew install --cask vlc
 
 install-brew-mac:
 	brew install azure-cli
