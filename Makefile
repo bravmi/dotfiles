@@ -282,6 +282,7 @@ install-brew-mac:
 	brew install jo
 	brew install btm
 	brew install grep
+	brew install mas 
 
 # TODO: make it pipx
 install-pip:
