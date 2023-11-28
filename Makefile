@@ -282,7 +282,8 @@ install-brew-mac:
 	brew install jo
 	brew install btm
 	brew install grep
-	brew install mas 
+	brew install mas
+	brew install ipcalc
 
 # TODO: make it pipx
 install-pip:
