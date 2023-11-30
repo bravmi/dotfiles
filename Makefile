@@ -208,6 +208,7 @@ install-brew:
 	brew install yt-dlp
 	brew install zoxide
 	brew install zsh-lovers
+	brew install certigo
 
 install-brew-cask:
 	brew install --cask alacritty
