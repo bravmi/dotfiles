@@ -376,6 +376,7 @@ install-pip:
 	pip install pyyaml
 	pip install dictdiffer
 	pip install pyopenssl
+	pip install aiostream
 
 install-cargo:
 	cargo install when-cli
