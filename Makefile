@@ -210,6 +210,7 @@ install-brew:
 	brew install zsh-lovers
 	brew install certigo
 	brew install trivy
+	brew install hadolint
 
 install-brew-cask:
 	brew install --cask alacritty
