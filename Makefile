@@ -378,6 +378,7 @@ install-pip:
 	pip install dictdiffer
 	pip install pyopenssl
 	pip install aiostream
+	pip install deptry
 
 install-cargo:
 	cargo install when-cli
