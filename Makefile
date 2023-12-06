@@ -380,6 +380,7 @@ install-pip:
 	pip install pyopenssl
 	pip install aiostream
 	pip install deptry
+	pip install vulture
 
 install-cargo:
 	cargo install when-cli
