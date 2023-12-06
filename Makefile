@@ -209,6 +209,7 @@ install-brew:
 	brew install zoxide
 	brew install zsh-lovers
 	brew install certigo
+	brew install trivy
 
 install-brew-cask:
 	brew install --cask alacritty
