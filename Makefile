@@ -381,6 +381,7 @@ install-pip:
 	pip install aiostream
 	pip install deptry
 	pip install vulture
+	pip install pygame
 
 install-cargo:
 	cargo install when-cli
