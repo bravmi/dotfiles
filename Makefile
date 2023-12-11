@@ -382,6 +382,7 @@ install-pip:
 	pip install deptry
 	pip install vulture
 	pip install pygame
+	pip install sympy
 
 install-cargo:
 	cargo install when-cli

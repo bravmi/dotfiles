@@ -2,7 +2,7 @@
     "[django-html]": {},
     "[go]": {
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
+            "source.organizeImports": "explicit"
         },
         "editor.codeLens": false,
         "editor.formatOnSave": true
