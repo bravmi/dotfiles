@@ -2,12 +2,37 @@
 
 .DS_store
 
-.envrc
+/.envrc
 
-.venv/
+/.venv/
+/.venv2/
 
-.vscode/
+/.vscode/
 
-.idea/
+/.idea/
 
-.tool-versions
+/.tool-versions
+
+tests/docker-compose-local.yml
+tests/.env.local
+/docker-compose-local.yml
+/.env.local
+/.env.remote
+
+/play.py
+/play.log
+/play.json
+/play.txt
+/play.sql
+/src/bin/play.rs
+
+/httpRequests
+
+tests/data/test_file.jpg
+/test_file.jpg
+
+__pycache__/
+
+*/settings/custom.py
+
+/deploy_resources
