@@ -383,6 +383,7 @@ install-pip:
 	pip install vulture
 	pip install pygame
 	pip install sympy
+	pip install yal
 
 install-cargo:
 	cargo install when-cli
