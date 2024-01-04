@@ -251,6 +251,7 @@ install-brew-cask:
 	brew install --cask raycast
 	brew install --cask firefox
 	brew install --cask vlc
+	brew install --cask tomatobar
 
 install-brew-mac:
 	brew install azure-cli
