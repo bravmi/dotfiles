@@ -386,6 +386,7 @@ install-pip:
 	pip install pygame
 	pip install sympy
 	pip install yal
+	pip install humanize
 
 install-cargo:
 	cargo install when-cli
