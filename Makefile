@@ -289,6 +289,7 @@ install-brew-mac:
 	brew install grep
 	brew install mas
 	brew install ipcalc
+	brew install clifm
 
 # TODO: make it pipx
 install-pip:
