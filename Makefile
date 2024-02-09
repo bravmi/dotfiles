@@ -290,6 +290,7 @@ install-brew-mac:
 	brew install mas
 	brew install ipcalc
 	brew install clifm
+	brew install gitlab-runner
 
 # TODO: make it pipx
 install-pip:
