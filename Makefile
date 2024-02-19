@@ -253,6 +253,7 @@ install-brew-cask:
 	brew install --cask vlc
 	brew install --cask tomatobar
 	brew install --cask ngrok
+	brew install --cask anki
 
 install-brew-mac:
 	brew install azure-cli
