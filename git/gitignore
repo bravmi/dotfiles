@@ -24,6 +24,7 @@ tests/.env.local
 /play.json
 /play.txt
 /play.sql
+/play.sh
 /src/bin/play.rs
 
 /httpRequests
