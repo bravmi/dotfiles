@@ -208,5 +208,6 @@
     ],
     "yaml.schemaStore.enable": false,
     "vscode-pets.theme": "forest",
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "editor.accessibilitySupport": "off"
 }
