@@ -14,5 +14,16 @@
     rebase = true
 [push]
     autoSetupRemote = true
-[includeIf "gitdir:~/path/"]
-    path = ~/path/gitconfig
+[merge]
+    ff = only
+	conflictstyle = zdiff3
+[user]
+    name = Michael T
+	email = bravmech@gmail.com
+[includeIf "gitdir:~/assaia/"]
+    path = ~/assaia/gitconfig
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

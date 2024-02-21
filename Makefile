@@ -83,6 +83,8 @@ install-ipython:
 install-git:
 	rm -f ~/.gitignore
 	ln -s `pwd`/git/gitignore ~/.gitignore
+	rm -f ~/.gitconfig
+	ln -s `pwd`/git/gitconfig ~/.gitconfig
 
 install-ssh-mac:
 	rm -f ~/.ssh/config
