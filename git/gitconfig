@@ -29,3 +29,5 @@
 	required = true
 [rerere]
 	enabled = true
+[diff]
+	algorithm = histogram
