@@ -256,6 +256,7 @@ install-brew-cask:
 	brew install --cask tomatobar
 	brew install --cask ngrok
 	brew install --cask anki
+	brew install --cask whatsapp
 
 install-brew-mac:
 	brew install azure-cli
