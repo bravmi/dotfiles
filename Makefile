@@ -213,6 +213,7 @@ install-brew:
 	brew install certigo
 	brew install trivy
 	brew install hadolint
+	brew install sd
 
 install-brew-cask:
 	brew install --cask alacritty
