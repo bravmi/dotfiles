@@ -394,6 +394,7 @@ install-pip:
 	pip install sympy
 	pip install yal
 	pip install humanize
+	pip install fastui
 
 install-cargo:
 	cargo install when-cli
