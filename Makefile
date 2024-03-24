@@ -297,6 +297,7 @@ install-brew-mac:
 	brew install clifm
 	brew install gitlab-runner
 	brew install unar
+	brew install djvulibre
 
 # TODO: make it pipx
 install-pip:
