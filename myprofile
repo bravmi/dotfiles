@@ -38,8 +38,17 @@ export DOCKER_CLI_HINTS=false
 
 # =other
 
+export LESS='-iRF'
+
 export EDITOR=micro
 export BAT_THEME='Monokai Extended'
+
+export HOMEBREW_NO_AUTO_UPDATE=0
+export HOMEBREW_NO_ANALYTICS=1
+
+export LANG=en_US.UTF-8
+
+export FZF_DEFAULT_OPTS='--multi --height=45%'
 
 alias sudo='sudo '
 
@@ -51,14 +60,7 @@ alias help=run-help
 alias idea='open -a "IntelliJ IDEA.app"'
 alias idean='open -na "IntelliJ IDEA.app" --args'
 
-export HOMEBREW_NO_AUTO_UPDATE=0
-export HOMEBREW_NO_ANALYTICS=1
-
-export FZF_DEFAULT_OPTS='--multi --height=45%'
-
 alias wts='github-copilot-cli what-the-shell'
-
-export LANG=en_US.UTF-8
 
 alias hist=history
 
@@ -69,3 +71,5 @@ alias dc=cd
 alias rg='rg --smart-case'
 
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+test -e /Users/mtomilov/.iterm2_shell_integration.zsh && source /Users/mtomilov/.iterm2_shell_integration.zsh || true

@@ -123,8 +123,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export LESS='-iRF'
-
 setopt noautomenu
 setopt nomenucomplete
 
@@ -135,10 +133,6 @@ bindkey "$terminfo[kcud1]" history-substring-search-down
 
 source $HOME/.config/broot/launcher/bash/br
 
-# eval "$(github-copilot-cli alias -- "$0")"
-
-# RPS1='$(kubectx_prompt_info)'
-
 setopt hist_find_no_dups
 setopt hist_ignore_all_dups
 setopt hist_reduce_blanks
@@ -146,5 +140,3 @@ setopt hist_save_no_dups
 
 export HISTSIZE=50000
 export SAVEHIST=$HISTSIZE
-
-test -e /Users/mtomilov/.iterm2_shell_integration.zsh && source /Users/mtomilov/.iterm2_shell_integration.zsh || true
