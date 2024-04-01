@@ -299,6 +299,7 @@ install-brew-mac:
 	brew install gitlab-runner
 	brew install unar
 	brew install djvulibre
+	brew install difftastic
 
 # TODO: make it pipx
 install-pip:
