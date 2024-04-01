@@ -10,6 +10,7 @@
     push-fii = push --force-with-lease --force-if-includes
 [core]
     excludesFile = ~/.gitignore
+    pager = diff-so-fancy | less --tabs=4
 [pull]
     rebase = true
 [push]
