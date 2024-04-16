@@ -399,6 +399,7 @@ install-pip:
 	pip install yal
 	pip install humanize
 	pip install fastui
+	pip install pyotp
 
 install-cargo:
 	cargo install when-cli
