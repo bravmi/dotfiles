@@ -400,6 +400,7 @@ install-pip:
 	pip install humanize
 	pip install fastui
 	pip install pyotp
+	pip install openai
 
 install-cargo:
 	cargo install when-cli
