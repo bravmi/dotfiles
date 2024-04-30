@@ -259,6 +259,7 @@ install-brew-cask:
 	brew install --cask anki
 	brew install --cask whatsapp
 	brew install --cask lulu
+	brew install --cask jetbrains-toolbox
 
 install-brew-mac:
 	brew install azure-cli
