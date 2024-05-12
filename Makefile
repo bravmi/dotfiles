@@ -260,6 +260,8 @@ install-brew-cask:
 	brew install --cask whatsapp
 	brew install --cask lulu
 	brew install --cask jetbrains-toolbox
+	brew install --cask 1password
+	brew install --cask 1password-cli
 
 install-brew-mac:
 	brew install azure-cli
