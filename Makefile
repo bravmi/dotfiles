@@ -262,6 +262,7 @@ install-brew-cask:
 	brew install --cask jetbrains-toolbox
 	brew install --cask 1password
 	brew install --cask 1password-cli
+	brew install --cask blockblock
 
 install-brew-mac:
 	brew install azure-cli
