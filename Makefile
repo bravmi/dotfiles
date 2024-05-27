@@ -263,6 +263,7 @@ install-brew-cask:
 	brew install --cask 1password
 	brew install --cask 1password-cli
 	brew install --cask blockblock
+	brew install --cask hiddenbar
 
 install-brew-mac:
 	brew install azure-cli
