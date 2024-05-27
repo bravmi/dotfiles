@@ -15,7 +15,7 @@
     },
     "[python]": {
         "editor.formatOnPaste": false,
-        "editor.formatOnSave": false,
+        "editor.formatOnSave": true,
         "editor.formatOnType": false
     },
     "[scheme]": {
@@ -30,18 +30,18 @@
     "[typescriptreact]": {
         "editor.tabSize": 2
     },
+    "black-formatter.importStrategy": "fromEnvironment",
     "debug.console.acceptSuggestionOnEnter": "on",
     "debug.console.closeOnEnd": true,
     "debug.console.fontFamily": "Monaco",
     "debug.inlineValues": "on",
-    // "debug.console.fontSize": 12.5,
     "debug.internalConsoleOptions": "openOnSessionStart",
     "debug.openExplorerOnEnd": true,
     "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
     "editor.autoIndent": "full",
     "editor.detectIndentation": false,
     "editor.fontFamily": "Monaco",
-    // "editor.fontSize": 12.5,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
     "editor.inlineSuggest.enabled": true,
@@ -83,11 +83,14 @@
         ".vscode": true
     },
     "files.insertFinalNewline": true,
+    "flake8.importStrategy": "fromEnvironment",
     "git.confirmSync": false,
     "git.ignoredRepositories": [
         "/opt/homebrew"
     ],
     "git.mergeEditor": false,
+    "git.openRepositoryInParentFolders": "never",
+    "github.copilot.editor.enableAutoCompletions": true,
     "github.copilot.enable": {
         "*": true,
         "markdown": true,
@@ -146,17 +149,16 @@
         "isort"
     ],
     "json.maxItemsComputed": 10000,
+    "mypy-type-checker.importStrategy": "fromEnvironment",
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "python.formatting.provider": "black",
     "python.languageServer": "Default",
     "python.terminal.activateEnvironment": false,
     "redhat.telemetry.enabled": false,
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.fontFamily": "Monaco",
-    // "terminal.integrated.fontSize": 12.5,
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.shellIntegration.enabled": false,
     "vs-kubernetes": {
@@ -165,8 +167,9 @@
         ],
         "vs-kubernetes.crd-code-completion": "disabled"
     },
+    "vscode-pets.theme": "forest",
     "window.newWindowDimensions": "inherit",
-    "window.openFoldersInNewWindow":"off",
+    "window.openFoldersInNewWindow": "off",
     "window.restoreWindows": "folders",
     "window.zoomLevel": 1,
     "workbench.colorCustomizations": {
@@ -206,8 +209,5 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false,
-    "vscode-pets.theme": "forest",
-    "git.openRepositoryInParentFolders": "never",
-    "editor.accessibilitySupport": "off"
+    "yaml.schemaStore.enable": false
 }
