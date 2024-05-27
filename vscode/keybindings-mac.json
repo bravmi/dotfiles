@@ -72,5 +72,10 @@
     {
         "key": "cmd+k e",
         "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "-workbench.action.quickchat.toggle",
+        "when": "chatIsEnabled"
     }
 ]
