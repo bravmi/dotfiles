@@ -305,6 +305,7 @@ install-brew-mac:
 	brew install unar
 	brew install djvulibre
 	brew install difftastic
+	brew install mongosh
 
 # TODO: make it pipx
 install-pip:
