@@ -306,6 +306,7 @@ install-brew-mac:
 	brew install djvulibre
 	brew install difftastic
 	brew install mongosh
+	brew install jordanbaird-ice
 
 # TODO: make it pipx
 install-pip:
