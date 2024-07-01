@@ -214,6 +214,7 @@ install-brew:
 	brew install trivy
 	brew install hadolint
 	brew install sd
+	brew install openvpn
 
 install-brew-cask:
 	brew install --cask alacritty
