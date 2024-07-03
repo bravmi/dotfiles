@@ -210,5 +210,6 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false
+    "yaml.schemaStore.enable": false,
+    "editor.stickyScroll.enabled": false
 }
