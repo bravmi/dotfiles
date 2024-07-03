@@ -53,6 +53,7 @@
         119
     ],
     "editor.smoothScrolling": true,
+    "editor.stickyScroll.scrollWithEditor": false,
     "editor.suggestSelection": "first",
     "editor.tabSize": 4,
     "editor.unicodeHighlight.ambiguousCharacters": false,
