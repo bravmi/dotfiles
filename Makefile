@@ -410,6 +410,7 @@ install-pip:
 	pip install fastui
 	pip install pyotp
 	pip install openai
+	pip install regex
 
 install-cargo:
 	cargo install when-cli
