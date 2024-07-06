@@ -8,6 +8,7 @@
     re = restore
     push-fwl = push --force-with-lease
     push-fii = push --force-with-lease --force-if-includes
+    graph = log --all --graph --decorate --oneline
 [core]
     excludesFile = ~/.gitignore
     pager = diff-so-fancy | less --tabs=4
