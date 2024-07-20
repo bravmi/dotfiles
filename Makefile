@@ -411,6 +411,7 @@ install-pip:
 	pip install pyotp
 	pip install openai
 	pip install regex
+	pip install faststream
 
 install-cargo:
 	cargo install when-cli
