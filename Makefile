@@ -413,6 +413,7 @@ install-pip:
 	pip install regex
 	pip install faststream
 	pip install bs4
+	pip install lxml
 
 install-cargo:
 	cargo install when-cli
