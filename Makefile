@@ -309,6 +309,7 @@ install-brew-mac:
 	brew install difftastic
 	brew install mongosh
 	brew install jordanbaird-ice
+	brew install hexyl
 
 # TODO: make it pipx
 install-pip:
