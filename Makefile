@@ -412,6 +412,7 @@ install-pip:
 	pip install openai
 	pip install regex
 	pip install faststream
+	pip install bs4
 
 install-cargo:
 	cargo install when-cli
