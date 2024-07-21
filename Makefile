@@ -302,7 +302,6 @@ install-brew-mac:
 	brew install grep
 	brew install mas
 	brew install ipcalc
-	brew install clifm
 	brew install gitlab-runner
 	brew install unar
 	brew install djvulibre
