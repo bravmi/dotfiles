@@ -50,6 +50,8 @@ export LANG=en_US.UTF-8
 
 export FZF_DEFAULT_OPTS='--multi --height=45%'
 
+export TIMEFMT=$'\nreal\t%*E\nuser\t%*U\nsys\t%*S'
+
 alias sudo='sudo '
 
 alias xl='exa --group-directories-first --classify --git'
