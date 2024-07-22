@@ -414,6 +414,7 @@ install-pip:
 	pip install faststream
 	pip install bs4
 	pip install lxml
+	pip install line-profiler
 
 install-cargo:
 	cargo install when-cli
