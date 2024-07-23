@@ -30,6 +30,9 @@
     "[typescriptreact]": {
         "editor.tabSize": 2
     },
+    "black-formatter.args": [
+        "--skip-string-normalization"
+    ],
     "black-formatter.importStrategy": "fromEnvironment",
     "debug.console.acceptSuggestionOnEnter": "on",
     "debug.console.closeOnEnd": true,
@@ -48,11 +51,11 @@
     "editor.minimap.enabled": true,
     "editor.renderWhitespace": "none",
     "editor.rulers": [
-        79,
         88,
         119
     ],
     "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": false,
     "editor.stickyScroll.scrollWithEditor": false,
     "editor.suggestSelection": "first",
     "editor.tabSize": 4,
@@ -84,6 +87,9 @@
         ".vscode": true
     },
     "files.insertFinalNewline": true,
+    "flake8.args": [
+        "max-line-lenght=88"
+    ],
     "flake8.importStrategy": "fromEnvironment",
     "git.confirmSync": false,
     "git.ignoredRepositories": [
@@ -210,6 +216,5 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false,
-    "editor.stickyScroll.enabled": false
+    "yaml.schemaStore.enable": false
 }
