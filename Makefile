@@ -309,6 +309,7 @@ install-brew-mac:
 	brew install mongosh
 	brew install jordanbaird-ice
 	brew install hexyl
+	brew install stress
 
 # TODO: make it pipx
 install-pip:
