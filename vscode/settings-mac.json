@@ -88,7 +88,7 @@
     },
     "files.insertFinalNewline": true,
     "flake8.args": [
-        "max-line-lenght=88"
+        "--max-line-lenght=88"
     ],
     "flake8.importStrategy": "fromEnvironment",
     "git.confirmSync": false,
