@@ -310,6 +310,7 @@ install-brew-mac:
 	brew install jordanbaird-ice
 	brew install hexyl
 	brew install stress
+	brew install basictex
 
 # TODO: make it pipx
 install-pip:
