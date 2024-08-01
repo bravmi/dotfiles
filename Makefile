@@ -311,6 +311,9 @@ install-brew-mac:
 	brew install hexyl
 	brew install stress
 	brew install basictex
+	brew install diff-so-fancy
+	brew install git-delta
+	brew install git-delta
 
 # TODO: make it pipx
 install-pip:
