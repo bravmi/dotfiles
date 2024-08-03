@@ -1,3 +1,5 @@
+#/usr/bin/env bash
+
 code --install-extension adpyke.vscode-sql-formatter
 code --install-extension alefragnani.Bookmarks
 code --install-extension eamodio.gitlens
