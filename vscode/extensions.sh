@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 
 code --install-extension adpyke.vscode-sql-formatter
 code --install-extension alefragnani.Bookmarks
