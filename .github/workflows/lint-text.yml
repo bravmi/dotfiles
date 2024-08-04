@@ -8,6 +8,10 @@ jobs:
 
     steps:
     - name: Lint text action
+      id: lint
       uses: bravmi/lint-text-action@master
       with:
         tool: 'proselint'  # Change to 'write-good' if preferred
+    - name: Get the linting output
+      run: echo "${{ steps.lint.outputs.result }}"
+
