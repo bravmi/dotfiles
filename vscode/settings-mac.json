@@ -1,5 +1,8 @@
 {
     "[django-html]": {},
+    "[github-actions-workflow]": {
+        "editor.tabSize": 2
+    },
     "[go]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
@@ -28,6 +31,9 @@
         "editor.tabSize": 2
     },
     "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
         "editor.tabSize": 2
     },
     "black-formatter.args": [

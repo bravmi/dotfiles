@@ -7,7 +7,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Lint text action
-      uses: bravmi/lint-text-action@v1
-      with:
-        tool: 'proselint'  # Change to 'write-good' if preferred
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Lint text action
+        id: lint
+        uses: bravmi/lint-text-action@master
+        with:
+          tool: 'proselint'  # Change to 'write-good' if preferred
+          ignore_paths: "zsh"

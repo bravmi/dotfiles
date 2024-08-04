@@ -7,11 +7,11 @@ jobs:
   shellcheck:
     name: Shellcheck
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master
         with:
-            ignore_paths: >-
-                zsh
+          ignore_paths: "zsh"
 
