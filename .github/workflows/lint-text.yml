@@ -8,6 +8,6 @@ jobs:
 
     steps:
     - name: Lint text action
-      uses: bravmi/lint-text-action@latest
+      uses: bravmi/lint-text-action@master
       with:
         tool: 'proselint'  # Change to 'write-good' if preferred
