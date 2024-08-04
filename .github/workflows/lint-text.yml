@@ -16,6 +16,3 @@ jobs:
         with:
           tool: 'proselint'  # Change to 'write-good' if preferred
           ignore_paths: "zsh"
-
-      - name: Get the linting output
-        run: echo "${{ steps.lint.outputs.result }}"
