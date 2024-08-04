@@ -1,6 +1,4 @@
 # dotfiles
 
 Inspired by https://github.com/mitsuhiko/dotfiles
-Inspred
-Inspirred
-Inspiredd
+John is very unique.
