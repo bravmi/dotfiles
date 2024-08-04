@@ -15,10 +15,11 @@ jobs:
         uses: bravmi/lint-text-action@master
         with:
           tool: 'proselint'  # Change to 'write-good' if preferred
+          ignore_paths: "zsh"
 
-      - name: Upload Build Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: workspace_artifacts
-          path: ${{ github.workspace }}
-
+      - name: Show lint results
+        run: |
+          ls -l /github/workspace
+          echo ${{ github.workspace }}
+          ls -l ${{ github.workspace }}
+          cat /github/workspace/lint.log
