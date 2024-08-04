@@ -19,7 +19,5 @@ jobs:
 
       - name: Show lint results
         run: |
-          ls -l /github/workspace
           echo ${{ github.workspace }}
           ls -l ${{ github.workspace }}
-          cat /github/workspace/lint.log
