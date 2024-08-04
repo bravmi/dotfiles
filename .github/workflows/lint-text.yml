@@ -17,7 +17,5 @@ jobs:
           tool: 'proselint'  # Change to 'write-good' if preferred
           ignore_paths: "zsh"
 
-      - name: Show lint results
-        run: |
-          echo ${{ github.workspace }}
-          ls -l ${{ github.workspace }}
+      - name: Get the linting output
+        run: echo "${{ steps.lint.outputs.result }}"
