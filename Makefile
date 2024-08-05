@@ -420,6 +420,7 @@ install-pip:
 	pip install bs4
 	pip install lxml
 	pip install line-profiler[ipython]
+	pip install manhole
 
 install-cargo:
 	cargo install when-cli
