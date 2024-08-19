@@ -74,4 +74,6 @@ alias rg='rg --smart-case'
 
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
+alias '$'=''
+
 test -e /Users/mtomilov/.iterm2_shell_integration.zsh && source /Users/mtomilov/.iterm2_shell_integration.zsh || true
