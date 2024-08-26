@@ -266,6 +266,7 @@ install-brew-cask:
 	brew install --cask blockblock
 	brew install --cask hiddenbar
 	brew install --cask openvpn-connect
+	brew install --cask zed
 
 install-brew-mac:
 	brew install azure-cli
