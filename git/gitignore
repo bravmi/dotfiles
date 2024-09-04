@@ -28,6 +28,7 @@ tests/.env.local
 /play.yaml
 /play.xml
 /play.prof
+/play.html
 /src/bin/play.rs
 
 /httpRequests
