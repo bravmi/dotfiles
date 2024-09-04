@@ -13,8 +13,8 @@
 
 /.tool-versions
 
-tests/docker-compose-local.yml
-tests/.env.local
+/tests/docker-compose-local.yml
+/tests/.env.local
 /docker-compose-local.yml
 /.env.local
 /.env.remote
@@ -33,7 +33,7 @@ tests/.env.local
 
 /httpRequests
 
-tests/data/test_file.jpg
+/tests/data/test_file.jpg
 /test_file.jpg
 
 __pycache__/
