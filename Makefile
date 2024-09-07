@@ -422,6 +422,7 @@ install-pip:
 	pip install line-profiler[ipython]
 	pip install manhole
 	pip install funcy
+	pip install time-machine
 
 install-cargo:
 	cargo install when-cli
