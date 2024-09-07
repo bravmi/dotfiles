@@ -421,6 +421,7 @@ install-pip:
 	pip install lxml
 	pip install line-profiler[ipython]
 	pip install manhole
+	pip install funcy
 
 install-cargo:
 	cargo install when-cli
