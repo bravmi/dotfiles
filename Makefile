@@ -423,6 +423,7 @@ install-pip:
 	pip install manhole
 	pip install funcy
 	pip install time-machine
+	pip install cryptography
 
 install-cargo:
 	cargo install when-cli
