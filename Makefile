@@ -424,6 +424,7 @@ install-pip:
 	pip install funcy
 	pip install time-machine
 	pip install cryptography
+	pip install docker
 
 install-cargo:
 	cargo install when-cli
