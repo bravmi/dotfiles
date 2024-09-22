@@ -425,6 +425,7 @@ install-pip:
 	pip install time-machine
 	pip install cryptography
 	pip install docker
+	pip install stringcase
 
 install-cargo:
 	cargo install when-cli

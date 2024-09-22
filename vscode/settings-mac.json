@@ -222,5 +222,6 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false
+    "yaml.schemaStore.enable": false,
+    "diffEditor.hideUnchangedRegions.enabled": true
 }
