@@ -24,6 +24,8 @@
 	email = bravmech@gmail.com
 [includeIf "gitdir:~/assaia/"]
     path = ~/assaia/gitconfig
+[includeIf "gitdir:~/src/exus-test/"]
+    path = ~/src/exus-test/gitconfig
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

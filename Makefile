@@ -426,6 +426,7 @@ install-pip:
 	pip install cryptography
 	pip install docker
 	pip install stringcase
+	pip install aiocache
 
 install-cargo:
 	cargo install when-cli
