@@ -427,6 +427,7 @@ install-pip:
 	pip install docker
 	pip install stringcase
 	pip install aiocache
+	pip install cachetools
 
 install-cargo:
 	cargo install when-cli
