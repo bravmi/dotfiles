@@ -11,7 +11,6 @@
     graph = log --all --graph --decorate --oneline
 [core]
     excludesFile = ~/.gitignore
-    pager = diff-so-fancy | less --tabs=4
 [pull]
     rebase = true
 [push]
@@ -34,6 +33,7 @@
 [diff]
 	algorithm = histogram
 	submodule = log
+    external = difft
 [url "git@github.com:"]
 	insteadOf = "https://github.com/"
 [status]
