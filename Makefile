@@ -215,6 +215,9 @@ install-brew:
 	brew install hadolint
 	brew install sd
 	brew install openvpn
+    brew install gpg2
+    brew install gnupg
+    brew install pinentry-mac
 
 install-brew-cask:
 	brew install --cask alacritty
