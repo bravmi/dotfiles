@@ -141,7 +141,7 @@ install-kitty:
 
 install-asdf:
 	asdf plugin add python
-	asdf plugin add nodejs 
+	asdf plugin add nodejs
 
 install-brew:
 	brew install act
@@ -218,6 +218,7 @@ install-brew:
     brew install gpg2
     brew install gnupg
     brew install pinentry-mac
+    brew install xq
 
 install-brew-cask:
 	brew install --cask alacritty
