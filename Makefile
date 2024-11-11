@@ -139,6 +139,10 @@ install-kitty:
 	rm -rf ~/.config/kitty/kitty.conf
 	ln -s `pwd`/kitty/kitty.conf ~/.config/kitty/kitty.conf
 
+install-zed:
+	rm -rf ~/.config/zed/settings.json
+	ln -s `pwd`/zed/settings.json ~/.config/zed/settings.json
+
 install-asdf:
 	asdf plugin add python
 	asdf plugin add nodejs
@@ -215,10 +219,10 @@ install-brew:
 	brew install hadolint
 	brew install sd
 	brew install openvpn
-    brew install gpg2
-    brew install gnupg
-    brew install pinentry-mac
-    brew install xq
+	brew install gpg2
+	brew install gnupg
+	brew install pinentry-mac
+	brew install xq
 
 install-brew-cask:
 	brew install --cask alacritty
@@ -432,7 +436,7 @@ install-pip:
 	pip install stringcase
 	pip install aiocache
 	pip install cachetools
-    pip install identify
+	pip install identify
 
 install-cargo:
 	cargo install when-cli
