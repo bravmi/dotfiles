@@ -22,5 +22,6 @@
     "dark": "One Dark"
   },
   "autosave": "on_focus_change",
-  "buffer_font_family": "Monaco"
+  "buffer_font_family": "Monaco",
+  "remove_trailing_whitespace_on_save": false
 }
