@@ -24,5 +24,8 @@
   "autosave": "on_focus_change",
   "buffer_font_family": "Monaco",
   "remove_trailing_whitespace_on_save": false,
-  "soft_wrap": "editor_width"
+  "soft_wrap": "editor_width",
+  "languages": {
+    "Lua": { "tab_size": 2 }
+  }
 }
