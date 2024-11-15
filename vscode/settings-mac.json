@@ -16,6 +16,10 @@
     "[javascript]": {
         "editor.tabSize": 2
     },
+    "[lua]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+    },
     "[python]": {
         "editor.formatOnPaste": false,
         "editor.formatOnSave": true,
@@ -46,6 +50,7 @@
     "debug.inlineValues": "on",
     "debug.internalConsoleOptions": "openOnSessionStart",
     "debug.openExplorerOnEnd": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.accessibilitySupport": "off",
     "editor.autoIndent": "full",
@@ -222,6 +227,5 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false,
-    "diffEditor.hideUnchangedRegions.enabled": true
+    "yaml.schemaStore.enable": false
 }
