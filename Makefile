@@ -142,6 +142,10 @@ install-kitty:
 install-zed:
 	rm -rf ~/.config/zed/settings.json
 	ln -s `pwd`/zed/settings.json ~/.config/zed/settings.json
+	
+install-hammerspoon:
+	rm -rf ~/.hammerspoon/init.lua
+	ln -s `pwd`/hammerspoon/init.lua ~/.hammerspoon/init.lua
 
 install-asdf:
 	asdf plugin add python
