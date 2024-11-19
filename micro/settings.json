@@ -1,5 +1,6 @@
 {
     "autoclose": false,
     "rmtrailingws": true,
+    "savecursor": true,
     "softwrap": true
 }
