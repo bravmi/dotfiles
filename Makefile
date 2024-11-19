@@ -227,6 +227,7 @@ install-brew:
 	brew install gnupg
 	brew install pinentry-mac
 	brew install xq
+	brew install todo-txt
 
 install-brew-cask:
 	brew install --cask alacritty
