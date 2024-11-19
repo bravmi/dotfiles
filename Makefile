@@ -146,6 +146,10 @@ install-zed:
 install-hammerspoon:
 	rm -rf ~/.hammerspoon/init.lua
 	ln -s `pwd`/hammerspoon/init.lua ~/.hammerspoon/init.lua
+	
+install-todo:
+	rm -rf ~/.todo/config
+	ln -s `pwd`/todo/config ~/.todo/config
 
 install-asdf:
 	asdf plugin add python
