@@ -17,7 +17,7 @@ function SetMacbookMicrophone()
 end
 
 function AudioDeviceWatcherCallback(event)
-  if event == "dev#" then
+  if event == "dev#" or event == "sOut" then
     hs.timer.doAfter(2, function()
       SetMacbookMicrophone()
     end)
