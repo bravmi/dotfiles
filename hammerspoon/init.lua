@@ -9,8 +9,12 @@ function SetMacbookMicrophone()
   local inputDevice = hs.audiodevice.findInputByName(deviceName)
 
   if inputDevice then
-    inputDevice:setDefaultInputDevice()
-    Logger.i("Switched to MacBook Microphone")
+    if hs.audiodevice.defaultInputDevice():name() == deviceName then
+      Logger.i("Already using MacBook Microphone")
+    else
+      inputDevice:setDefaultInputDevice()
+      Logger.i("Switched to MacBook Microphone")
+    end
   else
     Logger.i("MacBook Microphone not found!")
   end
