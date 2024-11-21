@@ -26,6 +26,7 @@
   "remove_trailing_whitespace_on_save": false,
   "soft_wrap": "editor_width",
   "languages": {
-    "Lua": { "tab_size": 2 }
+    "Lua": { "tab_size": 2 },
+    "Markdown": { "format_on_save": "off" }
   }
 }
