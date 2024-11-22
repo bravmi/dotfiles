@@ -27,6 +27,17 @@
   "soft_wrap": "editor_width",
   "languages": {
     "Lua": { "tab_size": 2 },
-    "Markdown": { "format_on_save": "off" }
+    "Markdown": { "format_on_save": "off" },
+    "Python": {
+      "format_on_save": {
+        "external": {
+          "command": "black",
+          "arguments": ["-"]
+        }
+      }
+    }
+  },
+  "telemetry": {
+    "metrics": false
   }
 }
