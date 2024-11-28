@@ -3,8 +3,9 @@
 cpu: 2
 
 # Size of the disk in GiB to be allocated to the virtual machine.
-# NOTE: changing this has no effect after the virtual machine has been created.
-# Default: 60
+# NOTE: value can only be increased after virtual machine has been created.
+#
+# Default: 100
 disk: 60
 
 # Size of the memory in GiB to be allocated to the virtual machine.
@@ -12,12 +13,21 @@ disk: 60
 memory: 5
 
 # Architecture of the virtual machine (x86_64, aarch64, host).
+#
+# NOTE: value cannot be changed after virtual machine is created.
 # Default: host
 arch: host
 
 # Container runtime to be used (docker, containerd).
+#
+# NOTE: value cannot be changed after virtual machine is created.
 # Default: docker
 runtime: docker
+
+# Set custom hostname for the virtual machine.
+# Default: colima
+#          colima-profile_name for other profiles
+hostname: colima
 
 # Kubernetes configuration for the virtual machine.
 kubernetes:
@@ -68,11 +78,13 @@ network:
   dnsHosts:
     host.docker.internal: host.lima.internal
   
-  # Network driver to use (slirp, gvproxy), (requires vmType `qemu`)
-  #   - slirp is the default user mode networking provided by Qemu
-  #   - gvproxy is an alternative to VPNKit based on gVisor https://github.com/containers/gvisor-tap-vsock
-  # Default: gvproxy
-  driver: gvproxy
+  # Replicate host IP addresses in the VM. This enables port forwarding to specific
+  # host IP addresses.
+  #   e.g. `docker run --port 10.0.1.2:8080:8080 alpine` would only forward to the
+  #   specified IP address.
+  #
+  # Default: false
+  hostAddresses: false
 
 # ===================================================================== #
 # ADVANCED CONFIGURATION
@@ -109,12 +121,17 @@ docker:
 #
 # vz is macOS virtualization framework and requires macOS 13
 #
+# NOTE: value cannot be changed after virtual machine is created.
 # Default: qemu
 vmType: vz
 
 # Utilise rosetta for amd64 emulation (requires m1 mac and vmType `vz`)
 # Default: false
 rosetta: true
+
+# Enable nested virtualization for the virtual machine (requires m3 mac and vmType `vz`)
+# Default: false
+nestedVirtualization: false
 
 # Volume mount driver for the virtual machine (virtiofs, 9p, sshfs).
 #
@@ -125,6 +142,7 @@ rosetta: true
 # sshfs is faster than 9p but the least reliable of the options (when there are lots
 # of concurrent reads or writes).
 #
+# NOTE: value cannot be changed after virtual machine is created.
 # Default: virtiofs (for vz), sshfs (for qemu)
 mountType: virtiofs
 
@@ -138,21 +156,13 @@ mountInotify: false
 # Default: host
 cpuType: host
 
-# For a more general purpose virtual machine, Ubuntu container is optionally provided
-# as a layer on the virtual machine.
-# The underlying virtual machine is still accessible via `colima ssh --layer=false` or running `colima` in
-# the Ubuntu session.
-#
-# Default: false
-layer: false
-
 # Custom provision scripts for the virtual machine.
 # Provisioning scripts are executed on startup and therefore needs to be idempotent.
 #
 # EXAMPLE - script executed as root
 # provision:
 #   - mode: system
-#     script: apk add htop vim
+#     script: apt-get install htop vim
 #
 # EXAMPLE - script executed as user
 # provision:
@@ -166,9 +176,15 @@ layer: false
 provision: []
 
 # Modify ~/.ssh/config automatically to include a SSH config for the virtual machine.
-# SSH config will still be generated in ~/.colima/ssh_config regardless.
+# SSH config will still be generated in $COLIMA_HOME/ssh_config regardless.
 # Default: true
 sshConfig: true
+
+# The port number for the SSH server for the virtual machine.
+# When set to 0, a random available port is used.
+#
+# Default: 0
+sshPort: 0
 
 # Configure volume mounts for the virtual machine.
 # Colima mounts user's home directory by default to provide a familiar
@@ -194,8 +210,3 @@ mounts: []
 #
 # Default: {}
 env: {}
-
-# Enable cgroups v2 as a temporary workaround for https://github.com/abiosoft/colima/issues/764.
-# NOTE: this is incompatible with Kubernetes and Ubuntu Layer.
-# NOTE: this config will be removed in future versions.
-cgroupsV2: false
