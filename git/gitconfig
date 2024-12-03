@@ -23,6 +23,8 @@
 	email = bravmech@gmail.com
 [includeIf "gitdir:~/assaia/"]
     path = ~/assaia/gitconfig
+[includeIf "gitdir:~/hypothesis/"]
+    path = ~/hypothesis/gitconfig
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
