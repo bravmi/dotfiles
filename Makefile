@@ -259,6 +259,7 @@ install-brew-cask:
 	brew install --cask openlens
 	brew install --cask postman
 	brew install --cask pycharm-ce
+	brew install --cask pycharm
 	brew install --cask racket
 	brew install --cask rectangle
 	brew install --cask silicon-info
