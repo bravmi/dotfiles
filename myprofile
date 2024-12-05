@@ -60,6 +60,7 @@ alias xll='xl --long'
 alias help=run-help
 
 alias idea='open -a "IntelliJ IDEA.app"'
+alias pycharm='open -a "PyCharm.app"'
 alias idean='open -na "IntelliJ IDEA.app" --args'
 
 alias wts='github-copilot-cli what-the-shell'
