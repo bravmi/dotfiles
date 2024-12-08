@@ -41,3 +41,5 @@ __pycache__/
 */settings/custom.py
 
 /deploy_resources
+
+/requirements/local.txt
