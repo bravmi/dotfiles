@@ -36,8 +36,6 @@
 	algorithm = histogram
 	submodule = log
     external = difft --display inline
-[url "git@github.com:"]
-	insteadOf = "https://github.com/"
 [status]
 	submoduleSummary = true
 [init]
