@@ -35,9 +35,9 @@ hs.audiodevice.watcher:start()
 
 local slackAppName = "Slack"
 
-hs.hotkey.bind({ "cmd" }, "K", function()
+hs.hotkey.bind({ "cmd" }, "k", function()
   local focusedApp = hs.application.frontmostApplication()
   if focusedApp:name() == slackAppName then
-    hs.eventtap.keyStroke({ "cmd", "shift" }, "U")
+    hs.eventtap.keyStroke({ "cmd", "shift" }, "u")
   end
 end)
