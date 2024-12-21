@@ -35,9 +35,14 @@ hs.audiodevice.watcher:start()
 
 local slackAppName = "Slack"
 
-hs.hotkey.bind({ "cmd" }, "k", function()
-  local focusedApp = hs.application.frontmostApplication()
-  if focusedApp:name() == slackAppName then
-    hs.eventtap.keyStroke({ "cmd", "shift" }, "u")
-  end
+local insertLink = hs.hotkey.new({ "cmd" }, "k", function()
+  hs.eventtap.keyStroke({ "cmd", "shift" }, "u")
 end)
+
+hs.window.filter.new(slackAppName)
+    :subscribe(hs.window.filter.windowFocused, function()
+      insertLink:enable()
+    end)
+    :subscribe(hs.window.filter.windowUnfocused, function()
+      insertLink:disable()
+    end)
