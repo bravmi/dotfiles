@@ -288,6 +288,7 @@ install-brew-cask:
 	brew install --cask zed
 	brew install --cask hammerspoon
 	brew install --cask fsnotes
+	brew install --cask goland
 
 install-brew-mac:
 	brew install azure-cli
