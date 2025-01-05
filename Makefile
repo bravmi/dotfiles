@@ -150,6 +150,10 @@ install-hammerspoon:
 install-todo:
 	rm -rf ~/.todo/config
 	ln -s `pwd`/todo/config ~/.todo/config
+	
+install-wezterm:
+	rm -rf ~/.wezterm.lua
+	ln -s `pwd`/wezterm.lua ~/.wezterm.lua
 
 install-asdf:
 	asdf plugin add python
