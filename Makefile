@@ -290,6 +290,7 @@ install-brew-cask:
 	brew install --cask fsnotes
 	brew install --cask goland
 	brew install --cask logseq
+	brew install --cask wezterm
 
 install-brew-mac:
 	brew install azure-cli
