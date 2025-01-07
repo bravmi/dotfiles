@@ -295,6 +295,7 @@ install-brew-cask:
 	brew install --cask goland
 	brew install --cask logseq
 	brew install --cask wezterm
+	brew install --cask ghostty
 
 install-brew-mac:
 	brew install azure-cli
