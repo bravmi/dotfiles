@@ -42,5 +42,5 @@ __pycache__/
 
 /deploy_resources
 
-/requirements/local.txt
-/requirements/local.in
+/requirements-local.in
+/requirements-local.txt
