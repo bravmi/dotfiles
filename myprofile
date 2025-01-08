@@ -43,7 +43,7 @@ export LESS='-iRF'
 export EDITOR=micro
 export BAT_THEME='Monokai Extended'
 
-export HOMEBREW_NO_AUTO_UPDATE=0
+export HOMEBREW_NO_AUTO_UPDATE=
 export HOMEBREW_NO_ANALYTICS=1
 
 export LANG=en_US.UTF-8
