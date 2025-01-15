@@ -35,13 +35,11 @@ install-apt:
 	apt install zoxide --yes
 	apt install zsh --yes
 
-install-profile-zsh:
-	rm -f ~/.profile.zsh
-	ln -s `pwd`/zsh/profile.zsh ~/.profile.zsh
-
 install-zsh:
 	rm -f ~/.zshrc
 	ln -s `pwd`/zsh/zshrc ~/.zshrc
+	rm -f ~/.zprofile
+	ln -s `pwd`/zsh/zprofile ~/.zprofile
 
 install-zsh-custom:
 	rm -rf ~/.zsh-custom
