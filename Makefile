@@ -44,6 +44,10 @@ install-zsh:
 install-zsh-custom:
 	rm -rf ~/.zsh-custom
 	ln -s `pwd`/zsh/custom ~/.zsh-custom
+	
+install-fish:
+	rm -f ~/.config/fish/config.fish
+	ln -s `pwd`/fish/config.fish ~/.config/fish/config.fish
 
 install-tmux-mac:
 	rm -f ~/.tmux.conf
