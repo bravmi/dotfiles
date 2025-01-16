@@ -5,9 +5,8 @@ config.font = wezterm.font 'Monaco'
 config.font_size = 14.5
 config.default_prog = { '/opt/homebrew/bin/fish' }
 config.tab_bar_at_bottom = true
-
 config.window_frame = {
-  font_size = 14.5,
+  font_size = 14.5
 }
 
 config.keys = {
