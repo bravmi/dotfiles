@@ -156,6 +156,10 @@ install-todo:
 install-wezterm:
 	rm -rf ~/.wezterm.lua
 	ln -s `pwd`/wezterm.lua ~/.wezterm.lua
+	
+install-ghostty:
+	rm -rf ~/.config/ghostty/config
+	ln -s `pwd`/ghostty/config ~/.config/ghostty/config
 
 install-asdf:
 	asdf plugin add python
