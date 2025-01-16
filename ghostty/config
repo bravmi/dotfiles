@@ -1,2 +1,5 @@
 font-family = "Monaco"
 font-size = 14.5
+
+keybind = cmd+alt+left=previous_tab
+keybind = cmd+alt+right=next_tab
