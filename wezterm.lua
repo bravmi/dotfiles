@@ -22,12 +22,12 @@ config.keys = {
   },
   {
     key = 'LeftArrow',
-    mods = 'CMD',
+    mods = 'CMD|ALT',
     action = wezterm.action.ActivateTabRelative(-1),
   },
   {
     key = 'RightArrow',
-    mods = 'CMD',
+    mods = 'CMD|ALT',
     action = wezterm.action.ActivateTabRelative(1),
   },
 }
