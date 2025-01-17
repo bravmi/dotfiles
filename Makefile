@@ -160,6 +160,10 @@ install-wezterm:
 install-ghostty:
 	rm -rf ~/.config/ghostty/config
 	ln -s `pwd`/ghostty/config ~/.config/ghostty/config
+	
+install-wget:
+	rm -rf ~/.wgetrc
+	ln -s `pwd`/wgetrc ~/.wgetrc
 
 install-asdf:
 	asdf plugin add python
