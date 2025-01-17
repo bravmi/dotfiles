@@ -1,9 +1,5 @@
 {
     "Alt-/": "lua:comment.comment",
-    "Alt-a": "SelectAll",
-    "Alt-q": "Quit",
-    "Alt-s": "Save",
-    "Alt-v": "Paste",
-    "Alt-c": "Copy",
+    "Ctrl-z": "Undo",
     "CtrlUnderscore": "lua:comment.comment"
 }
