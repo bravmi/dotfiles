@@ -39,5 +39,8 @@
   },
   "telemetry": {
     "metrics": false
+  },
+  "terminal": {
+    "copy_on_select": true
   }
 }
