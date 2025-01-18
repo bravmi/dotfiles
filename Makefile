@@ -247,6 +247,7 @@ install-brew:
 	brew install xq
 	brew install todo-txt
 	brew install yq
+	brew install zig
 
 install-brew-cask:
 	brew install --cask alacritty
