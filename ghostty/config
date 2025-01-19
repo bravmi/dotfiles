@@ -9,3 +9,9 @@ theme = "iTerm2 Default"
 cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
+
+keybind = cmd+c=text:\x03
+keybind = cmd+d=text:\x04
+keybind = cmd+s=text:\x13
+keybind = cmd+q=text:\x11
+keybind = cmd+b=text:\x02
