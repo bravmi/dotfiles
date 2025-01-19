@@ -9,16 +9,28 @@ config.window_frame = {
   font_size = 14.5
 }
 
+-- config.freetype_load_flags = 'NO_HINTING'
+-- config.freetype_load_target = 'Light'
+-- config.freetype_render_target = 'HorizontalLcd'
+-- config.front_end = 'WebGpu'
+-- config.bold_brightens_ansi_colors = false
+-- config.font_rules = {
+--   {
+--     intensity = 'Bold',
+--     font = wezterm.font('Monaco', { weight = 'DemiBold', stretch = 'Normal' })
+--   }
+-- }
+
 config.keys = {
   {
-    mods = "CMD",
-    key = "d",
-    action = wezterm.action.SendKey { mods = "CTRL", key = "d" },
+    mods = 'CMD',
+    key = 'd',
+    action = wezterm.action.SendKey { mods = 'CTRL', key = 'd' },
   },
   {
-    mods = "CMD",
-    key = "c",
-    action = wezterm.action.SendKey { mods = "CTRL", key = "c" },
+    mods = 'CMD',
+    key = 'c',
+    action = wezterm.action.SendKey { mods = 'CTRL', key = 'c' },
   },
   {
     mods = 'CMD|ALT',
@@ -33,12 +45,12 @@ config.keys = {
   {
     mods = 'CMD',
     key = 's',
-    action = wezterm.action.SendKey { mods = "CTRL", key = "s" },
+    action = wezterm.action.SendKey { mods = 'CTRL', key = 's' },
   },
   {
     mods = 'CMD',
     key = 'q',
-    action = wezterm.action.SendKey { mods = "CTRL", key = "q" },
+    action = wezterm.action.SendKey { mods = 'CTRL', key = 'q' },
   }
 }
 
