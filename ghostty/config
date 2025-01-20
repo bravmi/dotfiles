@@ -15,3 +15,5 @@ keybind = cmd+d=text:\x04
 keybind = cmd+s=text:\x13
 keybind = cmd+q=text:\x11
 keybind = cmd+b=text:\x02
+
+bold-is-bright = true
