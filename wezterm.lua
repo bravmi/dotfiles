@@ -6,8 +6,10 @@ config.font_size = 14.5
 config.default_prog = { '/opt/homebrew/bin/fish' }
 config.tab_bar_at_bottom = true
 config.window_frame = {
-  font_size = 14.5
+  font = wezterm.font("Monaco"),
+  font_size = 14.5,
 }
+config.command_palette_font_size = 14.5
 
 -- config.freetype_load_flags = 'NO_HINTING'
 -- config.freetype_load_target = 'Light'
@@ -51,7 +53,12 @@ config.keys = {
     mods = 'CMD',
     key = 'q',
     action = wezterm.action.SendKey { mods = 'CTRL', key = 'q' },
-  }
+  },
+  {
+    mods = "SHIFT|SUPER",
+    key = "p",
+    action = wezterm.action.ActivateCommandPalette
+  },
 }
 
 return config
