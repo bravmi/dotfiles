@@ -11,6 +11,10 @@ config.window_frame = {
 }
 config.command_palette_font_size = 14.5
 
+wezterm.on('update-right-status', function(window, pane)
+  window:set_right_status(window:active_workspace())
+end)
+
 -- config.freetype_load_flags = 'NO_HINTING'
 -- config.freetype_load_target = 'Light'
 -- config.freetype_render_target = 'HorizontalLcd'
@@ -58,6 +62,11 @@ config.keys = {
     mods = "SHIFT|SUPER",
     key = "p",
     action = wezterm.action.ActivateCommandPalette
+  },
+  {
+    key = '9',
+    mods = 'ALT',
+    action = wezterm.action.ShowLauncherArgs { flags = 'FUZZY|WORKSPACES' },
   },
 }
 
