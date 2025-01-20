@@ -11,6 +11,8 @@ config.window_frame = {
 }
 config.command_palette_font_size = 14.5
 
+config.window_close_confirmation = "NeverPrompt"
+
 wezterm.on('update-right-status', function(window, pane)
   window:set_right_status(window:active_workspace())
 end)
