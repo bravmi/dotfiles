@@ -2,6 +2,7 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 -- config.color_scheme = 'iTerm2 Pastel Dark Background'
+config.color_scheme = "Earthsong"
 config.font = wezterm.font('Monaco')
 config.font_size = 14.5
 config.default_prog = { '/opt/homebrew/bin/fish' }
