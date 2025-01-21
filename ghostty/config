@@ -8,7 +8,9 @@ theme = "iTerm2 Default"
 
 cursor-style = block
 cursor-style-blink = false
+
 shell-integration-features = no-cursor
+shell-integration = zsh
 
 keybind = cmd+c=text:\x03
 keybind = cmd+d=text:\x04
