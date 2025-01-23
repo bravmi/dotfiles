@@ -1,5 +1,6 @@
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
+local act = wezterm.action
 
 -- config.color_scheme = 'iTerm2 Pastel Dark Background'
 config.color_scheme = "Earthsong"
@@ -72,6 +73,8 @@ config.keys = {
     mods = 'ALT',
     action = wezterm.action.ShowLauncherArgs { flags = 'FUZZY|WORKSPACES' },
   },
+  { key = '`', mods = 'CMD', action = act.SwitchWorkspaceRelative(1) },
+  { key = '`', mods = 'CMD', action = act.SwitchWorkspaceRelative(-1) },
 }
 
 return config
