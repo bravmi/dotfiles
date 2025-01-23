@@ -33,48 +33,16 @@ end)
 -- }
 
 config.keys = {
-  {
-    mods = 'CMD',
-    key = 'd',
-    action = wezterm.action.SendKey { mods = 'CTRL', key = 'd' },
-  },
-  {
-    mods = 'CMD',
-    key = 'c',
-    action = wezterm.action.SendKey { mods = 'CTRL', key = 'c' },
-  },
-  {
-    mods = 'CMD|ALT',
-    key = 'LeftArrow',
-    action = wezterm.action.ActivateTabRelative(-1),
-  },
-  {
-    mods = 'CMD|ALT',
-    key = 'RightArrow',
-    action = wezterm.action.ActivateTabRelative(1),
-  },
-  {
-    mods = 'CMD',
-    key = 's',
-    action = wezterm.action.SendKey { mods = 'CTRL', key = 's' },
-  },
-  {
-    mods = 'CMD',
-    key = 'q',
-    action = wezterm.action.SendKey { mods = 'CTRL', key = 'q' },
-  },
-  {
-    mods = "SHIFT|SUPER",
-    key = "p",
-    action = wezterm.action.ActivateCommandPalette
-  },
-  {
-    key = '9',
-    mods = 'ALT',
-    action = wezterm.action.ShowLauncherArgs { flags = 'FUZZY|WORKSPACES' },
-  },
-  { key = '`', mods = 'CMD', action = act.SwitchWorkspaceRelative(1) },
-  { key = '`', mods = 'CMD', action = act.SwitchWorkspaceRelative(-1) },
+  { mods = 'CMD',         key = 'd',          action = act.SendKey { mods = 'CTRL', key = 'd' } },
+  { mods = 'CMD',         key = 'c',          action = act.SendKey { mods = 'CTRL', key = 'c' } },
+  { mods = 'CMD|ALT',     key = 'LeftArrow',  action = act.ActivateTabRelative(-1) },
+  { mods = 'CMD|ALT',     key = 'RightArrow', action = act.ActivateTabRelative(1) },
+  { mods = 'CMD',         key = 's',          action = act.SendKey { mods = 'CTRL', key = 's' } },
+  { mods = 'CMD',         key = 'q',          action = act.SendKey { mods = 'CTRL', key = 'q' } },
+  { mods = "SHIFT|SUPER", key = "p",          action = act.ActivateCommandPalette },
+  { mods = 'ALT',         key = '9',          action = act.ShowLauncherArgs { flags = 'FUZZY|WORKSPACES' } },
+  { mods = 'CMD',         key = '`',          action = act.SwitchWorkspaceRelative(1) },
+  { mods = 'CMD',         key = '`',          action = act.SwitchWorkspaceRelative(-1) },
 }
 
 return config
