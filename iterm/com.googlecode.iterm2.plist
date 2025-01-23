@@ -218,6 +218,8 @@
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>HotkeyTermAnimationDuration</key>
+	<real>0.15000000596046448</real>
 	<key>LeftCommand</key>
 	<integer>7</integer>
 	<key>Log Smart Selection Debug Info</key>
@@ -1376,6 +1378,8 @@
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
+			<key>Background Image Mode</key>
+			<integer>0</integer>
 			<key>Blend</key>
 			<real>0.5</real>
 			<key>Blinking Cursor</key>
