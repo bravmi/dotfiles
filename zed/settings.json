@@ -25,6 +25,7 @@
   "buffer_font_family": "Monaco",
   "remove_trailing_whitespace_on_save": false,
   "soft_wrap": "editor_width",
+  "format_on_save": "off",
   "languages": {
     "Lua": { "tab_size": 2 },
     "Markdown": { "format_on_save": "off" },
