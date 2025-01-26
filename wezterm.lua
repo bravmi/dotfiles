@@ -3,18 +3,18 @@ local config = wezterm.config_builder()
 local act = wezterm.action
 
 -- config.color_scheme = 'iTerm2 Pastel Dark Background'
-config.color_scheme = "Earthsong"
+config.color_scheme = 'Earthsong'
 config.font = wezterm.font('Monaco')
 config.font_size = 14.5
 config.default_prog = { '/opt/homebrew/bin/fish' }
 config.tab_bar_at_bottom = true
 config.window_frame = {
-  font = wezterm.font("Monaco"),
+  font = wezterm.font('Monaco'),
   font_size = 14.5,
 }
 config.command_palette_font_size = 14.5
 
-config.window_close_confirmation = "NeverPrompt"
+config.window_close_confirmation = 'NeverPrompt'
 
 wezterm.on('update-right-status', function(window, pane)
   window:set_right_status(window:active_workspace())
@@ -39,7 +39,7 @@ config.keys = {
   { mods = 'CMD|ALT',     key = 'RightArrow', action = act.ActivateTabRelative(1) },
   { mods = 'CMD',         key = 's',          action = act.SendKey { mods = 'CTRL', key = 's' } },
   { mods = 'CMD',         key = 'q',          action = act.SendKey { mods = 'CTRL', key = 'q' } },
-  { mods = "SHIFT|SUPER", key = "p",          action = act.ActivateCommandPalette },
+  { mods = 'SHIFT|SUPER', key = 'p',          action = act.ActivateCommandPalette },
   { mods = 'ALT',         key = '9',          action = act.ShowLauncherArgs { flags = 'FUZZY|WORKSPACES' } },
   { mods = 'CMD',         key = '`',          action = act.SwitchWorkspaceRelative(1) },
   { mods = 'CMD|SHIFT',         key = '`',          action = act.SwitchWorkspaceRelative(-1) },
