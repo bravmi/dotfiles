@@ -14,6 +14,10 @@
 	</array>
 	<key>Default Bookmark Guid</key>
 	<string>C4B1C1EA-7870-4E2C-90EF-86A26BD753A1</string>
+	<key>DimInactiveSplitPanes</key>
+	<true/>
+	<key>DimOnlyText</key>
+	<false/>
 	<key>DoubleClickPerformsSmartSelection</key>
 	<true/>
 	<key>DoubleReportScrollWheel</key>
@@ -3162,6 +3166,8 @@
 	<false/>
 	<key>SoundForEsc</key>
 	<false/>
+	<key>SplitPaneDimmingAmount</key>
+	<real>0.19932437044902912</real>
 	<key>StatusBarPosition</key>
 	<integer>0</integer>
 	<key>StretchTabsToFillBar</key>
