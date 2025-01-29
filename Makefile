@@ -144,6 +144,8 @@ install-kitty:
 install-zed:
 	rm -rf ~/.config/zed/settings.json
 	ln -s `pwd`/zed/settings.json ~/.config/zed/settings.json
+	rm -rf ~/.config/zed/keymap.json
+	ln -s `pwd`/zed/keymap.json ~/.config/zed/keymap.json
 	
 install-hammerspoon:
 	rm -rf ~/.hammerspoon/init.lua

@@ -1,0 +1,39 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      // "j k": ["workspace::SendKeystrokes", "escape"]
+    }
+  },
+  {
+    "context": "Editor && inline_completion && !showing_completions",
+    "bindings": {
+      "right": "editor::AcceptInlineCompletion"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "cmd-s": ["terminal::SendKeystroke", "ctrl-s"]
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "cmd-q": ["terminal::SendKeystroke", "ctrl-q"]
+    }
+  }  
+]
