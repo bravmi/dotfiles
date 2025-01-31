@@ -251,6 +251,7 @@ install-brew:
 	brew install yq
 	brew install zig
 	brew install btop
+	brew install zellij
 
 install-brew-cask:
 	brew install --cask alacritty
