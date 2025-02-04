@@ -166,6 +166,10 @@ install-ghostty:
 install-wget:
 	rm -rf ~/.wgetrc
 	ln -s `pwd`/wgetrc ~/.wgetrc
+	
+install-yt-dlp:
+	rm -rf ~/.config/yt-dlp/config
+	ln -s `pwd`/yt-dlp/config ~/.config/yt-dlp/config
 
 install-asdf:
 	asdf plugin add python
