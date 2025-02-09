@@ -19,5 +19,12 @@ keybind = cmd+d=text:\x04
 keybind = cmd+s=text:\x13
 keybind = cmd+q=text:\x11
 keybind = cmd+b=text:\x02
+keybind = cmd+v=paste_from_clipboard
 
 bold-is-bright = true
+
+copy-on-select = true
+
+confirm-close-surface = false
+
+copy-on-select = clipboard
