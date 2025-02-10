@@ -4,5 +4,5 @@ if status is-interactive
     
     zoxide init fish | source
     
-    fish_config theme choose "ayu Dark"
+    fish_config theme choose "fish default"
 end
