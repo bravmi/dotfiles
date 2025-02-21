@@ -42,7 +42,7 @@ config.keys = {
   { mods = 'SHIFT|SUPER', key = 'p',          action = act.ActivateCommandPalette },
   { mods = 'ALT',         key = '9',          action = act.ShowLauncherArgs { flags = 'FUZZY|WORKSPACES' } },
   { mods = 'CMD',         key = '`',          action = act.SwitchWorkspaceRelative(1) },
-  { mods = 'CMD|SHIFT',         key = '`',          action = act.SwitchWorkspaceRelative(-1) },
+  { mods = 'CMD|SHIFT',   key = '`',          action = act.SwitchWorkspaceRelative(-1) },
 }
 
 return config
