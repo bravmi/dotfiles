@@ -52,6 +52,8 @@ export FZF_DEFAULT_OPTS='--multi --height=45%'
 
 export TIMEFMT=$'\nreal\t%*E\nuser\t%*U\nsys\t%*S'
 
+export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
+
 alias sudo='sudo '
 
 alias xl='exa --group-directories-first --classify --git'

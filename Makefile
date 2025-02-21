@@ -170,6 +170,10 @@ install-wget:
 install-yt-dlp:
 	rm -rf ~/.config/yt-dlp/config
 	ln -s `pwd`/yt-dlp/config ~/.config/yt-dlp/config
+	
+install-ripgrep:
+	rm -rf ~/.ripgreprc
+	ln -s `pwd`/ripgreprc ~/.ripgreprc
 
 install-asdf:
 	asdf plugin add python
