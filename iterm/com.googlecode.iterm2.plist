@@ -8,10 +8,8 @@
 	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
-	<key>Coprocess MRU</key>
-	<array>
-		<string>kubectx -c</string>
-	</array>
+	<key>ClickToSelectCommand</key>
+	<false/>
 	<key>Default Bookmark Guid</key>
 	<string>C4B1C1EA-7870-4E2C-90EF-86A26BD753A1</string>
 	<key>DimInactiveSplitPanes</key>
