@@ -19,7 +19,7 @@
     }
   },
   {
-    "context": "Editor && inline_completion && !showing_completions",
+    "context": "Editor && edit_prediction && !showing_completions",
     "bindings": {
       "right": "editor::AcceptInlineCompletion"
     }
@@ -35,5 +35,11 @@
     "bindings": {
       "cmd-q": ["terminal::SendKeystroke", "ctrl-q"]
     }
-  }  
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-enter": "editor::ToggleCodeActions"
+    }
+  }
 ]
