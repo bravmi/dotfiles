@@ -111,8 +111,9 @@
     "github.copilot.editor.enableAutoCompletions": true,
     "github.copilot.enable": {
         "*": true,
-        "markdown": true,
         "plaintext": false,
+        "markdown": true,
+        "scminput": false,
         "python": true,
         "yaml": true
     },
@@ -227,5 +228,6 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.schemaStore.enable": false
+    "yaml.schemaStore.enable": false,
+    "github.copilot.selectedCompletionModel": "gpt-4o-copilot"
 }
