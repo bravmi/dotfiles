@@ -1,4 +1,4 @@
-command = /opt/homebrew/bin/fish --login --interactive
+# command = /opt/homebrew/bin/fish --login --interactive
 
 font-family = "Monaco"
 font-size = 14.5
@@ -6,7 +6,7 @@ font-size = 14.5
 keybind = cmd+alt+left=previous_tab
 keybind = cmd+alt+right=next_tab
 
-theme = "iTerm2 Default"
+theme = "iTerm2 Smoooooth"
 
 cursor-style = block
 cursor-style-blink = false
