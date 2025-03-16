@@ -21,6 +21,7 @@ keybind = cmd+q=text:\x11
 keybind = cmd+b=text:\x02
 keybind = cmd+v=paste_from_clipboard
 keybind = cmd+shift+r=reload_config
+keybind = global:alt+f12=toggle_quick_terminal
 
 bold-is-bright = true
 
