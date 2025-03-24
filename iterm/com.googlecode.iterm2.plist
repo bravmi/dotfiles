@@ -1092,7 +1092,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.SFNS-Regular 12</string>
+								<string>.AppleSystemUIFont 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -1115,7 +1115,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.SFNS-Regular 12</string>
+								<string>.AppleSystemUIFont 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -1138,7 +1138,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.SFNS-Regular 12</string>
+								<string>.AppleSystemUIFont 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -1167,7 +1167,7 @@
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.SFNS-Regular 12</string>
+								<string>.AppleSystemUIFont 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
