@@ -3178,6 +3178,8 @@
 	<integer>1</integer>
 	<key>UseBorder</key>
 	<false/>
+	<key>UseCustomTabBarFontSize</key>
+	<true/>
 	<key>UseVirtualKeyCodesForDetectingDigits</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
