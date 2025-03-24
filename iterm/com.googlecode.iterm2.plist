@@ -10,6 +10,8 @@
 	<true/>
 	<key>ClickToSelectCommand</key>
 	<false/>
+	<key>CustomTabBarFontSize</key>
+	<real>12</real>
 	<key>Default Bookmark Guid</key>
 	<string>C4B1C1EA-7870-4E2C-90EF-86A26BD753A1</string>
 	<key>DimInactiveSplitPanes</key>
