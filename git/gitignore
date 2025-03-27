@@ -22,6 +22,7 @@
 /play.py
 /play.log
 /play.json
+/play.jsonl
 /play.txt
 /play.sql
 /play.sh
