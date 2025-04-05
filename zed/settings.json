@@ -29,18 +29,13 @@
   "languages": {
     "Lua": { "tab_size": 2 },
     "Markdown": { "format_on_save": "off" },
-    "Python": { "format_on_save": "off" },
-    "Rust": { "language_servers": null }
+    "Python": { "format_on_save": "off", "enable_language_server": false },
+    "Rust": { "enable_language_server": false }
   },
-  "telemetry": {
-    "metrics": false
-  },
-  "terminal": {
-    "copy_on_select": true
-  },
+  "telemetry": { "metrics": false },
+  "terminal": { "copy_on_select": true },
   "git": {
-    "inline_blame": {
-      "enabled": false
-    }
-  }
+    "inline_blame": { "enabled": false }
+  },
+  "features": { "edit_prediction_provider": "copilot" }
 }
