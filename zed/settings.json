@@ -29,14 +29,8 @@
   "languages": {
     "Lua": { "tab_size": 2 },
     "Markdown": { "format_on_save": "off" },
-    "Python": {
-      "format_on_save": {
-        "external": {
-          "command": "black",
-          "arguments": ["-"]
-        }
-      }
-    }
+    "Python": { "format_on_save": "off" },
+    "Rust": { "language_servers": null }
   },
   "telemetry": {
     "metrics": false
