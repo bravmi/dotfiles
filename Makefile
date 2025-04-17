@@ -49,9 +49,9 @@ install-fish:
 	rm -f ~/.config/fish/config.fish
 	ln -s `pwd`/fish/config.fish ~/.config/fish/config.fish
 
-install-tmux-mac:
+install-tmux:
 	rm -f ~/.tmux.conf
-	ln -s `pwd`/tmux/mac.conf ~/.tmux.conf
+	ln -s `pwd`/tmux.conf ~/.tmux.conf
 
 install-micro-mac:
 	mkdir -p ~/.config/micro/
