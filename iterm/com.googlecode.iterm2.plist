@@ -1992,6 +1992,8 @@
 			<false/>
 			<key>Shortcut</key>
 			<string></string>
+			<key>Show Offscreen Command line</key>
+			<false/>
 			<key>Show Status Bar</key>
 			<true/>
 			<key>Silence Bell</key>
@@ -3176,6 +3178,8 @@
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.19932437044902912</real>
+	<key>StatusBarIcon</key>
+	<false/>
 	<key>StatusBarPosition</key>
 	<integer>0</integer>
 	<key>StretchTabsToFillBar</key>
@@ -3186,9 +3190,13 @@
 	<integer>1</integer>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<true/>
+	<key>UIElementRequiresHotkeys</key>
+	<true/>
 	<key>UseBorder</key>
 	<false/>
 	<key>UseCustomTabBarFontSize</key>
+	<true/>
+	<key>UseLionStyleFullscreen</key>
 	<true/>
 	<key>UseVirtualKeyCodesForDetectingDigits</key>
 	<false/>
