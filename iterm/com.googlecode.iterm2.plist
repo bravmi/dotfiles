@@ -227,7 +227,7 @@
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>HotkeyTermAnimationDuration</key>
-	<real>0.15000000596046448</real>
+	<real>0.0</real>
 	<key>LeftCommand</key>
 	<integer>7</integer>
 	<key>Log Smart Selection Debug Info</key>
