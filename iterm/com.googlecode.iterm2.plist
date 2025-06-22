@@ -8,6 +8,8 @@
 	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
+	<key>AlwaysUseLineStyleMarks</key>
+	<false/>
 	<key>ClickToSelectCommand</key>
 	<false/>
 	<key>CustomTabBarFontSize</key>
@@ -17,6 +19,8 @@
 	<key>DimInactiveSplitPanes</key>
 	<true/>
 	<key>DimOnlyText</key>
+	<false/>
+	<key>DisableTopRightIndicators</key>
 	<false/>
 	<key>DoubleClickPerformsSmartSelection</key>
 	<false/>
@@ -971,6 +975,8 @@
 			<false/>
 			<key>Shortcut</key>
 			<string></string>
+			<key>Show Mark Indicators</key>
+			<true/>
 			<key>Show Offscreen Command line</key>
 			<false/>
 			<key>Show Status Bar</key>
@@ -1445,6 +1451,8 @@
 			<string>Default</string>
 			<key>Disable Window Resizing</key>
 			<true/>
+			<key>Enable Triggers in Interactive Apps</key>
+			<false/>
 			<key>Flashing Bell</key>
 			<false/>
 			<key>Foreground Color</key>
@@ -1992,6 +2000,8 @@
 			<false/>
 			<key>Shortcut</key>
 			<string></string>
+			<key>Show Mark Indicators</key>
+			<true/>
 			<key>Show Offscreen Command line</key>
 			<false/>
 			<key>Show Status Bar</key>
@@ -2887,6 +2897,8 @@
 			<false/>
 			<key>Shortcut</key>
 			<string></string>
+			<key>Show Offscreen Command line</key>
+			<false/>
 			<key>Show Status Bar</key>
 			<true/>
 			<key>Silence Bell</key>
@@ -3172,6 +3184,8 @@
 	<true/>
 	<key>RightCommand</key>
 	<integer>8</integer>
+	<key>ShowButtonsForSelectedCommand</key>
+	<false/>
 	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>SoundForEsc</key>
