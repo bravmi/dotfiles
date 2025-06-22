@@ -6,12 +6,16 @@
 	<false/>
 	<key>AllowClipboardAccess</key>
 	<true/>
+	<key>AlphaForDeselectedCommandShade</key>
+	<real>0.0</real>
 	<key>AlternateMouseScroll</key>
 	<true/>
 	<key>AlwaysUseLineStyleMarks</key>
 	<false/>
 	<key>ClickToSelectCommand</key>
 	<false/>
+	<key>ColoredSelectedTabOutlineStrength</key>
+	<real>0.5</real>
 	<key>CustomTabBarFontSize</key>
 	<real>12</real>
 	<key>Default Bookmark Guid</key>
@@ -25,6 +29,8 @@
 	<key>DoubleClickPerformsSmartSelection</key>
 	<false/>
 	<key>DoubleReportScrollWheel</key>
+	<false/>
+	<key>DrawOutlineAroundCursor</key>
 	<false/>
 	<key>EnableDivisionView</key>
 	<true/>
@@ -236,6 +242,8 @@
 	<integer>7</integer>
 	<key>Log Smart Selection Debug Info</key>
 	<integer>0</integer>
+	<key>MinimalTabStyleOutlineStrength</key>
+	<real>0.20000000298023224</real>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
