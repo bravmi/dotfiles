@@ -48,5 +48,11 @@
     "bindings": {
       "alt-right": "editor::AcceptPartialEditPrediction"
     }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-f5": ["task::Spawn", { "task_name": "Run Python Script" }]
+    }
   }
 ]
