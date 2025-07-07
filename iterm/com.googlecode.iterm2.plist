@@ -229,7 +229,7 @@
 	<key>HideActivityIndicator</key>
 	<true/>
 	<key>HideFromDockAndAppSwitcher</key>
-	<true/>
+	<false/>
 	<key>HideMenuBarInFullscreen</key>
 	<false/>
 	<key>HideTab</key>
