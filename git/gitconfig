@@ -25,6 +25,8 @@
     path = ~/assaia/gitconfig
 [includeIf "gitdir:~/hypothesis/"]
     path = ~/hypothesis/gitconfig
+[includeIf "gitdir:~/praktika/"]
+    path = ~/praktika/gitconfig
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
