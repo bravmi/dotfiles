@@ -65,6 +65,7 @@ alias idea='open -a "IntelliJ IDEA.app"'
 alias idean='open -na "IntelliJ IDEA.app" --args'
 alias pycharm='open -a "PyCharm.app"'
 alias goland='open -a "GoLand.app"'
+alias datagrip='open -a "DataGrip.app"'
 alias textedit='open -a TextEdit'
 
 alias wts='github-copilot-cli what-the-shell'
