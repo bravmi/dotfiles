@@ -183,6 +183,7 @@ install-brew:
 	brew install act
 	brew install asdf
 	brew install awscli
+	brew install --cask session-manager-plugin
 	brew install bat
 	brew install bitwarden-cli
 	brew install broot
