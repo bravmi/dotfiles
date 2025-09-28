@@ -16,7 +16,6 @@
 [push]
     autoSetupRemote = true
 [merge]
-    ff = only
 	conflictstyle = zdiff3
 [user]
     name = Michael T
