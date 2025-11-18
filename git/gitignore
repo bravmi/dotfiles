@@ -30,6 +30,7 @@
 /play.xml
 /play.prof
 /play.html
+/play.md
 /src/bin/play.rs
 
 /httpRequests
