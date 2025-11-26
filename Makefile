@@ -326,6 +326,7 @@ install-brew-mac:
 	brew install bluesnooze
 	brew install blueutil
 	brew install colima
+	brew install lima-additional-guestagents
 	brew install exa
 	brew install ffmpeg
 	brew install findutils
