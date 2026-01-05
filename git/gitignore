@@ -52,4 +52,5 @@ __pycache__/
 /.output.txt
 
 /CLAUDE.md
+/ClAUDE.local.md
 /.claude/

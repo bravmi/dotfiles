@@ -990,6 +990,17 @@
 				<key>Red Component</key>
 				<real>0.70980000495910645</real>
 			</dict>
+			<key>Semantic History</key>
+			<dict>
+				<key>action</key>
+				<string>command</string>
+				<key>editor</key>
+				<string>com.github.atom</string>
+				<key>text</key>
+				<string>~/.local/bin/iterm-open-smart.sh \1 \2
+/usr/local/bin/iterm-open-smart \1 \2
+~/.local/bin/iterm-open-smart.sh \1 \2</string>
+			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Set Local Environment Vars</key>

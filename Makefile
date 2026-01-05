@@ -174,6 +174,10 @@ install-yt-dlp:
 install-ripgrep:
 	rm -rf ~/.ripgreprc
 	ln -s `pwd`/ripgreprc ~/.ripgreprc
+	
+install-iterm:
+	rm ~/.local/bin/iterm-open-smart.sh
+	ln -s `pwd`/iterm/iterm-open-smart.sh ~/.local/bin/iterm-open-smart.sh
 
 install-asdf:
 	asdf plugin add python
@@ -497,7 +501,7 @@ install-go:
 install-npm:
 	npm install @githubnext/github-copilot-cli --global
 	npm install gitlab-search --global
-
+	
 update-submodules:
 	git submodule update --init --recursive --remote
 
