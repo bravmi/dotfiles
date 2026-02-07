@@ -10,49 +10,55 @@
     "context": "Workspace",
     "bindings": {
       // "shift shift": "file_finder::Toggle"
-    }
+    },
   },
   {
     "context": "Editor",
     "bindings": {
       // "j k": ["workspace::SendKeystrokes", "escape"]
-    }
+    },
   },
   {
     "context": "Editor && edit_prediction && !showing_completions",
     "bindings": {
-      "right": "editor::AcceptEditPrediction"
-    }
+      "right": "editor::AcceptEditPrediction",
+    },
   },
   {
     "context": "Terminal",
     "bindings": {
-      "cmd-s": ["terminal::SendKeystroke", "ctrl-s"]
-    }
+      "cmd-s": ["terminal::SendKeystroke", "ctrl-s"],
+    },
   },
   {
     "context": "Terminal",
     "bindings": {
-      "cmd-q": ["terminal::SendKeystroke", "ctrl-q"]
-    }
+      "cmd-q": ["terminal::SendKeystroke", "ctrl-q"],
+    },
   },
   {
     "context": "Editor",
     "bindings": {
-      "alt-enter": "editor::ToggleCodeActions"
-    }
+      "alt-enter": "editor::ToggleCodeActions",
+    },
   },
   {
     "context": "Editor && mode == full && edit_prediction",
     "use_key_equivalents": true,
     "bindings": {
-      "alt-right": "editor::AcceptPartialEditPrediction"
-    }
+      "alt-right": "editor::AcceptNextWordEditPrediction",
+    },
   },
   {
     "context": "Editor",
     "bindings": {
-      "cmd-f5": ["task::Spawn", { "task_name": "Run Python Script" }]
-    }
-  }
+      "cmd-f5": ["task::Spawn", { "task_name": "Run Python Script" }],
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-e": "tab_switcher::ToggleAll",
+    },
+  },
 ]
