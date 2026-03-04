@@ -7,6 +7,9 @@
 // custom settings, run the `zed: Open Default Settings` command
 // from the command palette
 {
+  "edit_predictions": {
+    "provider": "copilot"
+  },
   "ssh_connections": [
     {
       "host": "do",
@@ -41,12 +44,12 @@
     "Lua": { "tab_size": 2 },
     "Markdown": { "format_on_save": "off" },
     "Python": { "format_on_save": "off", "enable_language_server": false },
+    "Dart": { "enable_language_server": false },
     "Rust": { "enable_language_server": false }
   },
   "telemetry": { "metrics": false },
   "terminal": { "copy_on_select": true },
   "git": {
     "inline_blame": { "enabled": false }
-  },
-  "features": { "edit_prediction_provider": "copilot" }
+  }
 }
