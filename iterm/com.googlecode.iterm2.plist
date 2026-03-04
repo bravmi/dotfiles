@@ -2028,6 +2028,17 @@
 				<key>Red Component</key>
 				<real>0.70980000495910645</real>
 			</dict>
+			<key>Semantic History</key>
+			<dict>
+				<key>action</key>
+				<string>command</string>
+				<key>editor</key>
+				<string>com.github.atom</string>
+				<key>text</key>
+				<string>~/.local/bin/iterm-open-smart.sh \1 \2
+~/.local/bin/iterm-open-smart.sh \1 \2
+</string>
+			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Shortcut</key>
@@ -2417,6 +2428,8 @@
 			<string>Default</string>
 			<key>Disable Window Resizing</key>
 			<true/>
+			<key>Enable Triggers in Interactive Apps</key>
+			<false/>
 			<key>Flashing Bell</key>
 			<false/>
 			<key>Foreground Color</key>
@@ -2922,6 +2935,16 @@
 				<real>0.8353000283241272</real>
 				<key>Red Component</key>
 				<real>0.70980000495910645</real>
+			</dict>
+			<key>Semantic History</key>
+			<dict>
+				<key>action</key>
+				<string>command</string>
+				<key>editor</key>
+				<string>com.github.atom</string>
+				<key>text</key>
+				<string>~/.local/bin/iterm-open-smart.sh \1 \2
+</string>
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
