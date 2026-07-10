@@ -20,7 +20,7 @@
     "dock": "left"
   },
   "edit_predictions": {
-    "provider": "copilot"
+    "provider": "none"
   },
   "ssh_connections": [
     {
@@ -56,9 +56,9 @@
   "languages": {
     "Lua": { "tab_size": 2 },
     "Markdown": { "format_on_save": "off" },
-    "Python": { "format_on_save": "off", "enable_language_server": false },
-    "Dart": { "enable_language_server": false },
-    "Rust": { "enable_language_server": false }
+    // "Python": { "format_on_save": "off", "enable_language_server": false },
+    // "Dart": { "enable_language_server": false },
+    // "Rust": { "enable_language_server": false }
   },
   "telemetry": { "metrics": false },
   "terminal": { "copy_on_select": true },
