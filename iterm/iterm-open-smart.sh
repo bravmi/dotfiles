@@ -9,9 +9,9 @@ if ! [[ "$line" =~ ^[0-9]+$ ]]; then
 fi
 
 if [[ "$file" == *.py ]]; then
-  /opt/homebrew/bin/pycharm --line "$line" "$file"
+  /opt/homebrew/bin/pycharm . --line "$line" "$file"
 elif [[ "$file" == *.go ]]; then
-  /opt/homebrew/bin/goland --line "$line" "$file"
+  /opt/homebrew/bin/goland . --line "$line" "$file"
 else
   open "$file"
 fi
